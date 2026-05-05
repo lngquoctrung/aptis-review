@@ -77,7 +77,8 @@ function renderBreadcrumbs() {
 
 function formatPartName(part) {
     if (part === 'part1_13') return 'Parts 1-13';
-    if (part === 'part16_17') return 'Parts 16-17';
+    if (part === 'part16') return 'Part 16';
+    if (part === 'part17') return 'Part 17';
     return part.replace('part', 'Part ');
 }
 
@@ -117,7 +118,7 @@ function renderPartSelection(skill) {
     if (skill === 'reading') {
         parts = ['part1', 'part2', 'part3', 'part4', 'part5'];
     } else if (skill === 'listening') {
-        parts = ['part1_13', 'part14', 'part15', 'part16_17'];
+        parts = ['part1_13', 'part14', 'part15', 'part16', 'part17'];
     }
 
     const cardsHtml = parts.map(part => `
@@ -219,7 +220,7 @@ function renderPractice(part, topicId) {
         if (part === 'part1_13') {
             contentHtml = renderListeningMultipleChoice(topicData);
             validationFunction = 'validateListeningMultipleChoice';
-        } else if (part === 'part16_17') {
+        } else if (part === 'part16' || part === 'part17') {
             contentHtml = renderListeningPart16_17(topicData);
             validationFunction = 'validateListeningPart16_17';
         } else if (part === 'part14') {
@@ -570,7 +571,8 @@ function validateListeningMultipleChoice(topicId) {
 }
 
 function validateListeningPart16_17(topicId) {
-    const topicData = state.data.listening.part16_17.find(t => t.id === topicId);
+    const part = state.currentPart;
+    const topicData = state.data.listening[part].find(t => t.id === topicId);
     const correctAnswers = topicData.answers;
 
     const checkboxes = document.querySelectorAll('input[name="p16_17"]');
@@ -650,7 +652,7 @@ function setupHintSystem(part, topicData) {
     } else {
         if (part === 'part1_13') {
             hintsHtml += topicData.questions.map((q, i) => `<li>Q${i+1}: ${q.question}<br>Answer: <strong>${q.answer}</strong></li>`).join('');
-        } else if (part === 'part16_17') {
+        } else if (part === 'part16' || part === 'part17') {
             hintsHtml += topicData.answers.map((ans, i) => `<li>Đáp án đúng ${i+1}: <strong>${ans}</strong></li>`).join('');
         } else if (part === 'part14') {
             hintsHtml += topicData.options.map((opt, i) => `<li>Person ${i+1} (${opt.answer}):<br>Starts with: <strong>"${opt.hint_start}"</strong></li>`).join('');
