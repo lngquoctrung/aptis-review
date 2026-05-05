@@ -2,102 +2,302 @@
     "part1": [
         {
             "id": 1,
-            "words": ["Long", "Detail", "Copy", "Busy", "Client"],
+            "words": [
+                "Long",
+                "Detail",
+                "Copy",
+                "Client",
+                "Busy",
+                "Short",
+                "Manager",
+                "Write"
+            ],
+            "answers": ["Long", "Detail", "Copy", "Client", "Busy"],
             "hint": "Một ngày___ : Tôi phải kiểm tra___ , in___ báo cáo để gặp___ => khiến tôi___"
         },
         {
             "id": 2,
-            "words": ["Near", "Friendly", "Practice", "Read", "So"],
+            "words": [
+                "Near",
+                "Friendly",
+                "Practice",
+                "Read",
+                "So",
+                "Far",
+                "Write",
+                "Because"
+            ],
+            "answers": ["Near", "Friendly", "Practice", "Read", "So"],
             "hint": "___ nhà tôi có một người bạn___ . Chúng tôi cùng nhau___ và___ mỗi ngày,___ chúng tôi học rất giỏi."
         },
         {
             "id": 3,
-            "words": ["Sick", "Read", "Meeting", "Ringing", "Drink"],
-            "hint": "Tôi bị ốm (___ ) nhưng vẫn cố đọc (___ ) báo cáo để chuẩn bị cho cuộc họp (___ ), thì điện thoại đổ chuông (___ ). Vội uống (___ ) nước rồi đi ngay!\""
+            "words": [
+                "Sick",
+                "Read",
+                "Meeting",
+                "Ringing",
+                "Drink",
+                "Well",
+                "Write",
+                "Eat"
+            ],
+            "answers": ["Sick", "Read", "Meeting", "Ringing", "Drink"],
+            "hint": "Tôi bị ___ nhưng vẫn cố ___ báo cáo để chuẩn bị cho ___, thì điện thoại ___. Vội ___ nước rồi đi ngay!\""
         },
         {
             "id": 4,
-            "words": ["Miss", "Call", "Ready", "Meet", "Dinner"],
-            "hint": "Thằng cu___ cho ny để thông báo___ vào___"
+            "words": [
+                "Miss",
+                "Call",
+                "Ready",
+                "Meet",
+                "Dinner",
+                "Talk",
+                "Wait",
+                "Lunch"
+            ],
+            "answers": ["Miss", "Call", "Ready", "Meet", "Dinner"],
+            "hint": "Thằng cu ___ ___ cho ny để thông báo ___ ___ vào ___"
         },
         {
             "id": 5,
-            "words": ["Just", "Too", "At", "Some", "Give"],
-            "hint": "___ khi đi toilet mang thiếu___ giấy. Mọi người hãy___ giấy cho Just đi !"
+            "words": [
+                "Just",
+                "Too",
+                "At",
+                "Some",
+                "Give",
+                "Quick",
+                "Much",
+                "Take"
+            ],
+            "answers": ["Just", "Too", "At", "Some", "Give"],
+            "hint": "___ ___ ___ khi đi toilet mang thiếu ___ giấy. Mọi người hãy ___ giấy cho Just đi !"
         },
         {
             "id": 6,
-            "words": ["Great", "boat", "then", "around", "too"],
-            "hint": "TÌnh yêu của họ___ thế mà vẫn chìm___ ,___ nhìn___ lại thấy___ nhớ nhau"
+            "words": [
+                "Great",
+                "boat",
+                "then",
+                "around",
+                "too",
+                "Bad",
+                "ship",
+                "never"
+            ],
+            "answers": ["Great", "boat", "then", "around", "too"],
+            "hint": "Tình yêu của họ ___ thế mà vẫn chìm ___ ,___ nhìn ___ lại thấy ___ nhớ nhau"
         },
         {
             "id": 7,
-            "words": ["clear", "sun", "enjoyable", "working", "read"],
-            "hint": "Cần___ lời thoại___ , mượt như___ thì___ mới___ được"
+            "words": [
+                "clear",
+                "sun",
+                "enjoyable",
+                "working",
+                "read",
+                "cloud",
+                "hard",
+                "watch"
+            ],
+            "answers": ["read", "clear", "sun", "working", "enjoyable"],
+            "hint": "Cần ___ lời thoại ___ , mượt như ___ thì ___ mới ___ được"
         },
         {
             "id": 8,
-            "words": ["Balance", "Statement", "Think", "Slowly", "Before"],
-            "hint": "___ tài khoản phải đọc___ kĩ,___ ,___ cháy tài khoản"
+            "words": [
+                "Balance",
+                "Statement",
+                "Think",
+                "Slowly",
+                "Before",
+                "Money",
+                "Fast",
+                "After"
+            ],
+            "answers": ["Balance", "Statement", "Think", "Slowly", "Before"],
+            "hint": "___ tài khoản phải đọc ___ kĩ, ___ ___, ___ cháy tài khoản"
         },
         {
             "id": 9,
-            "words": ["Live", "Share", "Class", "Driver", "Cook"],
-            "hint": "___ , ___ vui vẻ rồi gặp anh___ ở___ , sau đó rủ anh về nhà___ . 3 tháng sau cưới"
+            "words": [
+                "Live",
+                "Share",
+                "Class",
+                "Driver",
+                "Cook",
+                "Hate",
+                "Teacher",
+                "Eat"
+            ],
+            "answers": ["Live", "Share", "Driver", "Class", "Cook"],
+            "hint": "___, ___ vui vẻ rồi gặp anh ___ ở ___ , sau đó rủ anh về nhà ___. 3 tháng sau cưới"
         },
         {
             "id": 10,
-            "words": ["Late", "meetings", "park", "shop", "cook"],
-            "hint": "Đi ___ ( Late meetings ) nên tôi bị đuổi việc. Tôi cũng rất buồn nên ra___ thư giãn, sau đó ra___ mua đồ về___ . Câu chuyện : Bị đuổi việc vì đi họp muộn"
+            "words": [
+                "Late",
+                "meetings",
+                "park",
+                "shop",
+                "cook",
+                "Early",
+                "Run",
+                "Eat"
+            ],
+            "answers": ["Late", "meetings", "park", "shop", "cook"],
+            "hint": "Đi ___ ___ nên tôi bị đuổi việc. Tôi cũng rất buồn nên ra ___ thư giãn, sau đó ra ___ mua đồ về ___ . Câu chuyện : Bị đuổi việc vì đi họp muộn"
         },
         {
             "id": 11,
-            "words": ["Window", "Buy", "market", "Cake", "Watch"],
-            "hint": "Nhìn ra___ , thấy người ta___ đồ ngoài___ , tôi cũng tự đi mua___ để ăn khi___ phim!"
+            "words": [
+                "Window",
+                "Buy",
+                "market",
+                "Cake",
+                "Watch",
+                "Door",
+                "Sell",
+                "Play"
+            ],
+            "answers": ["Window", "Buy", "market", "Cake", "Watch"],
+            "hint": "Nhìn ra ___ , thấy người ta ___ đồ ngoài ___ , tôi cũng tự đi mua ___ để ăn khi ___ phim!"
         },
         {
             "id": 12,
-            "words": ["Early", "Lunch", "Leave", "Car", "Sleep"],
-            "hint": "Dậy___ , ăn___ xong, rồi___ ra___ để___ luôn"
+            "words": [
+                "Early",
+                "Lunch",
+                "Leave",
+                "Car",
+                "Sleep",
+                "Late",
+                "Dinner",
+                "Bus"
+            ],
+            "answers": ["Early", "Lunch", "Leave", "Car", "Sleep"],
+            "hint": "Dậy ___ , ăn ___ xong, rồi ___ ra ___ để ___ luôn"
         },
         {
             "id": 13,
-            "words": ["Home", "Drive", "Friends", "Park", "Pretty"],
-            "hint": "Về___ ,___ đi đón___ đi___ ngắm cảnh___ ."
+            "words": [
+                "Home",
+                "Drive",
+                "Friends",
+                "Park",
+                "Pretty",
+                "Work",
+                "Walk",
+                "Ugly"
+            ],
+            "answers": ["Home", "Drive", "Friends", "Park", "Pretty"],
+            "hint": "Về ___ ,___ đi đón ___ đi___ ngắm cảnh ___ ."
         },
         {
             "id": 14,
-            "words": ["Friendly", "Walk", "First", "Speak", "Together"],
-            "hint": "___ tôi gặp ở 1 lần___ trong công viên.___ nhưng họ___ rất gần gũi, nên chơi___ luôn"
+            "words": [
+                "Friendly",
+                "Walk",
+                "First",
+                "Speak",
+                "Together",
+                "Mean",
+                "Run",
+                "Listen"
+            ],
+            "answers": ["Friendly", "Walk", "First", "Speak", "Together"],
+            "hint": "___ tôi gặp ở 1 lần ___ trong công viên. ___ nhưng họ ___ rất gần gũi, nên chơi ___ luôn"
         },
         {
             "id": 15,
-            "words": ["Station", "Stop", "Green", "Dinner", "Movies"],
+            "words": [
+                "Station",
+                "Stop",
+                "Green",
+                "Dinner",
+                "Movies",
+                "Train",
+                "Go",
+                "Red"
+            ],
+            "answers": ["Station", "Stop", "Green", "Dinner", "Movies"],
             "hint": "Trước khi tới ___ , tôi ___ ở cột đèn ___ để ___ và ___"
         },
         {
             "id": 16,
-            "words": ["morning", "friends", "leave", "good", "food"],
+            "words": [
+                "morning",
+                "friends",
+                "leave",
+                "good",
+                "food",
+                "evening",
+                "family",
+                "bad"
+            ],
+            "answers": ["morning", "friends", "leave", "good", "food"],
             "hint": "___ hôm sau ___ đã ___ và để lại đánh giá ___ về dịch vụ ___"
         },
         {
             "id": 17,
-            "words": ["park", "classes", "silver", "breakfast", "meditation"],
+            "words": [
+                "park",
+                "classes",
+                "silver",
+                "breakfast",
+                "meditation",
+                "school",
+                "gold",
+                "lunch"
+            ],
+            "answers": ["park", "classes", "silver", "breakfast", "meditation"],
             "hint": "___ , ___ là những địa điểm \"___ \" để ___ và ngồi ___"
         },
         {
             "id": 18,
-            "words": ["love", "small", "shop", "people", "visit"],
-            "hint": "Khi ___ mở ___ thì anh sẽ mời ___"
+            "words": [
+                "love",
+                "small",
+                "shop",
+                "people",
+                "visit",
+                "hate",
+                "big",
+                "leave"
+            ],
+            "answers": ["love", "small", "shop", "people", "visit"],
+            "hint": "Khi ___ ___ mở ___ thì anh sẽ mời ___ ___"
         },
         {
             "id": 19,
-            "words": ["staying", "garden", "children", "visit", "old"],
-            "hint": "Ở ___ với ___ và ___"
+            "words": [
+                "staying",
+                "garden",
+                "children",
+                "visit",
+                "old",
+                "leaving",
+                "house",
+                "young"
+            ],
+            "answers": ["staying", "garden", "children", "visit", "old"],
+            "hint": "Ở ___ ___ với ___ và ___ ___"
         },
         {
             "id": 20,
-            "words": ["home", "customers", "easy", "prepare", "watch"],
+            "words": [
+                "home",
+                "customers",
+                "easy",
+                "prepare",
+                "watch",
+                "work",
+                "hard",
+                "read"
+            ],
+            "answers": ["home", "customers", "prepare", "easy", "watch"],
             "hint": "Về___ , tôi thấy___ nói việc___ một bữa ăn thật___ trong lúc họ ngồi___ TV."
         }
     ],

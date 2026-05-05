@@ -483,7 +483,7 @@ function validateReadingPart1(topicId) {
 
         const chip = zone.querySelector('.chip');
         const userAnswer = chip ? chip.getAttribute('data-word') : null;
-        const correctAnswer = topicData.words[index];
+        const correctAnswer = topicData.answers[index];
 
         const icon = document.createElement('i');
         icon.className = `fa-solid result-icon res-icon-${index}`;
@@ -645,7 +645,7 @@ function setupHintSystem(part, topicData) {
 
     if (state.currentSkill === 'reading') {
         if (part === 'part1') {
-            hintsHtml += topicData.words.map((w, i) => `<li>Blank ${i + 1}: <strong>${w}</strong></li>`).join('');
+            hintsHtml += topicData.answers.map((w, i) => `<li>Blank ${i + 1}: <strong>${w}</strong></li>`).join('');
         } else if (['part2', 'part3', 'part5'].includes(part)) {
             hintsHtml += topicData.sentences.map((s, i) => `<li>${i + 1}. ${s}</li>`).join('');
         } else if (part === 'part4') {
@@ -807,7 +807,7 @@ function collectAndGradePart(part, topicData) {
             result.total++;
             const chip = zone.querySelector('.chip');
             const userAnswer = chip ? chip.getAttribute('data-word') : '(bỏ trống)';
-            const correctAnswer = topicData.words[i];
+            const correctAnswer = topicData.answers[i];
             if (userAnswer === correctAnswer) {
                 result.correct++;
             } else {
