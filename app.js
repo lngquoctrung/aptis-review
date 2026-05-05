@@ -155,10 +155,7 @@ function renderTopicSelection(part) {
         topics = state.data.listening[part] || [];
     }
 
-    // CRITICAL: Randomize topics
-    const shuffledTopics = shuffleArray(topics);
-
-    const topicsHtml = shuffledTopics.map((topicData, index) => {
+    const topicsHtml = topics.map((topicData, index) => {
         // Handle different topic naming conventions in JSON
         const topicName = topicData.topic || `Practice Topic ${index + 1}`;
         return `
