@@ -216,9 +216,12 @@ function renderPractice(part, topicId) {
             validationFunction = 'validateReadingPart4';
         }
     } else if (state.currentSkill === 'listening') {
-        if (['part1_13', 'part16_17'].includes(part)) {
+        if (part === 'part1_13') {
             contentHtml = renderListeningMultipleChoice(topicData);
             validationFunction = 'validateListeningMultipleChoice';
+        } else if (part === 'part16_17') {
+            contentHtml = renderListeningPart16_17(topicData);
+            validationFunction = 'validateListeningPart16_17';
         } else if (part === 'part14') {
             contentHtml = renderListeningPart14(topicData);
             validationFunction = 'validateListeningPart14';
@@ -406,6 +409,26 @@ function renderListeningMultipleChoice(topicData) {
     return questionsHtml;
 }
 
+function renderListeningPart16_17(topicData) {
+    const shuffledOptions = shuffleArray(topicData.options);
+
+    const optionsHtml = shuffledOptions.map((opt, i) => `
+        <label class="option-label checkbox-label">
+            <input type="checkbox" name="p16_17" value="${opt.replace(/"/g, '&quot;')}">
+            <span>${opt}</span>
+        </label>
+    `).join('');
+
+    return `
+        <div class="question-block">
+            <div class="question-text">Chọn <strong>2 đáp án đúng</strong> trong các đáp án dưới đây:</div>
+            <div class="options-group">
+                ${optionsHtml}
+            </div>
+        </div>
+    `;
+}
+
 function renderListeningPart14(topicData) {
     // Collect all hint_starts for dropdowns
     const hintStarts = topicData.options.map(opt => opt.hint_start);
@@ -546,6 +569,32 @@ function validateListeningMultipleChoice(topicId) {
     });
 }
 
+function validateListeningPart16_17(topicId) {
+    const topicData = state.data.listening.part16_17.find(t => t.id === topicId);
+    const correctAnswers = topicData.answers;
+
+    const checkboxes = document.querySelectorAll('input[name="p16_17"]');
+    const selectedAnswers = Array.from(checkboxes)
+        .filter(cb => cb.checked)
+        .map(cb => cb.value);
+
+    // Highlight each option label
+    checkboxes.forEach(cb => {
+        const label = cb.closest('.option-label');
+        label.classList.remove('correct', 'incorrect', 'missed');
+        const isCorrect = correctAnswers.includes(cb.value);
+        const isSelected = cb.checked;
+
+        if (isSelected && isCorrect) {
+            label.classList.add('correct');
+        } else if (isSelected && !isCorrect) {
+            label.classList.add('incorrect');
+        } else if (!isSelected && isCorrect) {
+            label.classList.add('missed'); // show what was missed
+        }
+    });
+}
+
 function validateListeningPart14(topicId) {
     const topicData = state.data.listening.part14.find(t => t.id === topicId);
     
@@ -599,8 +648,10 @@ function setupHintSystem(part, topicData) {
             hintsHtml += topicData.questions.map(q => `<li>${q.question}<br>Answer: <strong>${q.answer}</strong></li>`).join('');
         }
     } else {
-        if (['part1_13', 'part16_17'].includes(part)) {
+        if (part === 'part1_13') {
             hintsHtml += topicData.questions.map((q, i) => `<li>Q${i+1}: ${q.question}<br>Answer: <strong>${q.answer}</strong></li>`).join('');
+        } else if (part === 'part16_17') {
+            hintsHtml += topicData.answers.map((ans, i) => `<li>Đáp án đúng ${i+1}: <strong>${ans}</strong></li>`).join('');
         } else if (part === 'part14') {
             hintsHtml += topicData.options.map((opt, i) => `<li>Person ${i+1} (${opt.answer}):<br>Starts with: <strong>"${opt.hint_start}"</strong></li>`).join('');
         } else if (part === 'part15') {
