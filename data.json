@@ -1,0 +1,4172 @@
+{
+  "part1": [
+    {
+      "id": 1,
+      "words": [
+        "Long",
+        "Detail",
+        "Copy",
+        "Busy",
+        "Client"
+      ],
+      "hint": "Một ngày___ : Tôi phải kiểm tra___ , in___ báo cáo để gặp___ => khiến tôi___"
+    },
+    {
+      "id": 2,
+      "words": [
+        "Near",
+        "Friendly",
+        "Practice",
+        "Read",
+        "So"
+      ],
+      "hint": "___ nhà tôi có một người bạn___ . Chúng tôi cùng nhau___ và___ mỗi ngày,___ chúng tôi học rất giỏi."
+    },
+    {
+      "id": 3,
+      "words": [
+        "Sick",
+        "Read",
+        "Meeting",
+        "Ringing",
+        "Drink"
+      ],
+      "hint": "Tôi bị ốm (___ ) nhưng vẫn cố đọc (___ ) báo cáo để chuẩn bị cho cuộc họp (___ ), thì điện thoại đổ chuông (___ ). Vội uống (___ ) nước rồi đi ngay!\""
+    },
+    {
+      "id": 4,
+      "words": [
+        "Miss",
+        "Call",
+        "Ready",
+        "Meet",
+        "Dinner"
+      ],
+      "hint": "Thằng cu___ cho ny để thông báo___ vào___"
+    },
+    {
+      "id": 5,
+      "words": [
+        "Just",
+        "Too",
+        "At",
+        "Some",
+        "Give"
+      ],
+      "hint": "___ khi đi toilet mang thiếu___ giấy. Mọi người hãy___ giấy cho Just đi !"
+    },
+    {
+      "id": 6,
+      "words": [
+        "Great",
+        "boat",
+        "then",
+        "around",
+        "too"
+      ],
+      "hint": "TÌnh yêu của họ___ thế mà vẫn chìm___ ,___ nhìn___ lại thấy___ nhớ nhau"
+    },
+    {
+      "id": 7,
+      "words": [
+        "clear",
+        "sun",
+        "enjoyable",
+        "working",
+        "read"
+      ],
+      "hint": "Cần___ lời thoại___ , mượt như___ thì___ mới___ được"
+    },
+    {
+      "id": 8,
+      "words": [
+        "Balance",
+        "Statement",
+        "Think",
+        "Slowly",
+        "Before"
+      ],
+      "hint": "___ tài khoản phải đọc___ kĩ,___ ,___ cháy tài khoản"
+    },
+    {
+      "id": 9,
+      "words": [
+        "Live",
+        "Share",
+        "Class",
+        "Driver",
+        "Cook"
+      ],
+      "hint": "___ , ___ vui vẻ rồi gặp anh___ ở___ , sau đó rủ anh về nhà___ . 3 tháng sau cưới"
+    },
+    {
+      "id": 10,
+      "words": [
+        "Late",
+        "meetings",
+        "park",
+        "shop",
+        "cook"
+      ],
+      "hint": "Đi ___ ( Late meetings ) nên tôi bị đuổi việc. Tôi cũng rất buồn nên ra___ thư giãn, sau đó ra___ mua đồ về___ . Câu chuyện : Bị đuổi việc vì đi họp muộn"
+    },
+    {
+      "id": 11,
+      "words": [
+        "Window",
+        "Buy",
+        "market",
+        "Cake",
+        "Watch"
+      ],
+      "hint": "Nhìn ra___ , thấy người ta___ đồ ngoài___ , tôi cũng tự đi mua___ để ăn khi___ phim!"
+    },
+    {
+      "id": 12,
+      "words": [
+        "Early",
+        "Lunch",
+        "Leave",
+        "Car",
+        "Sleep"
+      ],
+      "hint": "Dậy___ , ăn___ xong, rồi___ ra___ để___ luôn"
+    },
+    {
+      "id": 13,
+      "words": [
+        "Home",
+        "Drive",
+        "Friends",
+        "Park",
+        "Pretty"
+      ],
+      "hint": "Về___ ,___ đi đón___ đi___ ngắm cảnh___ ."
+    },
+    {
+      "id": 14,
+      "words": [
+        "Friendly",
+        "Walk",
+        "First",
+        "Speak",
+        "Together"
+      ],
+      "hint": "___ tôi gặp ở 1 lần___ trong công viên.___ nhưng họ___ rất gần gũi, nên chơi___ luôn"
+    },
+    {
+      "id": 15,
+      "words": [
+        "Station",
+        "Stop",
+        "Green",
+        "Dinner",
+        "Movies"
+      ],
+      "hint": "Trước khi tới ___ , tôi ___ ở cột đèn ___ để ___ và ___"
+    },
+    {
+      "id": 16,
+      "words": [
+        "morning",
+        "friends",
+        "leave",
+        "good",
+        "food"
+      ],
+      "hint": "___ hôm sau ___ đã ___ và để lại đánh giá ___ về dịch vụ ___"
+    },
+    {
+      "id": 17,
+      "words": [
+        "park",
+        "classes",
+        "silver",
+        "breakfast",
+        "meditation"
+      ],
+      "hint": "___ , ___ là những địa điểm \"___ \" để ___ và ngồi ___"
+    },
+    {
+      "id": 18,
+      "words": [
+        "love",
+        "small",
+        "shop",
+        "people",
+        "visit"
+      ],
+      "hint": "Khi ___ mở ___ thì anh sẽ mời ___"
+    },
+    {
+      "id": 19,
+      "words": [
+        "staying",
+        "garden",
+        "children",
+        "visit",
+        "old"
+      ],
+      "hint": "Ở ___ với ___ và ___"
+    },
+    {
+      "id": 20,
+      "words": [
+        "home",
+        "customers",
+        "easy",
+        "prepare",
+        "watch"
+      ],
+      "hint": "Về___ , tôi thấy___ nói việc___ một bữa ăn thật___ trong lúc họ ngồi___ TV."
+    }
+  ],
+  "part2": [
+    {
+      "id": 1,
+      "topic": "Quy trình vào Conference",
+      "sentences": [
+        "When you have a conference pass, go to the lift on the right.",
+        "Take the lift to the third floor, go to the main desk.",
+        "Show your pass from the conference to a member of staff at the desk.",
+        "He or she will give you a seat number for the talk at the main hall.",
+        "Once you enter the hall, someone will find the seat for you."
+      ]
+    },
+    {
+      "id": 2,
+      "topic": "Quy trình nộp bài papers work",
+      "sentences": [
+        "In your account, you have to click on the “Open a new window” button.",
+        "When you do this, a new window will be automatically opened for you.",
+        "Simply drag and drop the files into the designated area provided.",
+        "After that, go back to your account and click the submit button.",
+        "Finally, check your email to confirm that your submission was successful."
+      ]
+    },
+    {
+      "id": 3,
+      "topic": "animal hospital",
+      "sentences": [
+        "When you arrive, go straight to the main office to collect your ticket.",
+        "You must show this to the member of staff before going to the hospital.",
+        "Inside the building, you will see a photography exhibition.",
+        "Before you look at the picture, a guide will tell you about the day’s event.",
+        "These activities include feeding and playing with the animals."
+      ]
+    },
+    {
+      "id": 4,
+      "topic": "Instructions for new students",
+      "sentences": [
+        "When you arrive at the college, go to the help desk",
+        "A member of staff will ask for your name and your address",
+        "He or she will enter your information into the computer and give you an identification card",
+        "You can use this card to borrow books from library and access lesson materials online",
+        "You will find these in material links on your home page"
+      ]
+    },
+    {
+      "id": 5,
+      "topic": "Buying a new house",
+      "sentences": [
+        "The first and most important thing is to choose the location",
+        "In order to choose the right place, you need to consider several factors",
+        "The most important of these to look at is the price of homes",
+        "Other factors to look at is the place of employment, shops and schools",
+        "Such requirements of course depend on you personal circumstances"
+      ]
+    },
+    {
+      "id": 6,
+      "topic": "My first car",
+      "sentences": [
+        "I had just passed my test and was excited to begin driving soon.",
+        "However, I didn’t have a car, so I started searching for one immediately.",
+        "So, when I saw an advertisement for a used car, I was interested.",
+        "I called the number on the advert to get more information about it.",
+        "We agreed on a price that was reasonable for both after a short negotiation."
+      ]
+    },
+    {
+      "id": 7,
+      "topic": "Quy trình nộp report",
+      "sentences": [
+        "Before writing, spend a week looking at websites for the information you need",
+        "Remember to save the links to those websites and include them in your report",
+        "You should also include a list of any books you use for reference",
+        "When you have finished writing, read through to correct spelling mistakes",
+        "After making corrections, send your report by email to the college secretary"
+      ]
+    },
+    {
+      "id": 8,
+      "topic": "Albert Einstein",
+      "sentences": [
+        "As a child, he moved to a special school because he was so clever",
+        "His best friend in his new class was a girl named Lavirme",
+        "She later becamne his wife and helped him with his earliest scientific điscoveries",
+        "These were so advanced that he soon became famous all over the world",
+        "Princeton University in the USA offered him a job because he was so famous"
+      ]
+    },
+    {
+      "id": 9,
+      "topic": "Instructions for drivers",
+      "sentences": [
+        "You should arrive at the main office by 6.30am and collect your keys",
+        "In the office, you can also collect a map of your route",
+        "You must follow the route on the map to deliver packages",
+        "When you have completed all deliveries, return to your office",
+        "You must return your keys to the office manager after you get back"
+      ]
+    },
+    {
+      "id": 10,
+      "topic": "Diễn viên nổi tiếng Jay Mist",
+      "sentences": [
+        "When he was young, his parents left their country and moved to the United States.",
+        "He started his high school and began strength training in his free time.",
+        "Jay was really good at it and entered some bodybuilding competitions.",
+        "At one of these events, an acting agent saw him and gave him a starring role.",
+        "It was a big action company, so he became successful quickly."
+      ]
+    },
+    {
+      "id": 11,
+      "topic": "Tom Harper",
+      "sentences": [
+        "When he was young, he began writing short stories for a magazine.",
+        "He soon wrote regularly for the magazine but he was not satisfied.",
+        "He almost left the magazine, but then he decided to create some unusual new characters.",
+        "The characters he imagined were some of the most famous in the world",
+        "This popularity made Tom Harper rich and successful"
+      ]
+    },
+    {
+      "id": 12,
+      "topic": "Participate in a race",
+      "sentences": [
+        "On your arrival, please go to the information point at the north gate",
+        "Runners must register here at least 30 minutes before the race starts at 9 am",
+        "To do this, you just need to give us your photo card",
+        "A member of staff will give you a numbered armband to wear",
+        "Please put this on immediately and join her competitors at the warm-up area."
+      ]
+    },
+    {
+      "id": 13,
+      "topic": "How to plant your rose trees",
+      "sentences": [
+        "In the chosen place, dig a deep hole in the ground.",
+        "Put the base of the rose and cover the root with loose earth.",
+        "Push this down by hand until the tree is straight.",
+        "Once you have planted it, water them every day.",
+        "The amount of water depends on the weather conditions."
+      ]
+    },
+    {
+      "id": 14,
+      "topic": "Films",
+      "sentences": [
+        "The films in that period were different from the films of today.",
+        "This is because they were black and white, and there was no sound.",
+        "In addition to these technical limitations, film producers also had a very low budget",
+        "This lack of money mostly affected actors, and they didn't earn much",
+        "Things have changed over time, and some of them have earned millions of dollars after appearing in films"
+      ]
+    },
+    {
+      "id": 15,
+      "topic": "The first American woman in Space",
+      "sentences": [
+        "With the support of her parents, she went to university to study science",
+        "Her degree enabled her to get a place on the training course in the USA",
+        "This is about space, and it helps Mae to become a member of a research team",
+        "As part of this group, she traveled to space and did a lot of experiments",
+        "Some of those were about growing plants and some animals in a spaceship"
+      ]
+    },
+    {
+      "id": 16,
+      "topic": "Healthy Eating",
+      "sentences": [
+        "In the past, meals were often filled with sugar and unhealthy fats.",
+        "Limited access to fresh produce made healthy eating much more difficult years ago.",
+        "Modern diets now focus on fresh, whole foods rather than processed ones.",
+        "Nutritionists today educate people on how to plan balanced and nutritious meals.",
+        "Nowadays, mobile apps help track calories and suggest healthy recipes to support a healthier lifestyle."
+      ]
+    },
+    {
+      "id": 17,
+      "topic": "NEW CAFE IN TOWN (Mới)",
+      "sentences": [
+        "It was FULL OF PEOPLE, and the staff were working hard on their 1st day",
+        "Despite the crowd, they found me a nice table and brought me a menu",
+        "When I first looked at the menu, I was dissapointed since I hoped to see a variety of dishes",
+        "I had to choose one of those, so I decided to choose the MOST EXPENSIVE ONE",
+        "It was really good with cheese topping and I would come back to this place"
+      ]
+    },
+    {
+      "id": 18,
+      "topic": "College Welcoming Day",
+      "sentences": [
+        "The day will begin at 10 a.m. in the morning with a short presentation.",
+        "At the end of this talk, you will meet the head of your department and teachers.",
+        "These staff members will give you a guided tour of the building and the sports facilities in small groups",
+        "During this visit, you will need to stay with these students until lunch break.",
+        "This meal will be on the second floor of the engineering building."
+      ]
+    },
+    {
+      "id": 19,
+      "topic": "Social media",
+      "sentences": [
+        "In the past, limited internet speeds made it difficult to stream or upload video content.",
+        "Early platforms only offered simple features, such as text posts and basic images.",
+        "Over the years, social media platforms have evolved significantly in both design and functionality.",
+        "Modern platforms now rely on algorithms to personalize and shape each user’s feed.",
+        "Today, influencers earn money mainly through sponsorships and online advertisements."
+      ]
+    },
+    {
+      "id": 20,
+      "topic": "Workplace Evolution",
+      "sentences": [
+        "In the past, employees followed strict nine-to-five schedules.",
+        "Limited technology once restricted remote work possibilities.",
+        "Modern workplaces are adopting more flexible work models.",
+        "Managers now use software to track project progress remotely.",
+        "Today, companies experiment with shorter workweeks to boost productivity."
+      ]
+    },
+    {
+      "id": 21,
+      "topic": "A Day at the Office (Work day)",
+      "sentences": [
+        "The office has flexible hours to accommodate employee schedules.",
+        "Her desk is white, standing out in the open-plan office.",
+        "She uses a calendar to plan her tasks for the shortened workweek.",
+        "For lunch, she packs a homemade sandwich with fresh ingredients.",
+        "After work, they relax by reading books on productivity and wellness."
+      ]
+    }
+  ],
+  "part3": [
+    {
+      "id": 1,
+      "topic": "Natural History Centre",
+      "sentences": [
+        "The most important of these is the Natural History centre",
+        "The entrance to the centre is on the town's main square.",
+        "As you enter the square, you will see a set of stairs to your left",
+        "The ticket office is on the top of these stairs, the staff there are very helpful.",
+        "As well as selling tickets, they can provide maps and useful tour information"
+      ]
+    },
+    {
+      "id": 2,
+      "topic": "Traffic problems",
+      "sentences": [
+        "They were out of order, and the traffic was moving slowly.",
+        "This caused a long delay on the road.",
+        "As a result of the delay, many people were not able to get to work on time.",
+        "Fortunately, by the evening, the traffic lights worked again.",
+        "There was no further delay, and people could go home after work."
+      ]
+    },
+    {
+      "id": 3,
+      "topic": "Cầu thủ bóng đá Zidane",
+      "sentences": [
+        "As a child, he played for several teams close to his home in Marseille.",
+        "He then left home to join Cannes Football Club in the south of France.",
+        "While he was in the club, he was seen as a talented player.",
+        "Later, he left France to advance his career in Italy and Spain, where he eventually stopped playing.",
+        "Since retiring, he has worked as a manager for a football club."
+      ]
+    },
+    {
+      "id": 4,
+      "topic": "Key card",
+      "sentences": [
+        "To access the building and use the lift, you need to use the key card",
+        "If you lose this, please see the staff member at the front desk",
+        "He or she will ask your name and flat number and will note this down",
+        "You will also need to show him or her your identification card",
+        "He or she will take a copy of it and give you a new key card"
+      ]
+    },
+    {
+      "id": 5,
+      "topic": "Renting a bike",
+      "sentences": [
+        "Go to the collection point and touch the screen with your bank card.",
+        "Choose “Hire the cycle”, and follow the instructions to get your release code.",
+        "Enter your code in the lock on the bike and wait for the light green.",
+        "When the light shows, you can unlock the bike and start your journey.",
+        "At the end of your ride, return the bike at any collection point."
+      ]
+    },
+    {
+      "id": 6,
+      "topic": "Life of the Great Belly",
+      "sentences": [
+        "She was born in Shanghai in 1933 to an American mother from Scotland.",
+        "At that time, Shanghai was a city filled with many people from different countries.",
+        "A few years after she finished school, she moved abroad.",
+        "However, Belly missed China and often thought about her homeland.",
+        "In the 1980s, she finally returned to China and still lives with her Shanghai husband."
+      ]
+    },
+    {
+      "id": 7,
+      "topic": "Quy trình dùng máy in printer",
+      "sentences": [
+        "Firstly, find an appropriate place to put the printer in.",
+        "When the printer is in place, turn it on by switching the buttons on the sides.",
+        "A light comes on at the front of the printer when the power is on.",
+        "If the light is green, the printer is ready to use.",
+        "Before using, remember to put some paper into the tray."
+      ]
+    },
+    {
+      "id": 8,
+      "topic": "Hand in assignment",
+      "sentences": [
+        "First, it is a good idea for you to read your work and correct spelling mistakes.",
+        "When you have corrected all the mistakes, print out your assignment.",
+        "Also, remember to print a separate cover sheet and attach it to your assignment.",
+        "You hand your assignment and attached document to the front desk in the library.",
+        "The staff will check and confirm that you complete it."
+      ]
+    },
+    {
+      "id": 9,
+      "topic": "Joining a conference",
+      "sentences": [
+        "When you arrive at the conference hall, give your booking number.",
+        "A staff member will note this down and give you a welcome pack",
+        "Inside you will find a schedule of events and information about the key speaker",
+        "If you would like to attend his talk, it will take place in the main hall at midday",
+        "After finishing, there will be time for questions"
+      ]
+    },
+    {
+      "id": 10,
+      "topic": "How to plant potatoes",
+      "sentences": [
+        "All you need is some earth, an old potato, and a big spot",
+        "An old potato will have little roots, will be a little green, and won't be good for eating",
+        "This color means it is perfect for growing, you should put some earth in the pot and dig it deep down",
+        "When you've done this, you should water it every day and place it in a sunny spot",
+        "With this care, you should see a potato plant growing after couple of weeks"
+      ]
+    },
+    {
+      "id": 11,
+      "topic": "A school science textbook",
+      "sentences": [
+        "The first step is to find out what you know about the problem",
+        "The next one is to form a hypothesis or an idea based on your information",
+        "Then, you need to perform experiments to see if these ideas are true or not",
+        "You can also compare your results with experiments in the past",
+        "In this way, you can add your knowledge of the subject for future experiments"
+      ]
+    },
+    {
+      "id": 12,
+      "topic": "Fire instructions",
+      "sentences": [
+        "When you hear the alamm, leave your bags and belongings at the desk",
+        "Next, walk calmly to the doors marked Emergency Exit",
+        "Through these doors, there are stairs leading you to the ground floor",
+        "When you reach the bottom of these stairs, leave the building through front entrance",
+        "Outside, gather on the grass and wait for further instructions"
+      ]
+    },
+    {
+      "id": 13,
+      "topic": "Ước mơ du hành vũ trụ",
+      "sentences": [
+        "As a child, she had a dream of being an astronaut.",
+        "Because of her dream, she majored in astronaut while studying at school and university.",
+        "This hard work required calmness and she accepted.",
+        "They got her to training right after that.",
+        "A year later, she managed to fly to the moon."
+      ]
+    },
+    {
+      "id": 14,
+      "topic": "Car park",
+      "sentences": [
+        "When you arrive, please take a ticket from a machine at the entrance",
+        "This ticket will show the date and the time you arrived",
+        "Please display the ticket with this information in the window of your car",
+        "Before you leave, please put the ticket on the machine by the gate",
+        "The machine will read your information and tell you how much you have to pay"
+      ]
+    },
+    {
+      "id": 15,
+      "topic": "Singer",
+      "sentences": [
+        "Before becoming famous at a young age, he studied art and music in high school",
+        "During this education, he started to perform on stage.",
+        "During his stage performances, he wore colorful clothes and painted his face.",
+        "These strange ways of dressing and his songs attracted people's attention",
+        "They started to follow him on social media and he is now very famous"
+      ]
+    },
+    {
+      "id": 16,
+      "topic": "Music show at the park",
+      "sentences": [
+        "The local authority planned, sponsored, and paid for everything.",
+        "Because of this, it was free and five thousand people attended it.",
+        "Many of them arrived early and visited nearby shops while they were waiting for it to begin.",
+        "The staff there had a busy day, but they were able to close early and watch the famous singer perform.",
+        "He performed for two hours, and everyone had great fun"
+      ]
+    },
+    {
+      "id": 17,
+      "topic": "Family sport day",
+      "sentences": [
+        "It started early on Saturday morning with a ten-mile race for adults.",
+        "Sixty men and women ran in this, and Ms Kamur won with a very fast time",
+        "After receiving the prize, the children's activities and competitions began.",
+        "These activities included football, jumping, and swimming, and they had lots of fun.",
+        "They were all very hungry after all this, so they enjoyed tasty food and drinks with their parents"
+      ]
+    },
+    {
+      "id": 18,
+      "topic": "History of travel",
+      "sentences": [
+        "In the past, only very rich people could afford to travel long distances.",
+        "The invention of cars and trains had changed everything and made travelling cheaper.",
+        "After these two means of transport, travelling becomes even easier with aeroplanes.",
+        "Because flying with them is so fast, more people now go abroad for holiday and business.",
+        "It is more convenient to travel to other of the world due to the improvement in transportation."
+      ]
+    },
+    {
+      "id": 19,
+      "topic": "End of term report",
+      "sentences": [
+        "For the end-of-term project, you need to choose at least 2 of these.",
+        "It needs to include relevant images and your own text about the topic.",
+        "Then you need to use these images and written work to create a presentation.",
+        "Your presentation will include your key points, and you have around 5 minutes to talk.",
+        "After this time, other students will be able to ask questions, and you need to answer them."
+      ]
+    },
+    {
+      "id": 20,
+      "topic": "Artificial Intelligence",
+      "sentences": [
+        "Artificial intelligence has transformed industries over the past decade.",
+        "Early AI systems were limited to basic pattern recognition tasks.",
+        "High computational costs restricted AI development in the past.",
+        "Today, AI engineers create advanced models for tasks like language translation.",
+        "Modern AI tools help businesses analyze data and improve decision-making."
+      ]
+    },
+    {
+      "id": 21,
+      "topic": "Tourism",
+      "sentences": [
+        "Modern tourism now offers far more options than in the past.",
+        "In earlier times, travelers often relied mainly on guidebooks and paper maps.",
+        "However, limited technology back then also meant fewer booking options were available.",
+        "Today, online platforms make it much easier to plan carefully and book trips quickly.",
+        "In addition, local guides now offer personalized tours for visitors, creating more authentic experiences."
+      ]
+    },
+    {
+      "id": 22,
+      "topic": "Homework next week",
+      "sentences": [
+        "Next week’s homework will focus on researching and comparing different places around the world.",
+        "Before writing, we need to find some information about the place.",
+        "That information can revolve around the aspects of people, culture, and history.",
+        "You might not find all the information mentioned, but you will find a place with similarities.",
+        "When collecting information about these three aspects, you can compare them with places in your own country.",
+        "This comparison will help you find common ground between the countries."
+      ]
+    }
+  ],
+  "part4": [
+    {
+      "id": 1,
+      "topic": "a new restaurant",
+      "questions": [
+        {
+          "question": "Who will definitely not come back to the restaurant again?",
+          "answer": "Person C"
+        },
+        {
+          "question": "Who was impressed by the range of the appetizers?",
+          "answer": "Person A"
+        },
+        {
+          "question": "Who didn’t eat anything?",
+          "answer": "Person D"
+        },
+        {
+          "question": "Who enjoyed the atmosphere of the restaurant?",
+          "answer": "Person D"
+        },
+        {
+          "question": "Who thinks the quality of the food is average?",
+          "answer": "Person B"
+        },
+        {
+          "question": "Who thinks their bad experience was probably unusual?",
+          "answer": "Person B"
+        },
+        {
+          "question": "Who thinks the music was too quiet?",
+          "answer": "Person A"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "topic": "reading books",
+      "questions": [
+        {
+          "question": "Who thinks reading factual books is boring?",
+          "answer": "Person C"
+        },
+        {
+          "question": "Who reads more than another family member?",
+          "answer": "Person D"
+        },
+        {
+          "question": "Who has limited time for reading?",
+          "answer": "Person C"
+        },
+        {
+          "question": "Who has difficulty finishing a book?",
+          "answer": "Person B"
+        },
+        {
+          "question": "Who reads many books at once?",
+          "answer": "Person A"
+        },
+        {
+          "question": "Who plans the reading schedule?",
+          "answer": "Person D"
+        },
+        {
+          "question": "Who wants to read a lot of books?",
+          "answer": "Person A"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "topic": "watching television",
+      "questions": [
+        {
+          "question": "Who watches TV instead of studying?",
+          "answer": "Person A"
+        },
+        {
+          "question": "Who likes TV programs that continue over several weeks?",
+          "answer": "Person A"
+        },
+        {
+          "question": "Who has lost interest in watching football on TV?",
+          "answer": "Person B"
+        },
+        {
+          "question": "Who avoids watching reality TV programs?",
+          "answer": "Person B"
+        },
+        {
+          "question": "Who gets a lot of knowledge by watching TV?",
+          "answer": "Person C"
+        },
+        {
+          "question": "Who isn't a very selective viewer?",
+          "answer": "Person D"
+        },
+        {
+          "question": "Who keeps up to date on cinema and music?",
+          "answer": "Person D"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "topic": "volunteering to clean a local park",
+      "questions": [
+        {
+          "question": "Who thinks the park is a beautiful place to relax?",
+          "answer": "Person B"
+        },
+        {
+          "question": "Who can't clean the park because of their busy work?",
+          "answer": "Person A"
+        },
+        {
+          "question": "Who will ask others to help?",
+          "answer": "Person B"
+        },
+        {
+          "question": "Who thinks cleaning should happen regularly?",
+          "answer": "Person D"
+        },
+        {
+          "question": "Who thinks volunteering is important for children?",
+          "answer": "Person C"
+        },
+        {
+          "question": "Who thinks other local areas need cleaning?",
+          "answer": "Person D"
+        },
+        {
+          "question": "Who thinks volunteering can help with future employment?",
+          "answer": "Person A"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "topic": "art",
+      "questions": [
+        {
+          "question": "Who thinks seeing an exhibition is boring?",
+          "answer": "Person A"
+        },
+        {
+          "question": "Who prefers seeing exhibitions by themselves?",
+          "answer": "Person B"
+        },
+        {
+          "question": "Who has good knowledge about art?",
+          "answer": "Person C"
+        },
+        {
+          "question": "Who thinks visitors to the galleries should focus more on the art?",
+          "answer": "Person B"
+        },
+        {
+          "question": "Who prefers going to art exhibitions with other people?",
+          "answer": "Person D"
+        },
+        {
+          "question": "Who has been going to art exhibitions all their life?",
+          "answer": "Person D"
+        },
+        {
+          "question": "Who has some artistic skills?",
+          "answer": "Person A"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "topic": "eating and cooking",
+      "questions": [
+        {
+          "question": "Who needs to save money on eating?",
+          "answer": "Ben"
+        },
+        {
+          "question": "Who likes a wide variety of food?",
+          "answer": "Glo"
+        },
+        {
+          "question": "Who prefers to eat home-cooked food?",
+          "answer": "Alon"
+        },
+        {
+          "question": "Who enjoys eating with friends?",
+          "answer": "Ceci"
+        },
+        {
+          "question": "Who only eats a few types of food?",
+          "answer": "Alon"
+        },
+        {
+          "question": "Who is taking a cookery course?",
+          "answer": "Gloria"
+        },
+        {
+          "question": "Who prefers to eat alone?",
+          "answer": "Ben"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "topic": "visit a city",
+      "questions": [
+        {
+          "question": "Who visits one part of the city?",
+          "answer": "Person D"
+        },
+        {
+          "question": "Who liked the public theatre that the city puts on?",
+          "answer": "Person A"
+        },
+        {
+          "question": "Who usually spends a lot of money on shopping?",
+          "answer": "Person A"
+        },
+        {
+          "question": "Who paid a lot for their meal?",
+          "answer": "Person B"
+        },
+        {
+          "question": "Who thought the public transport system was good?",
+          "answer": "Person C"
+        },
+        {
+          "question": "Who thought walking too much causes a problem?",
+          "answer": "Person C"
+        },
+        {
+          "question": "Who likes the natural resort here?",
+          "answer": "Person D"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "topic": "sports - doing exercise",
+      "questions": [
+        {
+          "question": "Who thinks a routine can help us do more sport?",
+          "answer": "Person B"
+        },
+        {
+          "question": "Who thinks experiencing pain is not necessary?",
+          "answer": "Person D"
+        },
+        {
+          "question": "Who thinks competitions are not useful for everybody?",
+          "answer": "Person C"
+        },
+        {
+          "question": "Who thinks working out with a friend is a good idea?",
+          "answer": "Person A"
+        },
+        {
+          "question": "Who thinks exercise is for both the young and the elderly?",
+          "answer": "Person C"
+        },
+        {
+          "question": "Who thinks eating proper food is very important?",
+          "answer": "Person A"
+        },
+        {
+          "question": "Who thinks that at times we should seek expert advice?",
+          "answer": "Person D"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "topic": "going on holiday",
+      "questions": [
+        {
+          "question": "Who likes seeing tourist attractions?",
+          "answer": "Person D"
+        },
+        {
+          "question": "Who thinks going to the beach is boring?",
+          "answer": "Person D"
+        },
+        {
+          "question": "Who prefers to stay at home?",
+          "answer": "Person C"
+        },
+        {
+          "question": "Who likes going walking?",
+          "answer": "Person C"
+        },
+        {
+          "question": "Who thinks a holiday requires good weather?",
+          "answer": "Person A"
+        },
+        {
+          "question": "Who wants to go mountain climbing?",
+          "answer": "Person A"
+        },
+        {
+          "question": "Who has never been abroad?",
+          "answer": "Person B"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "topic": "visit an island",
+      "questions": [
+        {
+          "question": "Who forgot to bring something?",
+          "answer": "Ali"
+        },
+        {
+          "question": "Who liked to be alone?",
+          "answer": "Ali"
+        },
+        {
+          "question": "Who loved eating food here?",
+          "answer": "Deniz"
+        },
+        {
+          "question": "Who liked buying things on the island?",
+          "answer": "Deniz"
+        },
+        {
+          "question": "Who spent a lot of money on transport?",
+          "answer": "Bruno"
+        },
+        {
+          "question": "Who thought public transport could be improved?",
+          "answer": "Carla"
+        },
+        {
+          "question": "Who liked to walk?",
+          "answer": "Carla"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "topic": "Opinions on flying",
+      "questions": [
+        {
+          "question": "Who tries to protect the environment?",
+          "answer": "Person B"
+        },
+        {
+          "question": "Who likes relaxing while they travel?",
+          "answer": "Person C"
+        },
+        {
+          "question": "Who finds flying tiring?",
+          "answer": "Person D"
+        },
+        {
+          "question": "Who needs to fly for their work?",
+          "answer": "Person D"
+        },
+        {
+          "question": "Who suggests making flights more expensive?",
+          "answer": "Person A"
+        },
+        {
+          "question": "Who wants to work in other countries?",
+          "answer": "Person A"
+        },
+        {
+          "question": "Who visits relatives regularly?",
+          "answer": "Person B"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "topic": "new station",
+      "questions": [
+        {
+          "question": "Who thinks that people should plan their journey better?",
+          "answer": "Emia"
+        },
+        {
+          "question": "Who thinks that the transport doesn’t need to be improved?",
+          "answer": "Yulan"
+        },
+        {
+          "question": "Who thinks that the bus has good service?",
+          "answer": "Yulan"
+        },
+        {
+          "question": "Who thinks that the public transport is too busy?",
+          "answer": "Moussa"
+        },
+        {
+          "question": "Who thinks that the station will improve train travel?",
+          "answer": "Moussa"
+        },
+        {
+          "question": "Who thinks that better medical facilities are needed?",
+          "answer": "Liam"
+        },
+        {
+          "question": "Who thinks that the station will cost too much to build?",
+          "answer": "Liam"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "topic": "Technology",
+      "questions": [
+        {
+          "question": "Who uses technology to communicate with family?",
+          "answer": "Person A"
+        },
+        {
+          "question": "Who believes that people depend too much on technology?",
+          "answer": "Person A"
+        },
+        {
+          "question": "Who advises against using technology before going to bed?",
+          "answer": "Person B"
+        },
+        {
+          "question": "Who uses technology for work purposes?",
+          "answer": "Person B"
+        },
+        {
+          "question": "Who uses technology for entertainment?",
+          "answer": "Person C"
+        },
+        {
+          "question": "Who buys the latest technology products?",
+          "answer": "Person C"
+        },
+        {
+          "question": "Who thinks children shouldn’t use technology?",
+          "answer": "Person D"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "topic": "Film",
+      "questions": [
+        {
+          "question": "Who watched the film at home?",
+          "answer": "A"
+        },
+        {
+          "question": "Who liked the story of the film?",
+          "answer": "A"
+        },
+        {
+          "question": "Who saw the film with a friend?",
+          "answer": "B"
+        },
+        {
+          "question": "Who thought the film was too long?",
+          "answer": "C"
+        },
+        {
+          "question": "Who has read the book about the film?",
+          "answer": "C"
+        },
+        {
+          "question": "Who saw the film previously?",
+          "answer": "D"
+        },
+        {
+          "question": "Who found the film scary?",
+          "answer": "D"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "topic": "childhood",
+      "questions": [
+        {
+          "question": "Who enjoyed playing games with their children?",
+          "answer": "Person A"
+        },
+        {
+          "question": "Who thought childhood games were much simpler?",
+          "answer": "Person A"
+        },
+        {
+          "question": "Who enjoyed playing with their friends as a child?",
+          "answer": "Person B"
+        },
+        {
+          "question": "Who enjoyed playing modern games?",
+          "answer": "Person C"
+        },
+        {
+          "question": "Who enjoyed reading books as a child?",
+          "answer": "Person C"
+        },
+        {
+          "question": "Who wished they could spend more time outdoors?",
+          "answer": "Person D"
+        },
+        {
+          "question": "Who enjoyed doing arts as a child?",
+          "answer": "Person D"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "topic": "Music festival",
+      "questions": [
+        {
+          "question": "Who is disappointed with the weather?",
+          "answer": "Person A"
+        },
+        {
+          "question": "Who didn't like the festival?",
+          "answer": "Person B"
+        },
+        {
+          "question": "Who enjoyed all the music at the music event?",
+          "answer": "Person C"
+        },
+        {
+          "question": "Who likes meeting old friends?",
+          "answer": "Person D"
+        },
+        {
+          "question": "Who enjoyed the final day of the music event?",
+          "answer": "Person A"
+        },
+        {
+          "question": "Who thought traffic was difficult?",
+          "answer": "Person D"
+        },
+        {
+          "question": "Who thought the event was expensive?",
+          "answer": "Person C"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "topic": "Extreme sports",
+      "questions": [
+        {
+          "question": "Who enjoys doing extreme sports after the first attempt?",
+          "answer": "Person A"
+        },
+        {
+          "question": "Who thinks extreme sports are not necessary for them?",
+          "answer": "Person B"
+        },
+        {
+          "question": "Who prefers traditional sports?",
+          "answer": "Person B"
+        },
+        {
+          "question": "Who wishes they are able to do extreme sports more often?",
+          "answer": "Person D"
+        },
+        {
+          "question": "Who enjoys nature while doing sports?",
+          "answer": "Person D"
+        },
+        {
+          "question": "Who avoids doing any sports?",
+          "answer": "Person C"
+        },
+        {
+          "question": "Who thinks training is important before doing extreme sports?",
+          "answer": "Person A"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "topic": "Career",
+      "questions": [
+        {
+          "question": "Who benefited from working for free",
+          "answer": "A"
+        },
+        {
+          "question": "Who did not want to change to other careers",
+          "answer": "B"
+        },
+        {
+          "question": "Who enjoyed working when training",
+          "answer": "B"
+        },
+        {
+          "question": "Who enjoyed doing things with their hands",
+          "answer": "C"
+        },
+        {
+          "question": "Who thinks their training was too long",
+          "answer": "C"
+        },
+        {
+          "question": "Who enjoyed working in a flexible work environment",
+          "answer": "D"
+        },
+        {
+          "question": "Who thinks it was hard to get the first job",
+          "answer": "D"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "topic": "Volunteering",
+      "questions": [
+        {
+          "question": "Who thinks volunteering is good for culture?",
+          "answer": "Person A"
+        },
+        {
+          "question": "Who thinks volunteering can help advance a career?",
+          "answer": "Person B"
+        },
+        {
+          "question": "Who thinks volunteering is a good way to make friends?",
+          "answer": "Person B"
+        },
+        {
+          "question": "Who thinks volunteering is a good reason to travel?",
+          "answer": "Person D"
+        },
+        {
+          "question": "Who thinks volunteering enjoys physical benefits?",
+          "answer": "Person D"
+        },
+        {
+          "question": "Who thinks volunteering can be helped by giving money?",
+          "answer": "Person C"
+        },
+        {
+          "question": "Who thinks volunteering should help local communities?",
+          "answer": "Person A"
+        }
+      ]
+    }
+  ],
+  "part5": [
+    {
+      "id": 1,
+      "topic": "Zoo",
+      "sentences": [
+        "Symbols of privilege and wealth",
+        "Open the door for everyone",
+        "Away from amusement towards industry",
+        "Away from the enclosure towards greater freedom",
+        "A different set of values",
+        "A new mission of conversation",
+        "A Modern Life alternative"
+      ]
+    },
+    {
+      "id": 2,
+      "topic": "COFFE",
+      "sentences": [
+        "The custom of coffee drinking begins to spread",
+        "Coffee encourages the art of communication",
+        "A habit that has become a big economy",
+        "Problems of coffee economy",
+        "A remedy of unjust revenue distribution",
+        "The health risks versus health benefits debate",
+        "The ancient origin of coffee"
+      ]
+    },
+    {
+      "id": 3,
+      "topic": "Tulip",
+      "sentences": [
+        "The economy during the Golden Age",
+        "Coming into Fashion",
+        "An object of trade",
+        "Different types of tulip",
+        "Trade mechanics",
+        "Trade across Europe",
+        "An unexpected turn of events"
+      ]
+    },
+    {
+      "id": 4,
+      "topic": "Eating China",
+      "sentences": [
+        "The origins of chinese food",
+        "The influence of philosophy",
+        "Regional variations",
+        "cooking methods",
+        "The style of eating",
+        "Changes in the Chinese diets",
+        "Effects of a changing diet"
+      ]
+    },
+    {
+      "id": 5,
+      "topic": "Meatless diet",
+      "sentences": [
+        "Types of Vegetarian",
+        "Various explanations",
+        "Possible global food crisis",
+        "Farming Factory",
+        "Our responsibilities for global",
+        "Health gets better with diet ( Health benefits )",
+        "Respect the life"
+      ]
+    },
+    {
+      "id": 6,
+      "topic": "Charles Dickens",
+      "sentences": [
+        "Dickens for our time",
+        "Difficulties for modern readers",
+        "Keeping the readers guessing",
+        "The influence of media",
+        "Dickens's early success",
+        "Trying to protect his property",
+        "Bring the books to life"
+      ]
+    },
+    {
+      "id": 7,
+      "topic": "Early Australia",
+      "sentences": [
+        "New evidence to speculation",
+        "Natural barrier to resettlement",
+        "Technology helps uncover the ocean's secret",
+        "A Journey made by stages",
+        "No precise figures available",
+        "Lack of knowledge and skills",
+        "Determination of the explorers through the ages"
+      ]
+    },
+    {
+      "id": 8,
+      "topic": "FROZEN LAND",
+      "sentences": [
+        "Who is charge?",
+        "First step on the ice",
+        "Where is the end of the Earth",
+        "Hidden geography",
+        "Race to the pole",
+        "Less effort needed",
+        "Why is it so cold"
+      ]
+    },
+    {
+      "id": 9,
+      "topic": "CHILDREN EXERCISE",
+      "sentences": [
+        "Factors contributing to inactivity",
+        "The situation have the potential of being worst",
+        "The success of a simple idea",
+        "The wider effects of regular activity",
+        "Ways in which the environment can influence behavior",
+        "A design for exercise and for study",
+        "Achieving the right balance"
+      ]
+    },
+    {
+      "id": 10,
+      "topic": "Music",
+      "sentences": [
+        "A physically demanding activity",
+        "A good way to boost your memory",
+        "A great opportunity to broaden your social circle",
+        "A way to learn discipline and the importance of routine",
+        "A creative outlet for expressing emotions",
+        "Enhanced sensitivity to other people's feelings",
+        "Develop a greater sense of well-being"
+      ]
+    },
+    {
+      "id": 11,
+      "topic": "CONSUMER AGE",
+      "sentences": [
+        "Making things last Longer",
+        "A temporary Experiment",
+        "The reason of Secrecy",
+        "Still relevant to our times",
+        "The difficulty of being generous",
+        "Reason to reach a compromise",
+        "Important lessons for all of us"
+      ]
+    },
+    {
+      "id": 12,
+      "topic": "Dogget",
+      "sentences": [
+        "The easiest way to travel",
+        "Result of a lucky escape",
+        "Origins of what the winner receives",
+        "A need for change",
+        "Earning a reputation",
+        "Generations of champions",
+        "Not in it for the money"
+      ]
+    },
+    {
+      "id": 13,
+      "topic": "Hotel",
+      "sentences": [
+        "A sensible Financial Choice",
+        "The price of convenience may be high",
+        "The importance of planning in Advantages",
+        "The impact of Lack of freedom",
+        "The benefits of living with Less",
+        "The Challenges that Come with a New Perspective\".",
+        "A competitive Business"
+      ]
+    },
+    {
+      "id": 14,
+      "topic": "Mountain summit",
+      "sentences": [
+        "Our changing perspective of mountains",
+        "A unique sense of achievement",
+        "Publicising one's achievements",
+        "The wrong priority",
+        "A disturbing revelation",
+        "A new focus on substantiality",
+        "A more intimate relationship"
+      ]
+    },
+    {
+      "id": 15,
+      "topic": "The arrival of four-day week",
+      "sentences": [
+        "A way of life now out of date",
+        "Benefits for employees",
+        "Undesirable financial consequences",
+        "Unforeseen challenges for employees",
+        "Difficult to give up entrenched habits",
+        "An unfair plan for some people",
+        "Alternative solutions worth considering"
+      ]
+    },
+    {
+      "id": 16,
+      "topic": "Wellness Trends",
+      "sentences": [
+        "Redefining holistic health approaches",
+        "Promoting mental health awareness",
+        "Encouraging community fitness programs",
+        "Overemphasis on trendy diets",
+        "Concerns about wellness misinformation",
+        "Building supportive health communities",
+        "Focusing on sustainable lifestyle changes"
+      ]
+    },
+    {
+      "id": 17,
+      "topic": "Woman Mathematics",
+      "sentences": [
+        "Gender obscure achievements",
+        "Acknowledging achievement of a pioneer",
+        "Man unfairly credited",
+        "A long career showing exceptional ability",
+        "Labels can change perspective on people",
+        "Attempting to create a gender balance",
+        "Uniformity is not always beneficial"
+      ]
+    }
+  ],
+  "listening": {
+    "part1_13": [
+      {
+        "id": 1,
+        "topic": "1.5 Pound",
+        "questions": [
+          {
+            "question": "How much are the eggs?",
+            "answer": "1.5 pound",
+            "options": [
+              "1.5 pound",
+              "7 o’clock – Anh ta ăn lúc mấy giờ?",
+              "10,000 – Có bao nhiêu cư dân ở ngôi làng này?"
+            ]
+          },
+          {
+            "question": "What time does the train leave? ( for him to go on a business trip )",
+            "answer": "At 9:15",
+            "options": [
+              "Wednesday afternoon",
+              "At 9:15",
+              "Friday"
+            ]
+          },
+          {
+            "question": "How does she go to school?",
+            "answer": "she walks",
+            "options": [
+              "she walks",
+              "The kitchen",
+              "Fire from the countryside"
+            ]
+          },
+          {
+            "question": "Listen to the chief announce to students. What time is lunch ready?",
+            "answer": "2 pm",
+            "options": [
+              "Friday",
+              "Wednesday afternoon",
+              "2 pm"
+            ]
+          },
+          {
+            "question": "What time does she usually write?",
+            "answer": "In the Afternoons",
+            "options": [
+              "10:15",
+              "1500 years – Thành phố này bao nhiêu năm tuổi?",
+              "In the Afternoons"
+            ]
+          },
+          {
+            "question": "Question 6:",
+            "answer": "At the park – A man is calling his friend. Where will they meet? ( Nam gọi điện hẹn gặp )",
+            "options": [
+              "At the park – A man is calling his friend. Where will they meet? ( Nam gọi điện hẹn gặp )",
+              "In a townhouse",
+              "In the corner"
+            ]
+          },
+          {
+            "question": "What does this family do most weekends?",
+            "answer": "Goes for a walk",
+            "options": [
+              "Sick",
+              "Goes for a walk",
+              "Not enough people"
+            ]
+          },
+          {
+            "question": "Two colleagues talking about a meeting. What day do they meet?",
+            "answer": "Tuesday",
+            "options": [
+              "Tuesday",
+              "At 9:15",
+              "9 am on Sunday"
+            ]
+          },
+          {
+            "question": "What career did he choose?",
+            "answer": "To work in business",
+            "options": [
+              "Play football",
+              "To work in business",
+              "writer"
+            ]
+          },
+          {
+            "question": "What course will he take this year?",
+            "answer": "Computer",
+            "options": [
+              "Phone",
+              "Computer",
+              "white"
+            ]
+          },
+          {
+            "question": "How is being a writer different from other jobs?",
+            "answer": "She works irregular hours",
+            "options": [
+              "She works irregular hours",
+              "Have coffee – What is the woman going to do?",
+              "Go to the theater and play sports"
+            ]
+          },
+          {
+            "question": "Where is she going to do shopping?",
+            "answer": "At a new shopping centre",
+            "options": [
+              "On the First floor – Văn phòng ở tầng mấy?",
+              "Go to the park",
+              "At a new shopping centre"
+            ]
+          },
+          {
+            "question": "What causes poor air quality?",
+            "answer": "Fire from the countryside",
+            "options": [
+              "he taught he a lot",
+              "Fire from the countryside",
+              "Go to the theater and play sports"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "topic": "250 pounds",
+        "questions": [
+          {
+            "question": "How much can Max pay for the computer?",
+            "answer": "250 pounds",
+            "options": [
+              "20 minutes – Mất bao lâu để đến ga?",
+              "250 pounds",
+              "One pound fifty – Dụng cụ vệ sinh giá bao nhiêu?"
+            ]
+          },
+          {
+            "question": "What will they bring to the picnic? (Pierre and Emma)",
+            "answer": "food",
+            "options": [
+              "Eggs",
+              "Water",
+              "food"
+            ]
+          },
+          {
+            "question": "What colour is the teacher's building?",
+            "answer": "white",
+            "options": [
+              "white",
+              "Phone",
+              "Glasses"
+            ]
+          },
+          {
+            "question": "What time does the football match start?",
+            "answer": "1 p.m",
+            "options": [
+              "1 p.m",
+              "Over 300,000 copies – Anh ta đã bán được bao nhiêu bản copies?",
+              "35 minutes – Cô ấy mất bao lâu đi xe đạp?"
+            ]
+          },
+          {
+            "question": "What will she do during the holiday?",
+            "answer": "Go for a walk",
+            "options": [
+              "A large stone – Động lực gì khiến cô ấy nghiên cứu khoa học?",
+              "Go for a walk",
+              "Persuading his family – Người đàn ông muốn mua một căn nhà mới. Vấn đề lớn nhất của anh ấy là gì?"
+            ]
+          },
+          {
+            "question": "What did Anna say about George?",
+            "answer": "he taught he a lot",
+            "options": [
+              "he taught he a lot",
+              "Go to the theater and play sports",
+              "She works irregular hours"
+            ]
+          },
+          {
+            "question": "What does the man want to do next?",
+            "answer": "writer",
+            "options": [
+              "Speak at a conference",
+              "writer",
+              "Red – Nhà của Jack màu gì?"
+            ]
+          },
+          {
+            "question": "Lucy is calling her brother. What does the brother have to drink? ( Yêu cầu anh trai uống đủ nước ) (cẩn thận nhầm với câu \"iced tea\" vì đáp án sai của câu \"iced tea\" cũng có water)",
+            "answer": "Water",
+            "options": [
+              "food",
+              "Water",
+              "Eggs"
+            ]
+          },
+          {
+            "question": "What was his favorite thing about school?",
+            "answer": "history classes",
+            "options": [
+              "Arrange private classes for his son",
+              "Cold and wet – Thời tiết hôm nay như thế nào?",
+              "history classes"
+            ]
+          },
+          {
+            "question": "Why does he need to learn to drive?",
+            "answer": "He has to drive to work",
+            "options": [
+              "He has to drive to work",
+              "Help people – Tại sao cô ấy muốn làm nhà văn?",
+              "he taught he a lot"
+            ]
+          },
+          {
+            "question": "What do mother and daughter have in common?",
+            "answer": "They have similar interests",
+            "options": [
+              "His sister and her children – ai sắp đến thăm anh ấy?",
+              "They have similar interests",
+              "They were thin"
+            ]
+          },
+          {
+            "question": "What does the man buy at the shop?",
+            "answer": "a suit for the office",
+            "options": [
+              "a suit for the office",
+              "Poor weather conditions – Tại sao chuyến bay bị hủy",
+              "They have similar interests"
+            ]
+          },
+          {
+            "question": "What do birds do in the winter?",
+            "answer": "Stay together for group protection",
+            "options": [
+              "Where to buy a new table",
+              "Stay together for group protection",
+              "The south – cô ấy chọn đi đâu cho kỳ nghỉ?"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "topic": "Suggest To drink 3250",
+        "questions": [
+          {
+            "question": "Why does Vincent call James?",
+            "answer": "To suggest a drink",
+            "options": [
+              "To suggest a drink",
+              "Residential area – Anh ấy đang mô tả về khu vực nào?",
+              "Go for a walk"
+            ]
+          },
+          {
+            "question": "How much does the smallest car cost him? (thêm him)",
+            "answer": "3250 pounds",
+            "options": [
+              "2000 – Thị trấn sẽ xây bao nhiêu tòa nhà?",
+              "15 minutes – Anh ấy phải thuyết trình trong bao nhiêu phút?",
+              "3250 pounds"
+            ]
+          },
+          {
+            "question": "What did she lose?",
+            "answer": "Phone",
+            "options": [
+              "white",
+              "Phone",
+              "Furniture"
+            ]
+          },
+          {
+            "question": "A man is talking on the phone. What did the man lose?",
+            "answer": "Glasses",
+            "options": [
+              "Furniture",
+              "Glasses",
+              "Computer"
+            ]
+          },
+          {
+            "question": "How many clients are Americans?",
+            "answer": "One",
+            "options": [
+              "One",
+              "Goes running",
+              "writer"
+            ]
+          },
+          {
+            "question": "What is Soobin's favorite room? (Soobin’s favorite room is ___)",
+            "answer": "Bathroom",
+            "options": [
+              "In the east",
+              "Bathroom",
+              "Go to the park"
+            ]
+          },
+          {
+            "question": "What did the family do last year?",
+            "answer": "Camping",
+            "options": [
+              "A large stone – Động lực gì khiến cô ấy nghiên cứu khoa học?",
+              "Camping",
+              "Short – chị gái cô ấy trông như thế nào? (khác trên web)"
+            ]
+          },
+          {
+            "question": "A mom is talking to her son. What does he like to study?",
+            "answer": "Art",
+            "options": [
+              "Goes for a walk – gia đình này làm gì hầu hết cuối tuần?",
+              "Art",
+              "Have meeting without him – Anh ấy yêu cầu điều chỉnh buổi họp như thế nào?"
+            ]
+          },
+          {
+            "question": "What does she do in her free time?",
+            "answer": "Go to the theater and play sports",
+            "options": [
+              "His sister and her children – ai sắp đến thăm anh ấy?",
+              "Go to the theater and play sports",
+              "Help people – Tại sao cô ấy muốn làm nhà văn?"
+            ]
+          },
+          {
+            "question": "Mary is talking to her friend about her new home. What does she ask her friend about?",
+            "answer": "Where to buy a new table",
+            "options": [
+              "The south – cô ấy chọn đi đâu cho kỳ nghỉ?",
+              "He has to drive to work",
+              "Where to buy a new table"
+            ]
+          },
+          {
+            "question": "A man is talking about how he goes to work. Why does he prefer traveling by train?",
+            "answer": "Practical",
+            "options": [
+              "Chocolates – Anh ta mua gì cho chị gái?",
+              "stayed at home",
+              "Practical"
+            ]
+          },
+          {
+            "question": "A saleswoman is talking to a customer about a house. What is not original?",
+            "answer": "Furniture",
+            "options": [
+              "white",
+              "Furniture",
+              "Computer"
+            ]
+          },
+          {
+            "question": "Which number to press in order to buy a computer?",
+            "answer": "Three",
+            "options": [
+              "Three",
+              "France",
+              "Sick – anh ấy cảm thấy thế nào?"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "topic": "7h45",
+        "questions": [
+          {
+            "question": "Ahmed is calling his friend Rose. What time does Ahmed meet Rose?",
+            "answer": "Quarter to eight",
+            "options": [
+              "1500 years – Thành phố này bao nhiêu năm tuổi?",
+              "Quarter to eight",
+              "In the morning"
+            ]
+          },
+          {
+            "question": "Question 2:",
+            "answer": "At the marketplace – Anna is calling her friend. Where will they meet? ( Nữ gọi điện )",
+            "options": [
+              "In a town hall – anh ấy muốn đi đâu vào ngày mai?",
+              "At the marketplace – Anna is calling her friend. Where will they meet? ( Nữ gọi điện )",
+              "By bus"
+            ]
+          },
+          {
+            "question": "Stephanie is looking for a job taking care of children. How old is she?",
+            "answer": "21",
+            "options": [
+              "21",
+              "15 minutes – Anh ấy phải thuyết trình trong bao nhiêu phút?",
+              "7 o’clock – Anh ta ăn lúc mấy giờ?"
+            ]
+          },
+          {
+            "question": "The football club is near",
+            "answer": "A park",
+            "options": [
+              "A park",
+              "In the east",
+              "Go to the park"
+            ]
+          },
+          {
+            "question": "What does he feed the cat?",
+            "answer": "Fish",
+            "options": [
+              "food",
+              "Eggs",
+              "Fish"
+            ]
+          },
+          {
+            "question": "What does this family do most weekends?",
+            "answer": "Goes for a walk – gia đình này làm gì hầu hết cuối tuần?",
+            "options": [
+              "Action film",
+              "Goes for a walk – gia đình này làm gì hầu hết cuối tuần?",
+              "Request a transfer – lời khuyên dành cho những người thiếu động lực trong công việc?"
+            ]
+          },
+          {
+            "question": "What does Jack need to buy for his sister?",
+            "answer": "Chocolates – Anh ta mua gì cho chị gái?",
+            "options": [
+              "Three",
+              "Short – chị gái cô ấy trông như thế nào? (khác trên web)",
+              "Chocolates – Anh ta mua gì cho chị gái?"
+            ]
+          },
+          {
+            "question": "The train was delayed. What time did the train depart?",
+            "answer": "At 9:30 – Tàu bị delay, tàu chạy lúc mấy giờ?",
+            "options": [
+              "At 9:30 – Tàu bị delay, tàu chạy lúc mấy giờ?",
+              "2 pm",
+              "Thursday 13th"
+            ]
+          },
+          {
+            "question": "Where will the weather be best?",
+            "answer": "In the east",
+            "options": [
+              "In the east",
+              "By train – Anh ấy đi du lịch bằng phương tiện gì?",
+              "Opposite the hotel – Văn phòng ở đâu"
+            ]
+          },
+          {
+            "question": "Why was the tour canceled?",
+            "answer": "Not enough people",
+            "options": [
+              "photography",
+              "Play football",
+              "Not enough people"
+            ]
+          },
+          {
+            "question": "Where is the coffee shop located?",
+            "answer": "Opposite the gift shop",
+            "options": [
+              "Opposite the gift shop",
+              "In a town hall – anh ấy muốn đi đâu vào ngày mai?",
+              "The river boat"
+            ]
+          },
+          {
+            "question": "Where will tea be served?",
+            "answer": "The river boat",
+            "options": [
+              "opposite the hotel",
+              "The river boat",
+              "Outside the station"
+            ]
+          },
+          {
+            "question": "Which room is the largest?",
+            "answer": "The kitchen",
+            "options": [
+              "His sister and her children – ai sắp đến thăm anh ấy?",
+              "The south – cô ấy chọn đi đâu cho kỳ nghỉ?",
+              "The kitchen"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "topic": "suggest to drink - 9th Sunday",
+        "questions": [
+          {
+            "question": "Why does Vincent call James?",
+            "answer": "To suggest to drink",
+            "options": [
+              "stayed at home",
+              "To suggest to drink",
+              "writer"
+            ]
+          },
+          {
+            "question": "When will he see her? (có tên người Maria)",
+            "answer": "9 am on Sunday",
+            "options": [
+              "9 am on Sunday",
+              "On Thursday morning – Họ jojp với nhau vào lúc nào?",
+              "2 weeks"
+            ]
+          },
+          {
+            "question": "What is the dress she wears like?",
+            "answer": "Long and red",
+            "options": [
+              "Long and red",
+              "A dress – Cô ấy đã mua được gì?",
+              "Not enough people"
+            ]
+          },
+          {
+            "question": "A doctor's office is calling to change the appointment. When is the new appointment?",
+            "answer": "Thursday 13th",
+            "options": [
+              "Wednesday afternoon",
+              "Friday",
+              "Thursday 13th"
+            ]
+          },
+          {
+            "question": "Where will Luis meet Standard?",
+            "answer": "Outside the station",
+            "options": [
+              "Outside the station",
+              "At the marketplace – Anna is calling her friend. Where will they meet? ( Nữ gọi điện )",
+              "The college"
+            ]
+          },
+          {
+            "question": ". What did she do last week?",
+            "answer": "stayed at home",
+            "options": [
+              "Arrange private classes for his son",
+              "stayed at home",
+              "Not enough people"
+            ]
+          },
+          {
+            "question": "How long does Nate stay in India?",
+            "answer": "2 weeks",
+            "options": [
+              "At 9:15",
+              "2 weeks",
+              "In the morning"
+            ]
+          },
+          {
+            "question": "Where is the office located?",
+            "answer": "opposite the hotel",
+            "options": [
+              "In the corner",
+              "At the park – A man is calling his friend. Where will they meet? ( Nam gọi điện hẹn gặp )",
+              "opposite the hotel"
+            ]
+          },
+          {
+            "question": "Where will they wait for the bus?",
+            "answer": "By the hotel’s main entrance",
+            "options": [
+              "At the marketplace – Anna is calling her friend. Where will they meet? ( Nữ gọi điện )",
+              "By the hotel’s main entrance",
+              "opposite the hotel"
+            ]
+          },
+          {
+            "question": "What does the man’s wife enjoy?",
+            "answer": "photography",
+            "options": [
+              "Practical",
+              "photography",
+              "To suggest to drink"
+            ]
+          },
+          {
+            "question": "What can people do in the afternoon? (Bị lặp hai lần trên web)",
+            "answer": "Play golf",
+            "options": [
+              "photography",
+              "Play golf",
+              "Sick"
+            ]
+          },
+          {
+            "question": "What can the people do in the afternoon?",
+            "answer": "play golf",
+            "options": [
+              "Action film",
+              "play golf",
+              "Camping"
+            ]
+          },
+          {
+            "question": "A man is talking about the city concert. How will the concert end?",
+            "answer": "The city’s favorite group – Người phụ nữ đang giới thiệu về một buổi hòa nhạc. ở cuối buổi hòa nhạc có điều gì?",
+            "options": [
+              "She works irregular hours",
+              "The city’s favorite group – Người phụ nữ đang giới thiệu về một buổi hòa nhạc. ở cuối buổi hòa nhạc có điều gì?",
+              "Clothes"
+            ]
+          },
+          {
+            "question": "What was the writer's first job?",
+            "answer": "Teacher – Công việc đầu tiên của nhà văn là gì?",
+            "options": [
+              "The window – Họ cần sửa chữa gì cho building?",
+              "Go to the theater and play sports",
+              "Teacher – Công việc đầu tiên của nhà văn là gì?"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "topic": "Room 301",
+        "questions": [
+          {
+            "question": "Which room will they study in?",
+            "answer": "Room 301 – Lớp học ở phòng nào?",
+            "options": [
+              "Room 301 – Lớp học ở phòng nào?",
+              "15 minutes – Anh ấy phải thuyết trình trong bao nhiêu phút?",
+              "1.5 pound"
+            ]
+          },
+          {
+            "question": "What time does the football match start?",
+            "answer": "1 p.m",
+            "options": [
+              "1 p.m",
+              "Over 300,000 copies – Anh ta đã bán được bao nhiêu bản copies?",
+              "2.5"
+            ]
+          },
+          {
+            "question": "What is the Teleshop’s phone number?",
+            "answer": "20.10.30 – Số điện thoại của cửa hàng là gì?",
+            "options": [
+              "One pound fifty – Dụng cụ vệ sinh giá bao nhiêu?",
+              "1 p.m",
+              "20.10.30 – Số điện thoại của cửa hàng là gì?"
+            ]
+          },
+          {
+            "question": "What did they bring to the picnic? (Pierre and Emma)",
+            "answer": "Food – 2 người mang gì đi picnic?",
+            "options": [
+              "Food – 2 người mang gì đi picnic?",
+              "Outside the shop – Người đàn ông đang gọi điện cho vợ anh ta. 2 vợ chồng hẹn gặp nhau ở đâu?",
+              "20 minutes – Mất bao lâu để đến ga?"
+            ]
+          },
+          {
+            "question": "How many copies of Freeze Frame magazine were sold?",
+            "answer": "Over 300,000 copies – Anh ta đã bán được bao nhiêu bản copies?",
+            "options": [
+              "Over 300,000 copies – Anh ta đã bán được bao nhiêu bản copies?",
+              "Best friends – Mối quan hệ giữa 2 người là gì",
+              "20"
+            ]
+          },
+          {
+            "question": "What did the family do last year?",
+            "answer": "Camping – năm ngoái họ đi đâu?",
+            "options": [
+              "To suggest a drink",
+              "Short – chị gái cô ấy trông như thế nào? (khác trên web)",
+              "Camping – năm ngoái họ đi đâu?"
+            ]
+          },
+          {
+            "question": "What do the man and woman decide to do in the evening?",
+            "answer": "Make plans later – 2 người làm gì cùng nhau?",
+            "options": [
+              "Make plans later – 2 người làm gì cùng nhau?",
+              "7 o’clock – Anh ta ăn lúc mấy giờ?",
+              "10.00"
+            ]
+          },
+          {
+            "question": "Question 8:",
+            "answer": "Tea – Linda is talking about what she likes to eat. What does she have for lunch?",
+            "options": [
+              "Going to the theatre",
+              "Tea – Linda is talking about what she likes to eat. What does she have for lunch?",
+              "Order the food"
+            ]
+          },
+          {
+            "question": "Who is she taking a photo of?",
+            "answer": "The girl’s team – cô ấy đang chụp ảnh ai?",
+            "options": [
+              "He enjoys his job here",
+              "His sister and her children – ai sắp đến thăm anh ấy?",
+              "The girl’s team – cô ấy đang chụp ảnh ai?"
+            ]
+          },
+          {
+            "question": "What did the woman do on holiday?",
+            "answer": "Go to the park",
+            "options": [
+              "At the park – A man is calling his friend. Where will they meet? ( Nam gọi điện hẹn gặp )",
+              "In the corner",
+              "Go to the park"
+            ]
+          },
+          {
+            "question": "What do they think the weather will be like?",
+            "answer": "Cold and wet – Thời tiết hôm nay như thế nào?",
+            "options": [
+              "Cold and wet – Thời tiết hôm nay như thế nào?",
+              "Not enough people",
+              "Goes for a walk"
+            ]
+          },
+          {
+            "question": "What did they decide to do?",
+            "answer": "Have meeting without him – Anh ấy yêu cầu điều chỉnh buổi họp như thế nào?",
+            "options": [
+              "Speak at a conference",
+              "Have meeting without him – Anh ấy yêu cầu điều chỉnh buổi họp như thế nào?",
+              "To have some quiet time"
+            ]
+          },
+          {
+            "question": "Which platform to wait for the train?",
+            "answer": "Two – đi cửa nào để đi tàu đến Edinburgh?",
+            "options": [
+              "Two – đi cửa nào để đi tàu đến Edinburgh?",
+              "Football – môn thể thao mà cô ấy giỏi?",
+              "stayed at home"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "topic": "THURSDAY",
+        "questions": [
+          {
+            "question": "A man is calling his teacher to meet for the assignment. When is the meeting?",
+            "answer": "On Thursday morning – Họ jojp với nhau vào lúc nào?",
+            "options": [
+              "In the afternoons – Cô ấy thường viết vào thời gian nào?",
+              "2 weeks",
+              "On Thursday morning – Họ jojp với nhau vào lúc nào?"
+            ]
+          },
+          {
+            "question": "How old is the city?",
+            "answer": "1500 years – Thành phố này bao nhiêu năm tuổi?",
+            "options": [
+              "1500 years – Thành phố này bao nhiêu năm tuổi?",
+              "Friday",
+              "2 pm"
+            ]
+          },
+          {
+            "question": "What color is Jack’s house?",
+            "answer": "Red – Nhà của Jack màu gì?",
+            "options": [
+              "A dress – Cô ấy đã mua được gì?",
+              "Red – Nhà của Jack màu gì?",
+              "Black – Anh ta đã mua áo sơ mi màu gì?"
+            ]
+          },
+          {
+            "question": "What does Jana’s sister look like?",
+            "answer": "Short – chị gái cô ấy trông như thế nào? (khác trên web)",
+            "options": [
+              "Three o’clock – Cô ta gặp con lúc mấy giờ?",
+              "Chocolates – Anh ta mua gì cho chị gái?",
+              "Short – chị gái cô ấy trông như thế nào? (khác trên web)"
+            ]
+          },
+          {
+            "question": "What is the man going to do after work? ( Có 2 câu hỏi anh ấy làm gì sau giờ làm việc, đáp án khác nhau )",
+            "answer": "Goes running",
+            "options": [
+              "Goes running",
+              "Sick",
+              "Arrange private classes for his son"
+            ]
+          },
+          {
+            "question": "How is he going to travel to the city?",
+            "answer": "By train – Anh ấy đi du lịch bằng phương tiện gì?",
+            "options": [
+              "By train – Anh ấy đi du lịch bằng phương tiện gì?",
+              "At the park – A man is calling his friend. Where will they meet? ( Nam gọi điện hẹn gặp )",
+              "Outside the station"
+            ]
+          },
+          {
+            "question": "How much time does she spend cycling?",
+            "answer": "35 minutes – Cô ấy mất bao lâu đi xe đạp?",
+            "options": [
+              "Room 301 – Lớp học ở phòng nào?",
+              "35 minutes – Cô ấy mất bao lâu đi xe đạp?",
+              "7 o’clock – Anh ta ăn lúc mấy giờ?"
+            ]
+          },
+          {
+            "question": "What will the father do?",
+            "answer": "Arrange private classes for his son",
+            "options": [
+              "Arrange private classes for his son",
+              "To work in business",
+              "history classes"
+            ]
+          },
+          {
+            "question": "What is the woman's favorite form of entertainment?",
+            "answer": "Going to the theatre",
+            "options": [
+              "The Performance space",
+              "Going to the theatre",
+              "Fire from the countryside"
+            ]
+          },
+          {
+            "question": "What was the woman good at?",
+            "answer": "Football – môn thể thao mà cô ấy giỏi?",
+            "options": [
+              "Drawing – Nam diễn viên thích làm gì?",
+              "history classes",
+              "Football – môn thể thao mà cô ấy giỏi?"
+            ]
+          },
+          {
+            "question": "In what way does his mother and his aunt alike?",
+            "answer": "They were thin",
+            "options": [
+              "Teacher – Công việc đầu tiên của nhà văn là gì?",
+              "They have similar interests",
+              "They were thin"
+            ]
+          },
+          {
+            "question": "When does she usually write?",
+            "answer": "In the afternoons – Cô ấy thường viết vào thời gian nào?",
+            "options": [
+              "10:15",
+              "In the afternoons – Cô ấy thường viết vào thời gian nào?",
+              "In the Afternoons"
+            ]
+          },
+          {
+            "question": "What is the solution to the lack of satisfaction at work?",
+            "answer": "Request a transfer – lời khuyên dành cho những người thiếu động lực trong công việc?",
+            "options": [
+              "Request a transfer – lời khuyên dành cho những người thiếu động lực trong công việc?",
+              "Long and red",
+              "Have meeting without him – Anh ấy yêu cầu điều chỉnh buổi họp như thế nào?"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "topic": "The college",
+        "questions": [
+          {
+            "question": "Where does Anna go for a walk every night? (v)",
+            "answer": "The college",
+            "options": [
+              "By the hotel’s main entrance",
+              "In a town hall – anh ấy muốn đi đâu vào ngày mai?",
+              "The college"
+            ]
+          },
+          {
+            "question": "How many chairs does she need? (v)",
+            "answer": "20",
+            "options": [
+              "20",
+              "2 p.m – Buổi họp lúc mấy giờ?",
+              "35 minutes – Cô ấy mất bao lâu đi xe đạp?"
+            ]
+          },
+          {
+            "question": "What did she forget, and where did she leave it? (v)",
+            "answer": "In the corner",
+            "options": [
+              "Outside the station",
+              "In the corner",
+              "opposite the hotel"
+            ]
+          },
+          {
+            "question": "Where did she meet her dad?",
+            "answer": "The front entrance – 2 người hẹn gặp nhau ở đâu?",
+            "options": [
+              "250 pounds",
+              "The front entrance – 2 người hẹn gặp nhau ở đâu?",
+              "Outside the shop – Người đàn ông đang gọi điện cho vợ anh ta. 2 vợ chồng hẹn gặp nhau ở đâu?"
+            ]
+          },
+          {
+            "question": "A woman is going home after shopping. What did she buy? (v)",
+            "answer": "A dress – Cô ấy đã mua được gì?",
+            "options": [
+              "A dress – Cô ấy đã mua được gì?",
+              "Persuading his family – Người đàn ông muốn mua một căn nhà mới. Vấn đề lớn nhất của anh ấy là gì?",
+              "Art"
+            ]
+          },
+          {
+            "question": "What is the teacher preparing for the meeting now? (v)",
+            "answer": "Order the food",
+            "options": [
+              "Stay together for group protection",
+              "The Mountains – cô ấy sẽ đi đâu với gia đình cô ta?",
+              "Order the food"
+            ]
+          },
+          {
+            "question": "When will he need the computer? (v)",
+            "answer": "Friday",
+            "options": [
+              "Friday",
+              "On Thursday morning – Họ jojp với nhau vào lúc nào?",
+              "6.30 pm – Họ gặp nhau lúc mấy giờ? (x)"
+            ]
+          },
+          {
+            "question": "What country will they study next semester?",
+            "answer": "France",
+            "options": [
+              "One",
+              "To say thank you – anh ấy gọi điện để nói gì?",
+              "France"
+            ]
+          },
+          {
+            "question": "What is she going to change in their house? (v)",
+            "answer": "The window – Họ cần sửa chữa gì cho building?",
+            "options": [
+              "The window – Họ cần sửa chữa gì cho building?",
+              "Where to buy a new table",
+              "The ending"
+            ]
+          },
+          {
+            "question": "What does the actor like to do in his free time? (v)",
+            "answer": "Drawing – Nam diễn viên thích làm gì?",
+            "options": [
+              "Drawing – Nam diễn viên thích làm gì?",
+              "Goes for a walk",
+              "Camping"
+            ]
+          },
+          {
+            "question": "What new facility will the school have?",
+            "answer": "The Performance space",
+            "options": [
+              "The Performance space",
+              "The window – Họ cần sửa chữa gì cho building?",
+              "The ending"
+            ]
+          },
+          {
+            "question": "What does he like in Dubai?",
+            "answer": "He enjoys his job here",
+            "options": [
+              "He enjoys his job here",
+              "The ending",
+              "The south – cô ấy chọn đi đâu cho kỳ nghỉ?"
+            ]
+          },
+          {
+            "question": "What does he advice young people to do to save money?",
+            "answer": "Cook for yourself – Anh ta khuyên người trẻ làm gì để tiết kiệm?",
+            "options": [
+              "One",
+              "Cook for yourself – Anh ta khuyên người trẻ làm gì để tiết kiệm?",
+              "Have meeting without him – Anh ấy yêu cầu điều chỉnh buổi họp như thế nào?"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "topic": "6h30",
+        "questions": [
+          {
+            "question": "Jorge is calling his friend Jose. What time do they meet?",
+            "answer": "6.30 pm – Họ gặp nhau lúc mấy giờ? (x)",
+            "options": [
+              "6.30 pm – Họ gặp nhau lúc mấy giờ? (x)",
+              "Friday",
+              "On Saturday morning – hạn nộp bài tập?"
+            ]
+          },
+          {
+            "question": "What time will the mother meet the son?",
+            "answer": "Three o’clock – Cô ta gặp con lúc mấy giờ?",
+            "options": [
+              "Sick – anh ấy cảm thấy thế nào?",
+              "Three o’clock – Cô ta gặp con lúc mấy giờ?",
+              "Chocolates – Anh ta mua gì cho chị gái?"
+            ]
+          },
+          {
+            "question": "Question 3:",
+            "answer": "Have coffee – What is the woman going to do?",
+            "options": [
+              "Have coffee – What is the woman going to do?",
+              "Stay late at the office – Tại sao cô ta không thể đón con được?",
+              "he taught he a lot"
+            ]
+          },
+          {
+            "question": "How many new houses are going to be built? (v)",
+            "answer": "2000 – Thị trấn sẽ xây bao nhiêu tòa nhà?",
+            "options": [
+              "2000 – Thị trấn sẽ xây bao nhiêu tòa nhà?",
+              "250 pounds",
+              "10,000 – Có bao nhiêu cư dân ở ngôi làng này?"
+            ]
+          },
+          {
+            "question": "What does she usually do on Saturdays? (v)",
+            "answer": "Seeing her family",
+            "options": [
+              "He has to drive to work",
+              "Seeing her family",
+              "She works irregular hours"
+            ]
+          },
+          {
+            "question": "What does the man buy in the shop?",
+            "answer": "Clothes",
+            "options": [
+              "Teacher – Công việc đầu tiên của nhà văn là gì?",
+              "Clothes",
+              "Stay late at the office – Tại sao cô ta không thể đón con được?"
+            ]
+          },
+          {
+            "question": "What color top is he going to buy? (v)",
+            "answer": "Black – Anh ta đã mua áo sơ mi màu gì?",
+            "options": [
+              "Chocolates – Anh ta mua gì cho chị gái?",
+              "Black – Anh ta đã mua áo sơ mi màu gì?",
+              "Practical"
+            ]
+          },
+          {
+            "question": "Julie is asking her professor about the assignment. When is the work due? (v)",
+            "answer": "On Saturday morning – hạn nộp bài tập?",
+            "options": [
+              "Thursday 13th",
+              "On Saturday morning – hạn nộp bài tập?",
+              "In the morning"
+            ]
+          },
+          {
+            "question": "What does the professor ask his student to do? (v)",
+            "answer": "Speak at a conference",
+            "options": [
+              "A dress – Cô ấy đã mua được gì?",
+              "Speak at a conference",
+              "A large stone – Động lực gì khiến cô ấy nghiên cứu khoa học?"
+            ]
+          },
+          {
+            "question": "The woman talking about her holiday plans. Where is she going next? (v)",
+            "answer": "The south – cô ấy chọn đi đâu cho kỳ nghỉ?",
+            "options": [
+              "The south – cô ấy chọn đi đâu cho kỳ nghỉ?",
+              "Stay together for group protection",
+              "Stay late at the office – Tại sao cô ta không thể đón con được?"
+            ]
+          },
+          {
+            "question": "Which is the most attractive part of the song? (v)",
+            "answer": "The words – Điều gì đăc biệt ở bài hát mới?",
+            "options": [
+              "Fire from the countryside",
+              "The words – Điều gì đăc biệt ở bài hát mới?",
+              "The mountain scenes – Điều gì cô ấy thích nhất ở bộ phim?"
+            ]
+          },
+          {
+            "question": "What did she like best about the film? (v)",
+            "answer": "The mountain scenes – Điều gì cô ấy thích nhất ở bộ phim?",
+            "options": [
+              "The mountain scenes – Điều gì cô ấy thích nhất ở bộ phim?",
+              "Stay late at the office – Tại sao cô ta không thể đón con được?",
+              "Stay together for group protection"
+            ]
+          },
+          {
+            "question": "What encouraged her to become a scientist? (v)",
+            "answer": "A large stone – Động lực gì khiến cô ấy nghiên cứu khoa học?",
+            "options": [
+              "Sick",
+              "Long and red",
+              "A large stone – Động lực gì khiến cô ấy nghiên cứu khoa học?"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "topic": "Tea",
+        "questions": [
+          {
+            "question": "What does the woman enjoy during lunch? (v)",
+            "answer": "Tea – cô gái dùng gì cho bữa trưa?",
+            "options": [
+              "Goes for a walk – gia đình này làm gì hầu hết cuối tuần?",
+              "Tea – cô gái dùng gì cho bữa trưa?",
+              "Cook for yourself – Anh ta khuyên người trẻ làm gì để tiết kiệm?"
+            ]
+          },
+          {
+            "question": "How many people live in the town? (v)",
+            "answer": "10,000 – Có bao nhiêu cư dân ở ngôi làng này?",
+            "options": [
+              "10,000 – Có bao nhiêu cư dân ở ngôi làng này?",
+              "15 minutes – Anh ấy phải thuyết trình trong bao nhiêu phút?",
+              "250 pounds"
+            ]
+          },
+          {
+            "question": "Where does he live now? (v)",
+            "answer": "In a town hall – anh ấy muốn đi đâu vào ngày mai?",
+            "options": [
+              "At the marketplace – Anna is calling her friend. Where will they meet? ( Nữ gọi điện )",
+              "In a townhouse",
+              "In a town hall – anh ấy muốn đi đâu vào ngày mai?"
+            ]
+          },
+          {
+            "question": "Where is the main office? (v)",
+            "answer": "On the First floor – Văn phòng ở tầng mấy?",
+            "options": [
+              "opposite the hotel",
+              "Go to the park",
+              "On the First floor – Văn phòng ở tầng mấy?"
+            ]
+          },
+          {
+            "question": "Lalia is calling her mom. How much does she think the bus fare will be? (v)",
+            "answer": "2.5",
+            "options": [
+              "2.5",
+              "10.00",
+              "Outside the shop – Người đàn ông đang gọi điện cho vợ anh ta. 2 vợ chồng hẹn gặp nhau ở đâu?"
+            ]
+          },
+          {
+            "question": "When is the meeting scheduled? (v)",
+            "answer": "Wednesday afternoon",
+            "options": [
+              "In the Afternoons",
+              "Wednesday afternoon",
+              "Friday"
+            ]
+          },
+          {
+            "question": "Where is the office located? (v)",
+            "answer": "Opposite the hotel – Văn phòng ở đâu",
+            "options": [
+              "On the First floor – Văn phòng ở tầng mấy?",
+              "In a town hall – anh ấy muốn đi đâu vào ngày mai?",
+              "Opposite the hotel – Văn phòng ở đâu"
+            ]
+          },
+          {
+            "question": "A man is calling his wife. Where will they meet?",
+            "answer": "Outside the shop – Người đàn ông đang gọi điện cho vợ anh ta. 2 vợ chồng hẹn gặp nhau ở đâu?",
+            "options": [
+              "Outside the shop – Người đàn ông đang gọi điện cho vợ anh ta. 2 vợ chồng hẹn gặp nhau ở đâu?",
+              "20.10.30 – Số điện thoại của cửa hàng là gì?",
+              "35 minutes – Cô ấy mất bao lâu đi xe đạp?"
+            ]
+          },
+          {
+            "question": "What time does he usually eat? (v)",
+            "answer": "7 o’clock – Anh ta ăn lúc mấy giờ?",
+            "options": [
+              "Make plans later – 2 người làm gì cùng nhau?",
+              "7 o’clock – Anh ta ăn lúc mấy giờ?",
+              "21"
+            ]
+          },
+          {
+            "question": "A woman is calling her brother. What does he usually do after work.",
+            "answer": "Play football",
+            "options": [
+              "writer",
+              "To suggest a drink",
+              "Play football"
+            ]
+          },
+          {
+            "question": "What elements of the film do they agree on? (v)",
+            "answer": "The ending",
+            "options": [
+              "They have similar interests",
+              "The ending",
+              "Where to buy a new table"
+            ]
+          },
+          {
+            "question": "Helen is calling a friend about the place her whole family is standing while seeing her off to college. Where are they standing? (v)",
+            "answer": "Residential area – Anh ấy đang mô tả về khu vực nào?",
+            "options": [
+              "Residential area – Anh ấy đang mô tả về khu vực nào?",
+              "Not enough people",
+              "Cook for yourself – Anh ta khuyên người trẻ làm gì để tiết kiệm?"
+            ]
+          },
+          {
+            "question": "A man is talking to a friend about his family. What is his main problem? (v)",
+            "answer": "Persuading his family – Người đàn ông muốn mua một căn nhà mới. Vấn đề lớn nhất của anh ấy là gì?",
+            "options": [
+              "Persuading his family – Người đàn ông muốn mua một căn nhà mới. Vấn đề lớn nhất của anh ấy là gì?",
+              "writer",
+              "Sick – anh ấy cảm thấy thế nào?"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "topic": "Sick",
+        "questions": [
+          {
+            "question": "How does Evan feel?",
+            "answer": "Sick – anh ấy cảm thấy thế nào?",
+            "options": [
+              "Sick – anh ấy cảm thấy thế nào?",
+              "Persuading his family – Người đàn ông muốn mua một căn nhà mới. Vấn đề lớn nhất của anh ấy là gì?",
+              "To say thank you – anh ấy gọi điện để nói gì?"
+            ]
+          },
+          {
+            "question": "How long does it take to get to the station?",
+            "answer": "20 minutes – Mất bao lâu để đến ga?",
+            "options": [
+              "15 minutes – Anh ấy phải thuyết trình trong bao nhiêu phút?",
+              "20 minutes – Mất bao lâu để đến ga?",
+              "3250 pounds"
+            ]
+          },
+          {
+            "question": "Why does Douglas call Kay?",
+            "answer": "To say thank you – anh ấy gọi điện để nói gì?",
+            "options": [
+              "Three",
+              "To say thank you – anh ấy gọi điện để nói gì?",
+              "Have meeting without him – Anh ấy yêu cầu điều chỉnh buổi họp như thế nào?"
+            ]
+          },
+          {
+            "question": "Who is visiting Tom this weekend?",
+            "answer": "His sister and her children – ai sắp đến thăm anh ấy?",
+            "options": [
+              "Where to buy a new table",
+              "Poor weather conditions – Tại sao chuyến bay bị hủy",
+              "His sister and her children – ai sắp đến thăm anh ấy?"
+            ]
+          },
+          {
+            "question": "What time is the meeting?",
+            "answer": "2 p.m – Buổi họp lúc mấy giờ?",
+            "options": [
+              "3250 pounds",
+              "2 p.m – Buổi họp lúc mấy giờ?",
+              "35 minutes – Cô ấy mất bao lâu đi xe đạp?"
+            ]
+          },
+          {
+            "question": "Anna is calling her brother. What will Anna do?",
+            "answer": "Stay late at the office – Tại sao cô ta không thể đón con được?",
+            "options": [
+              "Stay late at the office",
+              "Go to the theater and play sports",
+              "Stay late at the office – Tại sao cô ta không thể đón con được?"
+            ]
+          },
+          {
+            "question": "How much are the cleaning products? (v)",
+            "answer": "One pound fifty – Dụng cụ vệ sinh giá bao nhiêu?",
+            "options": [
+              "One pound fifty – Dụng cụ vệ sinh giá bao nhiêu?",
+              "The front entrance – 2 người hẹn gặp nhau ở đâu?",
+              "2 p.m – Buổi họp lúc mấy giờ?"
+            ]
+          },
+          {
+            "question": "Where is she going on holiday?",
+            "answer": "The Mountains – cô ấy sẽ đi đâu với gia đình cô ta?",
+            "options": [
+              "The kitchen",
+              "Stay late at the office",
+              "The Mountains – cô ấy sẽ đi đâu với gia đình cô ta?"
+            ]
+          },
+          {
+            "question": "A man is talking about his trip. What did he enjoy last year?",
+            "answer": "Cycling – Anh ấy hay làm gì vào năm ngoái?",
+            "options": [
+              "Cycling – Anh ấy hay làm gì vào năm ngoái?",
+              "Tea – cô gái dùng gì cho bữa trưa?",
+              "stayed at home"
+            ]
+          },
+          {
+            "question": "How many minutes did he have to speak?",
+            "answer": "15 minutes – Anh ấy phải thuyết trình trong bao nhiêu phút?",
+            "options": [
+              "Over 300,000 copies – Anh ta đã bán được bao nhiêu bản copies?",
+              "One pound fifty – Dụng cụ vệ sinh giá bao nhiêu?",
+              "15 minutes – Anh ấy phải thuyết trình trong bao nhiêu phút?"
+            ]
+          },
+          {
+            "question": "What is the relationship between the speaker and Lisa?",
+            "answer": "Best friends – Mối quan hệ giữa 2 người là gì",
+            "options": [
+              "20",
+              "7 o’clock – Anh ta ăn lúc mấy giờ?",
+              "Best friends – Mối quan hệ giữa 2 người là gì"
+            ]
+          },
+          {
+            "question": "Why does she want to become a writer?",
+            "answer": "Help people – Tại sao cô ấy muốn làm nhà văn?",
+            "options": [
+              "Seeing her family",
+              "Help people – Tại sao cô ấy muốn làm nhà văn?",
+              "a suit for the office"
+            ]
+          },
+          {
+            "question": "Why is the air travel cancelled?",
+            "answer": "Poor weather conditions – Tại sao chuyến bay bị hủy",
+            "options": [
+              "Poor weather conditions – Tại sao chuyến bay bị hủy",
+              "His sister and her children – ai sắp đến thăm anh ấy?",
+              "The mountain scenes – Điều gì cô ấy thích nhất ở bộ phim?"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "topic": "10h15",
+        "questions": [
+          {
+            "question": "When does the meeting start?",
+            "answer": "10:15",
+            "options": [
+              "10:15",
+              "On Saturday morning – hạn nộp bài tập?",
+              "On Thursday morning – Họ jojp với nhau vào lúc nào?"
+            ]
+          },
+          {
+            "question": "Vincent is calling James. Why does Vincent call James?",
+            "answer": "To suggest a drink",
+            "options": [
+              "Long and red",
+              "Chocolates – Anh ta mua gì cho chị gái?",
+              "To suggest a drink"
+            ]
+          },
+          {
+            "question": "How does Evan feel?",
+            "answer": "Sick",
+            "options": [
+              "Sick",
+              "play golf",
+              "Arrange private classes for his son"
+            ]
+          },
+          {
+            "question": "Anne is calling her daughter Sally. What do Anne need?",
+            "answer": "Eggs",
+            "options": [
+              "Water",
+              "Eggs",
+              "food"
+            ]
+          },
+          {
+            "question": "Samia is going to meet her friend. When are they going to meet? (v)",
+            "answer": "10.00",
+            "options": [
+              "Make plans later – 2 người làm gì cùng nhau?",
+              "The front entrance – 2 người hẹn gặp nhau ở đâu?",
+              "10.00"
+            ]
+          },
+          {
+            "question": "Anna is calling her brother. What will Anna do? (v)",
+            "answer": "Stay late at the office",
+            "options": [
+              "Stay late at the office",
+              "Where to buy a new table",
+              "Teacher – Công việc đầu tiên của nhà văn là gì?"
+            ]
+          },
+          {
+            "question": "What film did she recommend? (v)",
+            "answer": "Action film",
+            "options": [
+              "Sick",
+              "Action film",
+              "stayed at home"
+            ]
+          },
+          {
+            "question": "A teacher is talking to her students. Where does he live now?",
+            "answer": "In a townhouse",
+            "options": [
+              "In a townhouse",
+              "By bus",
+              "The river boat"
+            ]
+          },
+          {
+            "question": "Greg is talking about a working day in his life. How does Greg go to work?(v)",
+            "answer": "By bus",
+            "options": [
+              "Bathroom",
+              "By bus",
+              "The river boat"
+            ]
+          },
+          {
+            "question": "What time is the best for children to eat fruit?",
+            "answer": "In the morning",
+            "options": [
+              "On Saturday morning – hạn nộp bài tập?",
+              "In the morning",
+              "6.30 pm – Họ gặp nhau lúc mấy giờ? (x)"
+            ]
+          },
+          {
+            "question": "Why do women get up early?",
+            "answer": "To have some quiet time",
+            "options": [
+              "To have some quiet time",
+              "Camping – năm ngoái họ đi đâu?",
+              "Goes running"
+            ]
+          },
+          {
+            "question": "Why does he need to learn to drive?",
+            "answer": "He has to drive to work",
+            "options": [
+              "he taught he a lot",
+              "They were thin",
+              "He has to drive to work"
+            ]
+          },
+          {
+            "question": "What does the man buy in the shop?",
+            "answer": "Clothes",
+            "options": [
+              "They have similar interests",
+              "He has to drive to work",
+              "Clothes"
+            ]
+          }
+        ]
+      }
+    ],
+    "part14": [
+      {
+        "id": 7,
+        "topic": "Doing exercise",
+        "options": [
+          {
+            "answer": "improve work performance",
+            "hint_start": "I'm not that keen on"
+          },
+          {
+            "answer": "have fun exercising with other",
+            "hint_start": "I'm a bit strange"
+          },
+          {
+            "answer": "Find exercise tiring",
+            "hint_start": "I don't feel"
+          },
+          {
+            "answer": "hate exercising",
+            "hint_start": "Well, you're not getting"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "topic": "A place to studying",
+        "options": [
+          {
+            "answer": "at home",
+            "hint_start": "To study effectively, I need a quiet environment"
+          },
+          {
+            "answer": "on public transport",
+            "hint_start": "Some people find it difficult to study in public, but I have no choice"
+          },
+          {
+            "answer": "in a coffee shop",
+            "hint_start": "I don't find it difficult concentrating"
+          },
+          {
+            "answer": "in a park",
+            "hint_start": "Like most students, I don't like studying in the classroom in the summer because it can be really hot"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "topic": "Outdoor activities.",
+        "options": [
+          {
+            "answer": "enjoys hiking",
+            "hint_start": "I love the trails in the mountains"
+          },
+          {
+            "answer": "Mountain biking",
+            "hint_start": "The area where I live is perfect"
+          },
+          {
+            "answer": "Going for a run",
+            "hint_start": "There are no hills in our country"
+          },
+          {
+            "answer": "Horse riding",
+            "hint_start": "We've got a lot of snow in the winter where we live"
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "topic": "protect the environment",
+        "options": [
+          {
+            "answer": "Shopping online",
+            "hint_start": "I have my groceries delivered to my door"
+          },
+          {
+            "answer": "Using less electricity",
+            "hint_start": "There are many small things we can do to reduce"
+          },
+          {
+            "answer": "Using less water",
+            "hint_start": "I would love to walk or cycle to work"
+          },
+          {
+            "answer": "Not driving to work",
+            "hint_start": "Everybody seems to be buying things online these days"
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "topic": "The use of the internet",
+        "options": [
+          {
+            "answer": "Watch film",
+            "hint_start": "I used to go on the Internet to play games"
+          },
+          {
+            "answer": "Complete assignments",
+            "hint_start": "At our college, we had to study educational software programs"
+          },
+          {
+            "answer": "Find transport information",
+            "hint_start": "I’m not a fan of studying online"
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "topic": "Shopping online",
+        "options": [
+          {
+            "answer": "It saves time",
+            "hint_start": "I’ve always been a bit short on time"
+          },
+          {
+            "answer": "It is cheaper",
+            "hint_start": "For me, one of the main reasons I shop online"
+          },
+          {
+            "answer": "The products are delivered",
+            "hint_start": "The biggest advantage of shopping online"
+          },
+          {
+            "answer": "There are more choices",
+            "hint_start": "What I love about shopping online"
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "topic": "listening to music",
+        "options": [
+          {
+            "answer": "to relax",
+            "hint_start": "What I love to do after every busy day after studying.."
+          },
+          {
+            "answer": "While singing",
+            "hint_start": "I love listening to pop music."
+          },
+          {
+            "answer": "While studying",
+            "hint_start": ". Most of my friends play music to relax or have some fun..."
+          },
+          {
+            "answer": "After waking up",
+            "hint_start": "My brother listens to music to relax."
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "topic": "ART",
+        "options": [
+          {
+            "answer": "Social activity",
+            "hint_start": "I love when people come together to create something"
+          },
+          {
+            "answer": "With chidren",
+            "hint_start": "Kids are so fearless with art"
+          },
+          {
+            "answer": "As part of their job",
+            "hint_start": "Art is part of my work"
+          },
+          {
+            "answer": "Alone",
+            "hint_start": "Art, for me, is a quiet, personal thing."
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "topic": "Journey to work",
+        "options": [
+          {
+            "answer": "walks with friends",
+            "hint_start": "It's about 3 km"
+          },
+          {
+            "answer": "travels by car",
+            "hint_start": "Well, I live deep in the countryside"
+          },
+          {
+            "answer": "travel by bus",
+            "hint_start": "Well, I really believe that we should do something to contribute"
+          },
+          {
+            "answer": "walk alone",
+            "hint_start": "I'm a doctor"
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "topic": "protect the environment",
+        "options": [
+          {
+            "answer": "Give away used items",
+            "hint_start": "Some people buy things at charity shops…"
+          },
+          {
+            "answer": "Reuse containers for storing food",
+            "hint_start": "I am shocked by the amount of waste that we produced…"
+          },
+          {
+            "answer": "Buy environmentally friendly products",
+            "hint_start": "I believe consumerism is destroying the Earth…"
+          },
+          {
+            "answer": "Does not use commercial cleaning products",
+            "hint_start": "Honestly, I don’t think I have an eco-friendly lifestyle…"
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "topic": "The place that they run",
+        "options": [
+          {
+            "answer": "In the fitness centre",
+            "hint_start": "Obviously, running in the park or forest is ideal"
+          },
+          {
+            "answer": "In the street",
+            "hint_start": "My husband and I usually go for walks in the forest"
+          },
+          {
+            "answer": "At the seaside",
+            "hint_start": "often have our vacation by the beach"
+          },
+          {
+            "answer": "On the running track",
+            "hint_start": "I live by the seaside"
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "topic": "studying habits",
+        "options": [
+          {
+            "answer": "In various places",
+            "hint_start": "I don’t usually revise"
+          },
+          {
+            "answer": "In a quiet place",
+            "hint_start": "I start doing my homework"
+          },
+          {
+            "answer": "With music",
+            "hint_start": "I know many people lose concentration"
+          },
+          {
+            "answer": "Late at night",
+            "hint_start": "I study late in the evening"
+          }
+        ]
+      }
+    ],
+    "part15": [
+      {
+        "id": 19,
+        "topic": "University B W M W ( 0121 ) - Nam nói trước",
+        "questions": [
+          {
+            "statement": "Technology helps make education more accessible",
+            "answer": "B"
+          },
+          {
+            "statement": "Social interaction is important",
+            "answer": "W"
+          },
+          {
+            "statement": "The diverse curriculum is not an advantage",
+            "answer": "M"
+          },
+          {
+            "statement": "University competition should be encouraged",
+            "answer": "W"
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "topic": "Actor  M W B B (2100) - Nam nói trước",
+        "questions": [
+          {
+            "statement": "Auditions are the most important of casting",
+            "answer": "M"
+          },
+          {
+            "statement": "Actors respond best to a strong script",
+            "answer": "W"
+          },
+          {
+            "statement": "Theatre acting and movie acting require different skills",
+            "answer": "B"
+          },
+          {
+            "statement": "Actors need to be praised",
+            "answer": "B"
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "topic": "arts. WMBM ( 1202 ) - Nam nói trước",
+        "questions": [
+          {
+            "statement": "Art is only suitable for the privileged few",
+            "answer": "W"
+          },
+          {
+            "statement": "The government should invest more in the arts",
+            "answer": "M"
+          },
+          {
+            "statement": "Children should be exposed to art early",
+            "answer": "B"
+          },
+          {
+            "statement": "In the future, art will become more accessible",
+            "answer": "M"
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "topic": "Singer and music  WBMB ( 1020 ) - Nam nói trước",
+        "questions": [
+          {
+            "statement": "Singer can be good models for the young",
+            "answer": "W"
+          },
+          {
+            "statement": "Taste in music is a highly personal thing",
+            "answer": "B"
+          },
+          {
+            "statement": "Music is a universal language",
+            "answer": "M"
+          },
+          {
+            "statement": "Music can be used to manipulate people's feelings",
+            "answer": "B"
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "topic": "politics BMWB ( 0210 ) - Nam nói trước",
+        "questions": [
+          {
+            "statement": "Young people are more into politics",
+            "answer": "B"
+          },
+          {
+            "statement": "Social media changes politics",
+            "answer": "M"
+          },
+          {
+            "statement": "People are now better informed on politics",
+            "answer": "W"
+          },
+          {
+            "statement": "More women pursue politics",
+            "answer": "B"
+          }
+        ]
+      },
+      {
+        "id": 24,
+        "topic": "Community design - BWMB ( 0120 ) - Nam nói trước",
+        "questions": [
+          {
+            "statement": "Building design can influence people’s behavior",
+            "answer": "B"
+          },
+          {
+            "statement": "Creating community can take time",
+            "answer": "W"
+          },
+          {
+            "statement": "Work communities and social communities are the same",
+            "answer": "M"
+          },
+          {
+            "statement": "Technology has changed how the community forms",
+            "answer": "B"
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "topic": "the local center - MBWB ( 2010 ) - Nam nói trước",
+        "questions": [
+          {
+            "statement": "Exhibitions should be different.",
+            "answer": "M"
+          },
+          {
+            "statement": "The traditions are losing significance.",
+            "answer": "B"
+          },
+          {
+            "statement": "The local festival will disappear soon",
+            "answer": "W"
+          },
+          {
+            "statement": "Schools are important.",
+            "answer": "B"
+          }
+        ]
+      },
+      {
+        "id": 26,
+        "topic": "urban farming. WMMB ( 1220 ) - nam nói trước",
+        "questions": [
+          {
+            "statement": "Living space is more important than farming space",
+            "answer": "W"
+          },
+          {
+            "statement": "Urban farming sites can be visually appealing",
+            "answer": "M"
+          },
+          {
+            "statement": "Urban farming can benefit local economics",
+            "answer": "M"
+          },
+          {
+            "statement": "Urban farming cannot meet food needs",
+            "answer": "B"
+          }
+        ]
+      },
+      {
+        "id": 27,
+        "topic": "internet. W B M B ( 1020 ) - Nam nói trước",
+        "questions": [
+          {
+            "statement": "There is too much information on the internet",
+            "answer": "W"
+          },
+          {
+            "statement": "Using the internet requires skills",
+            "answer": "B"
+          },
+          {
+            "statement": "The internet is changing the way we think",
+            "answer": "M"
+          },
+          {
+            "statement": "The Internet has made people less patient",
+            "answer": "B"
+          }
+        ]
+      },
+      {
+        "id": 28,
+        "topic": "information and technology MWWB ( 2110 ) - nam nói trước",
+        "questions": [
+          {
+            "statement": "The future generation will fail to cope with new information",
+            "answer": "M"
+          },
+          {
+            "statement": "The information revolution will be good for the economy",
+            "answer": "W"
+          },
+          {
+            "statement": "No computer is superior to the human brain",
+            "answer": "W"
+          },
+          {
+            "statement": "More should be done to protect individual privacy",
+            "answer": "B"
+          }
+        ]
+      },
+      {
+        "id": 29,
+        "topic": "changes in the workplace MWBM ( 2102 ) - Nam nói trước",
+        "questions": [
+          {
+            "statement": "Continuity is important when planning a career",
+            "answer": "M"
+          },
+          {
+            "statement": "Job security cannot be guaranteed",
+            "answer": "W"
+          },
+          {
+            "statement": "Job satisfaction is important for motivation",
+            "answer": "B"
+          },
+          {
+            "statement": "Technological improvement is good for the economy",
+            "answer": "M"
+          }
+        ]
+      },
+      {
+        "id": 30,
+        "topic": "the subject of beauty. WMBM ( 1202 ) - Nam nói trước",
+        "questions": [
+          {
+            "statement": "People share very similar ideas about beauty",
+            "answer": "W"
+          },
+          {
+            "statement": "Views of beauty change over time",
+            "answer": "M"
+          },
+          {
+            "statement": "Beauty can be found in unlikely places",
+            "answer": "B"
+          },
+          {
+            "statement": "Traditional ideas of beauty are going to change",
+            "answer": "M"
+          }
+        ]
+      }
+    ],
+    "part16_17": [
+      {
+        "id": 31,
+        "topic": "a newly released.",
+        "questions": [
+          {
+            "question": "Question 1 for this topic:",
+            "answer": "The dialogues seem unrealistic",
+            "options": [
+              "He should listen to critics before writing his next work",
+              "NOT as GOOD as expected.",
+              "The dialogues seem unrealistic"
+            ]
+          },
+          {
+            "question": "Question 2 for this topic:",
+            "answer": "The new industry demands are negatively influencing script production",
+            "options": [
+              "The new industry demands are negatively influencing script production",
+              "He could have been more successful",
+              "It depends on your situation and personality"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 32,
+        "topic": "Regional Development Planning",
+        "questions": [
+          {
+            "question": "Question 1 for this topic:",
+            "answer": "It does not provide enough alternatives to driving.",
+            "options": [
+              "They are not always good for fans.",
+              "Seek advice from someone who has experience",
+              "It does not provide enough alternatives to driving."
+            ]
+          },
+          {
+            "question": "Question 2 for this topic:",
+            "answer": "It is likely to meet resistance from local communities.",
+            "options": [
+              "To maintain a positive attitude",
+              "It has been written for a general audience",
+              "It is likely to meet resistance from local communities."
+            ]
+          }
+        ]
+      },
+      {
+        "id": 33,
+        "topic": "making plans (k có audio)",
+        "questions": [
+          {
+            "question": "Question 1 for this topic:",
+            "answer": "They help you make decisions",
+            "options": [
+              "It depends on your situation and personality",
+              "They help you make decisions",
+              "Our definition of it is changing"
+            ]
+          },
+          {
+            "question": "Question 2 for this topic:",
+            "answer": "It requires you to set certain limits for yourself",
+            "options": [
+              "It requires you to set certain limits for yourself",
+              "He will probably retire from singing professionally",
+              "They both have something to say about the modern society"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 34,
+        "topic": "a promotion campaign for a product",
+        "questions": [
+          {
+            "question": "Question 1 for this topic:",
+            "answer": "It makes exaggerated claims",
+            "options": [
+              "It makes exaggerated claims",
+              "The media overemphasize the subject",
+              "It is too similar to many existing products"
+            ]
+          },
+          {
+            "question": "Question 2 for this topic:",
+            "answer": "It is too similar to many existing products",
+            "options": [
+              "It is too similar to many existing products",
+              "It is unlikely to find a conclusive answer",
+              "The dialogues seem unrealistic"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 35,
+        "topic": "new guidebook:",
+        "questions": [
+          {
+            "question": "Question 1 for this topic:",
+            "answer": "It creates a sense of adventure",
+            "options": [
+              "It creates a sense of adventure",
+              "It is only suitable for a particular generation",
+              "To maintain a positive attitude"
+            ]
+          },
+          {
+            "question": "Question 2 for this topic:",
+            "answer": "It is only suitable for a particular generation",
+            "options": [
+              "It is unlikely to find a conclusive answer",
+              "It is only suitable for a particular generation",
+              "They are not always good for fans."
+            ]
+          }
+        ]
+      },
+      {
+        "id": 36,
+        "topic": "Life after university",
+        "questions": [
+          {
+            "question": "Question 1 for this topic:",
+            "answer": "Be flexible and open-minded",
+            "options": [
+              "Provides them with a balance in their lives",
+              "Be flexible and open-minded",
+              "The new industry demands are negatively influencing script production"
+            ]
+          },
+          {
+            "question": "Question 2 for this topic:",
+            "answer": "They are becoming more competitive",
+            "options": [
+              "To maintain a positive attitude",
+              "To be more independent",
+              "They are becoming more competitive"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 37,
+        "topic": "Security cameras",
+        "questions": [
+          {
+            "question": "Question 1 for this topic:",
+            "answer": "People are unnecessarily worried about them.",
+            "options": [
+              "It is exciting to read",
+              "Organize their resources more effectively",
+              "People are unnecessarily worried about them."
+            ]
+          },
+          {
+            "question": "Question 2 for this topic:",
+            "answer": "People should feel reassured about their presence.",
+            "options": [
+              "He could have been more successful",
+              "People should feel reassured about their presence.",
+              "Seek advice from someone who has experience"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 38,
+        "topic": "experience in writing",
+        "questions": [
+          {
+            "question": "Question 1 for this topic:",
+            "answer": "Create dedicated periods for writing",
+            "options": [
+              "They help you make decisions",
+              "Create dedicated periods for writing",
+              "Be flexible and open-minded"
+            ]
+          },
+          {
+            "question": "Question 2 for this topic:",
+            "answer": "Refuse to seek the advice of other people",
+            "options": [
+              "The media overemphasize the subject",
+              "To be more independent",
+              "Refuse to seek the advice of other people"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 39,
+        "topic": "a book about a life of a scientist",
+        "questions": [
+          {
+            "question": "Question 1 for this topic:",
+            "answer": "It is exciting to read",
+            "options": [
+              "It is different from his earlier works",
+              "He should listen to critics before writing his next work",
+              "It is exciting to read"
+            ]
+          },
+          {
+            "question": "Question 2 for this topic:",
+            "answer": "It has been written for a general audience",
+            "options": [
+              "It does not provide enough alternatives to driving.",
+              "To maintain a positive attitude",
+              "It has been written for a general audience"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 40,
+        "topic": "A break from studying x",
+        "questions": [
+          {
+            "question": "Question 1 for this topic:",
+            "answer": "He wasn't ready to start higher education",
+            "options": [
+              "People should feel reassured about their presence.",
+              "It is exciting to read",
+              "He wasn't ready to start higher education"
+            ]
+          },
+          {
+            "question": "Question 2 for this topic:",
+            "answer": "To be more independent",
+            "options": [
+              "He should listen to critics before writing his next work",
+              "To be more independent",
+              "To maintain a positive attitude"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 41,
+        "topic": "research on happiness",
+        "questions": [
+          {
+            "question": "Question 1 for this topic:",
+            "answer": "It has not been accurately reported by the media",
+            "options": [
+              "The characters were interesting",
+              "The new industry demands are negatively influencing script production",
+              "It has not been accurately reported by the media"
+            ]
+          },
+          {
+            "question": "Question 2 for this topic:",
+            "answer": "It is unlikely to find a conclusive answer",
+            "options": [
+              "It is unlikely to find a conclusive answer",
+              "It is only suitable for a particular generation",
+              "It is NOT always easy for the meanings to be IDENTIFIED."
+            ]
+          }
+        ]
+      },
+      {
+        "id": 42,
+        "topic": "criticism of the new novel (k có audio)",
+        "questions": [
+          {
+            "question": "Question 1 for this topic:",
+            "answer": "The characters were interesting",
+            "options": [
+              "The characters were interesting",
+              "People are unnecessarily worried about them.",
+              "Our definition of it is changing"
+            ]
+          },
+          {
+            "question": "Question 2 for this topic:",
+            "answer": "It will establish the author's popularity",
+            "options": [
+              "It will establish the author's popularity",
+              "He wasn't ready to start higher education",
+              "Provides them with a balance in their lives"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 43,
+        "topic": "The importance of sleep",
+        "questions": [
+          {
+            "question": "Question 1 for this topic:",
+            "answer": "Blocking noise and light is key",
+            "options": [
+              "They both have something to say about the modern society",
+              "It has been written for a general audience",
+              "Blocking noise and light is key"
+            ]
+          },
+          {
+            "question": "Question 2 for this topic:",
+            "answer": "The media overemphasize the subject",
+            "options": [
+              "The media overemphasize the subject",
+              "Refuse to seek the advice of other people",
+              "It is unlikely to find a conclusive answer"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 44,
+        "topic": "2 famous writers",
+        "questions": [
+          {
+            "question": "Question 1 for this topic:",
+            "answer": "They both have something to say about the modern society",
+            "options": [
+              "It creates a sense of adventure",
+              "They both have something to say about the modern society",
+              "Series are damaged by overexposure."
+            ]
+          },
+          {
+            "question": "Question 2 for this topic:",
+            "answer": "It is NOT always easy for the meanings to be IDENTIFIED.",
+            "options": [
+              "It is NOT always easy for the meanings to be IDENTIFIED.",
+              "Be flexible and open-minded",
+              "NOT as GOOD as expected."
+            ]
+          }
+        ]
+      },
+      {
+        "id": 45,
+        "topic": "16.Topic :restaurant",
+        "questions": [
+          {
+            "question": "Question 1 for this topic:",
+            "answer": "Standard of Service was not good",
+            "options": [
+              "They are becoming more competitive",
+              "He could have been more successful",
+              "Standard of Service was not good"
+            ]
+          },
+          {
+            "question": "Question 2 for this topic:",
+            "answer": "They need to make the customers feel valued and welcome",
+            "options": [
+              "It is unlikely to find a conclusive answer",
+              "The dialogues seem unrealistic",
+              "They need to make the customers feel valued and welcome"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 46,
+        "topic": "Goal setting",
+        "questions": [
+          {
+            "question": "Question 1 for this topic:",
+            "answer": "It allows you to be more flexible",
+            "options": [
+              "It caught the audience’s attention from the start.",
+              "It allows you to be more flexible",
+              "People are unnecessarily worried about them."
+            ]
+          },
+          {
+            "question": "Question 2 for this topic:",
+            "answer": "It can prevent you from making mistakes",
+            "options": [
+              "NOT as GOOD as expected.",
+              "It can prevent you from making mistakes",
+              "To maintain a positive attitude"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 47,
+        "topic": "sport competition in school.",
+        "questions": [
+          {
+            "question": "Question 1 for this topic:",
+            "answer": "They have a harmful effect",
+            "options": [
+              "The dialogues seem unrealistic",
+              "They have a harmful effect",
+              "It is NOT always easy for the meanings to be IDENTIFIED."
+            ]
+          },
+          {
+            "question": "Question 2 for this topic:",
+            "answer": "Provides them with a balance in their lives",
+            "options": [
+              "Provides them with a balance in their lives",
+              "The media overemphasize the subject",
+              "It is exciting to read"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 48,
+        "topic": "Work from home",
+        "questions": [
+          {
+            "question": "Question 1 for this topic:",
+            "answer": "NOT as GOOD as expected.",
+            "options": [
+              "The new industry demands are negatively influencing script production",
+              "NOT as GOOD as expected.",
+              "He should listen to critics before writing his next work"
+            ]
+          },
+          {
+            "question": "Question 2 for this topic:",
+            "answer": "It depends on your situation and personality",
+            "options": [
+              "It has been written for a general audience",
+              "It depends on your situation and personality",
+              "The characters were interesting"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 49,
+        "topic": "a writer’s new novel",
+        "questions": [
+          {
+            "question": "Question 1 for this topic:",
+            "answer": "It is different from his earlier works",
+            "options": [
+              "It is different from his earlier works",
+              "To be more independent",
+              "It creates a sense of adventure"
+            ]
+          },
+          {
+            "question": "Question 2 for this topic:",
+            "answer": "He should listen to critics before writing his next work",
+            "options": [
+              "It does not provide enough alternatives to driving.",
+              "They are becoming more competitive",
+              "He should listen to critics before writing his next work"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 50,
+        "topic": "managing financial spending",
+        "questions": [
+          {
+            "question": "Question 1 for this topic:",
+            "answer": "Organize their resources more effectively",
+            "options": [
+              "To be more independent",
+              "Organize their resources more effectively",
+              "To maintain a positive attitude"
+            ]
+          },
+          {
+            "question": "Question 2 for this topic:",
+            "answer": "Seek advice from someone who has experience",
+            "options": [
+              "It is unlikely to find a conclusive answer",
+              "It will establish the author's popularity",
+              "Seek advice from someone who has experience"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 51,
+        "topic": "professionalism at work",
+        "questions": [
+          {
+            "question": "Question 1 for this topic:",
+            "answer": "To maintain a positive attitude",
+            "options": [
+              "To maintain a positive attitude",
+              "They are not always good for fans.",
+              "It is unlikely to find a conclusive answer"
+            ]
+          },
+          {
+            "question": "Question 2 for this topic:",
+            "answer": "Our definition of it is changing",
+            "options": [
+              "Our definition of it is changing",
+              "It depends on your situation and personality",
+              "It will establish the author's popularity"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 52,
+        "topic": "a musician's life",
+        "questions": [
+          {
+            "question": "Question 1 for this topic:",
+            "answer": "He will probably retire from singing professionally",
+            "options": [
+              "He wasn't ready to start higher education",
+              "He will probably retire from singing professionally",
+              "Refuse to seek the advice of other people"
+            ]
+          },
+          {
+            "question": "Question 2 for this topic:",
+            "answer": "He could have been more successful",
+            "options": [
+              "To maintain a positive attitude",
+              "He could have been more successful",
+              "It is likely to meet resistance from local communities."
+            ]
+          }
+        ]
+      },
+      {
+        "id": 53,
+        "topic": "television series x",
+        "questions": [
+          {
+            "question": "Question 1 for this topic:",
+            "answer": "It caught the audience’s attention from the start.",
+            "options": [
+              "It caught the audience’s attention from the start.",
+              "He will probably retire from singing professionally",
+              "It depends on your situation and personality"
+            ]
+          },
+          {
+            "question": "Question 2 for this topic:",
+            "answer": "Series are damaged by overexposure.",
+            "options": [
+              "They both have something to say about the modern society",
+              "Create dedicated periods for writing",
+              "Series are damaged by overexposure."
+            ]
+          }
+        ]
+      },
+      {
+        "id": 54,
+        "topic": "the advertising industry",
+        "questions": [
+          {
+            "question": "Question 1 for this topic:",
+            "answer": "Advertisements might sometimes be repetitive, which is annoying.",
+            "options": [
+              "Advertisements might sometimes be repetitive, which is annoying.",
+              "They need to make the customers feel valued and welcome",
+              "It can prevent you from making mistakes"
+            ]
+          },
+          {
+            "question": "Question 2 for this topic:",
+            "answer": "They are not always good for fans.",
+            "options": [
+              "They are not always good for fans.",
+              "It is only suitable for a particular generation",
+              "The characters were interesting"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "notes": [
+    "NOTE FOR DEVELOPER: The user explicitly requests that certain hints, tips, and explanations from the original document (e.g. capitalized mnemonic words, memory tips like '0121' for Who speaks first, and logic explanations) MUST be visible to the end user on the web interface. Please design a 'Hint' or 'Tips' button/modal for each question/topic that displays these contextual notes.",
+    "Lưu ý cho Câu 14 (Listening): Khi thi thật, thứ tự 4 đáp án có thể bị đảo. Sinh viên cần học thuộc cụm từ đầu tiên trong audio (Hint Start) đi kèm với mỗi đáp án để nhận diện thay vì nhớ theo thứ tự."
+  ]
+}

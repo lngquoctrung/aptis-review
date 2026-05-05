@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aptis Practice Platform</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- SortableJS -->
+    <script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
+</head>
+<body>
+    <header class="app-header">
+        <div class="logo">
+            <i class="fa-solid fa-graduation-cap"></i>
+            <span>Aptis Practice</span>
+        </div>
+        <nav id="breadcrumbs" class="breadcrumbs"></nav>
+    </header>
+
+    <main id="app" class="app-container">
+        <!-- Dynamic content goes here -->
+    </main>
+
+    <!-- Hint System -->
+    <button id="hintBtn" class="hint-btn hidden">
+        <i class="fa-solid fa-lightbulb"></i> Hint
+    </button>
+
+    <div id="hintModal" class="modal hidden">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>💡 Tips & Hints</h2>
+                <button id="closeHint" class="close-btn"><i class="fa-solid fa-times"></i></button>
+            </div>
+            <div class="modal-body">
+                <div id="globalNotes" class="global-notes"></div>
+                <div id="topicHints" class="topic-hints"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Script -->
+    <script src="app.js"></script>
+</body>
+</html>
