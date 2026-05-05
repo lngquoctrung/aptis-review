@@ -102,6 +102,11 @@ function renderHome() {
                 <h3>Listening Practice</h3>
                 <p>Enhance your listening skills with various scenarios.</p>
             </div>
+            <div class="card card-mock" onclick="startMockTest()">
+                <i class="fa-solid fa-stopwatch"></i>
+                <h3>Thi Thử</h3>
+                <p>Thực hiện bài thi đầy đủ Reading + Listening và xem điểm số của bạn.</p>
+            </div>
         </div>
     `;
 }
@@ -664,6 +669,295 @@ function setupHintSystem(part, topicData) {
 
 function hideHint() {
     hintBtn.classList.add('hidden');
+}
+
+// =============================================
+// MOCK TEST (THI THỬ)
+// =============================================
+
+const mockState = {
+    active: false,
+    phase: 'reading',
+    partIndex: 0,
+    readingPartKeys: ['part1', 'part2', 'part3', 'part4', 'part5'],
+    listeningPartKeys: ['part1_13', 'part14', 'part15', 'part16', 'part17'],
+    topics: {},
+    gradingResults: {}
+};
+
+function startMockTest() {
+    mockState.active = true;
+    mockState.phase = 'reading';
+    mockState.partIndex = 0;
+    mockState.topics = {};
+    mockState.gradingResults = {};
+
+    const allParts = [...mockState.readingPartKeys, ...mockState.listeningPartKeys];
+    allParts.forEach(part => {
+        let pool;
+        if (['part1', 'part2', 'part3', 'part4', 'part5'].includes(part)) {
+            pool = state.data[part];
+        } else {
+            pool = state.data.listening[part];
+        }
+        mockState.topics[part] = pool[Math.floor(Math.random() * pool.length)];
+    });
+
+    hideHint();
+    breadcrumbsContainer.innerHTML = '';
+    renderMockTestPart();
+}
+
+function exitMockTest() {
+    mockState.active = false;
+    renderHome();
+}
+
+function renderMockTestPart() {
+    const partKeys = mockState.phase === 'reading' ? mockState.readingPartKeys : mockState.listeningPartKeys;
+    const part = partKeys[mockState.partIndex];
+    const topicData = mockState.topics[part];
+    const totalParts = mockState.readingPartKeys.length + mockState.listeningPartKeys.length;
+    const globalIndex = mockState.phase === 'reading'
+        ? mockState.partIndex
+        : mockState.readingPartKeys.length + mockState.partIndex;
+    const progressPct = Math.round((globalIndex / totalParts) * 100);
+
+    const isLastPart = mockState.partIndex === partKeys.length - 1;
+    const isListening = mockState.phase === 'listening';
+    let btnText = isLastPart && isListening
+        ? '<i class="fa-solid fa-flag-checkered"></i> Nộp Bài & Xem Kết Quả'
+        : isLastPart
+            ? '<i class="fa-solid fa-headphones"></i> Chuyển sang Listening →'
+            : 'Part Tiếp Theo <i class="fa-solid fa-arrow-right"></i>';
+
+    const badgeClass = mockState.phase === 'reading' ? 'badge-reading' : 'badge-listening';
+    const phaseLabel = mockState.phase === 'reading' ? 'Reading' : 'Listening';
+    const partLabel = formatPartName(part);
+    const topicName = topicData.topic || '';
+
+    let contentHtml = '';
+    if (mockState.phase === 'reading') {
+        if (part === 'part1') contentHtml = renderReadingPart1(topicData);
+        else if (['part2', 'part3', 'part5'].includes(part)) contentHtml = renderReadingOrdering(topicData);
+        else if (part === 'part4') contentHtml = renderReadingPart4(topicData);
+    } else {
+        if (part === 'part1_13') contentHtml = renderListeningMultipleChoice(topicData);
+        else if (part === 'part14') contentHtml = renderListeningPart14(topicData);
+        else if (part === 'part15') contentHtml = renderListeningPart15(topicData);
+        else if (part === 'part16' || part === 'part17') contentHtml = renderListeningPart16_17(topicData);
+    }
+
+    appContainer.innerHTML = `
+        <div class="practice-container">
+            <div class="mock-test-header">
+                <div>
+                    <span class="mock-progress-label">${phaseLabel}</span>
+                    <span class="mock-phase-badge ${badgeClass}">${partLabel}</span>
+                </div>
+                <button class="btn btn-secondary" onclick="exitMockTest()">
+                    <i class="fa-solid fa-xmark"></i> Thoát
+                </button>
+            </div>
+            <div class="mock-progress-bar">
+                <div class="mock-progress-fill" style="width: ${progressPct}%"></div>
+            </div>
+            ${topicName ? `<p class="mock-topic-title"><i class="fa-solid fa-tag"></i> ${topicName}</p>` : ''}
+            <div id="practiceContent">${contentHtml}</div>
+            <div class="action-area">
+                <button class="btn btn-primary" onclick="mockNextPart()">${btnText}</button>
+            </div>
+        </div>
+    `;
+
+    if (['part2', 'part3', 'part5'].includes(part) && mockState.phase === 'reading') {
+        const el = document.getElementById('sortableList');
+        if (el) Sortable.create(el, { animation: 150 });
+    }
+    if (part === 'part1' && mockState.phase === 'reading') {
+        setupDragAndDrop();
+    }
+}
+
+function mockNextPart() {
+    const partKeys = mockState.phase === 'reading' ? mockState.readingPartKeys : mockState.listeningPartKeys;
+    const part = partKeys[mockState.partIndex];
+    const topicData = mockState.topics[part];
+
+    mockState.gradingResults[part] = collectAndGradePart(part, topicData);
+
+    const isLastPart = mockState.partIndex === partKeys.length - 1;
+    if (isLastPart && mockState.phase === 'listening') {
+        showMockTestResults();
+    } else if (isLastPart && mockState.phase === 'reading') {
+        mockState.phase = 'listening';
+        mockState.partIndex = 0;
+        renderMockTestPart();
+    } else {
+        mockState.partIndex++;
+        renderMockTestPart();
+    }
+}
+
+function collectAndGradePart(part, topicData) {
+    const result = { correct: 0, total: 0, wrong: [], partLabel: formatPartName(part), topic: topicData.topic || '' };
+
+    if (part === 'part1') {
+        document.querySelectorAll('.drop-zone').forEach((zone, i) => {
+            result.total++;
+            const chip = zone.querySelector('.chip');
+            const userAnswer = chip ? chip.getAttribute('data-word') : '(bỏ trống)';
+            const correctAnswer = topicData.words[i];
+            if (userAnswer === correctAnswer) {
+                result.correct++;
+            } else {
+                result.wrong.push({ question: `Ô trống ${i + 1}`, userAnswer, correctAnswer });
+            }
+        });
+    } else if (['part2', 'part3', 'part5'].includes(part)) {
+        document.querySelectorAll('.sortable-item').forEach((item, i) => {
+            result.total++;
+            const originalIndex = parseInt(item.getAttribute('data-id'));
+            if (originalIndex === i) {
+                result.correct++;
+            } else {
+                result.wrong.push({
+                    question: `Vị trí ${i + 1}`,
+                    userAnswer: topicData.sentences[originalIndex],
+                    correctAnswer: topicData.sentences[i]
+                });
+            }
+        });
+    } else if (part === 'part4') {
+        topicData.questions.forEach((q, i) => {
+            result.total++;
+            const select = document.getElementById(`q_${i}`);
+            const userAnswer = select ? select.value : '(bỏ trống)';
+            if (userAnswer === q.answer) {
+                result.correct++;
+            } else {
+                result.wrong.push({ question: q.question, userAnswer: userAnswer || '(bỏ trống)', correctAnswer: q.answer });
+            }
+        });
+    } else if (part === 'part1_13') {
+        document.querySelectorAll('.question-block').forEach(block => {
+            result.total++;
+            const qText = block.getAttribute('data-original-question');
+            const originalQ = topicData.questions.find(q => q.question === qText);
+            if (!originalQ) return;
+            const selected = block.querySelector('input[type="radio"]:checked');
+            const userAnswer = selected ? selected.value : '(bỏ trống)';
+            if (userAnswer === originalQ.answer) {
+                result.correct++;
+            } else {
+                result.wrong.push({ question: originalQ.question, userAnswer, correctAnswer: originalQ.answer });
+            }
+        });
+    } else if (part === 'part14') {
+        topicData.options.forEach((opt, i) => {
+            result.total++;
+            const select = document.getElementById(`p14_${i}`);
+            const userAnswer = select ? select.value : '(bỏ trống)';
+            if (userAnswer === opt.hint_start) {
+                result.correct++;
+            } else {
+                result.wrong.push({ question: `Person ${i + 1}: ${opt.answer}`, userAnswer: userAnswer || '(bỏ trống)', correctAnswer: opt.hint_start });
+            }
+        });
+    } else if (part === 'part15') {
+        topicData.questions.forEach((q, i) => {
+            result.total++;
+            const select = document.getElementById(`p15_${i}`);
+            const userAnswer = select ? select.value : '(bỏ trống)';
+            if (userAnswer === q.answer) {
+                result.correct++;
+            } else {
+                result.wrong.push({ question: q.statement, userAnswer: userAnswer || '(bỏ trống)', correctAnswer: q.answer });
+            }
+        });
+    } else if (part === 'part16' || part === 'part17') {
+        const selected = Array.from(document.querySelectorAll('input[name="p16_17"]:checked')).map(cb => cb.value);
+        topicData.answers.forEach((ans, i) => {
+            result.total++;
+            if (selected.includes(ans)) {
+                result.correct++;
+            } else {
+                result.wrong.push({ question: `Đáp án đúng ${i + 1}`, userAnswer: selected[i] || '(không chọn)', correctAnswer: ans });
+            }
+        });
+    }
+
+    return result;
+}
+
+function showMockTestResults() {
+    let readingCorrect = 0;
+    let listeningCorrect = 0;
+
+    mockState.readingPartKeys.forEach(p => {
+        if (mockState.gradingResults[p]) readingCorrect += mockState.gradingResults[p].correct;
+    });
+    mockState.listeningPartKeys.forEach(p => {
+        if (mockState.gradingResults[p]) listeningCorrect += mockState.gradingResults[p].correct;
+    });
+
+    const readingScore = Math.round((readingCorrect / 29) * 50 * 10) / 10;
+    const listeningScore = listeningCorrect * 2;
+    const totalScore = Math.round((readingScore + listeningScore) * 10) / 10;
+
+    const allWrong = [...mockState.readingPartKeys, ...mockState.listeningPartKeys]
+        .map(p => mockState.gradingResults[p])
+        .filter(r => r && r.wrong.length > 0);
+
+    const wrongHtml = allWrong.length === 0
+        ? '<p class="all-correct">🎉 Hoàn hảo! Bạn trả lời đúng tất cả câu!</p>'
+        : allWrong.map(r => `
+            <div class="review-section">
+                <h4><i class="fa-solid fa-layer-group"></i> ${r.partLabel} — ${r.topic}</h4>
+                ${r.wrong.map(w => `
+                    <div class="review-item">
+                        <div class="review-question">${w.question}</div>
+                        <div class="review-user">Bạn trả lời: <span class="wrong-ans">${w.userAnswer}</span></div>
+                        <div class="review-correct">Đáp án đúng: <span class="right-ans">${w.correctAnswer}</span></div>
+                    </div>
+                `).join('')}
+            </div>
+        `).join('');
+
+    appContainer.innerHTML = `
+        <div class="results-container">
+            <h2>🎓 Kết Quả Thi Thử</h2>
+            <div class="scores-grid">
+                <div class="score-card">
+                    <div class="score-label">Reading</div>
+                    <div class="score-value">${readingScore}<span>/50</span></div>
+                    <div class="score-detail">${readingCorrect}/29 câu đúng</div>
+                </div>
+                <div class="score-card">
+                    <div class="score-label">Listening</div>
+                    <div class="score-value">${listeningScore}<span>/50</span></div>
+                    <div class="score-detail">${listeningCorrect}/25 câu đúng</div>
+                </div>
+                <div class="score-card total">
+                    <div class="score-label">Tổng Điểm</div>
+                    <div class="score-value">${totalScore}<span>/100</span></div>
+                </div>
+            </div>
+            <div class="review-area">
+                <h3>📋 Xem Lại Câu Sai</h3>
+                ${wrongHtml}
+            </div>
+            <div class="results-action-area">
+                <button class="btn btn-primary" onclick="startMockTest()">
+                    <i class="fa-solid fa-rotate-right"></i> Thi Lại
+                </button>
+                <button class="btn btn-secondary" onclick="renderHome()">
+                    <i class="fa-solid fa-home"></i> Về Trang Chủ
+                </button>
+            </div>
+        </div>
+    `;
+    breadcrumbsContainer.innerHTML = '';
 }
 
 // Run app
