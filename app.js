@@ -388,9 +388,7 @@ function renderReadingPart4(topicData) {
 // --- Listening Render Functions ---
 
 function renderListeningMultipleChoice(topicData) {
-    const shuffledQuestions = shuffleArray(topicData.questions);
-    
-    const questionsHtml = shuffledQuestions.map((q, qIndex) => {
+    const questionsHtml = topicData.questions.map((q, qIndex) => {
         const shuffledOptions = shuffleArray(q.options);
         const optionsHtml = shuffledOptions.map((opt, oIndex) => `
             <label class="option-label" id="label_${qIndex}_${oIndex}">

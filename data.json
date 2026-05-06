@@ -1658,92 +1658,84 @@
                     {
                         "question": "How much are the eggs?",
                         "answer": "1.5 pound",
-                        "options": [
-                            "1.5 pound",
-                            "7 o’clock – Anh ta ăn lúc mấy giờ?",
-                            "10,000 – Có bao nhiêu cư dân ở ngôi làng này?"
-                        ]
+                        "options": ["1.5 pound", "2.5 pound", "9.5 pound"]
                     },
                     {
                         "question": "What time does the train leave? ( for him to go on a business trip )",
                         "answer": "At 9:15",
-                        "options": ["Wednesday afternoon", "At 9:15", "Friday"]
+                        "options": ["At 10:15", "At 9:15", "At 9:51"]
                     },
                     {
                         "question": "How does she go to school?",
                         "answer": "she walks",
-                        "options": [
-                            "she walks",
-                            "The kitchen",
-                            "Fire from the countryside"
-                        ]
+                        "options": ["she walks", "by bus", "rides a bike"]
                     },
                     {
                         "question": "Listen to the chief announce to students. What time is lunch ready?",
                         "answer": "2 pm",
-                        "options": ["Friday", "Wednesday afternoon", "2 pm"]
+                        "options": ["3 pm", "1 pm", "2 pm"]
                     },
                     {
                         "question": "What time does she usually write?",
                         "answer": "In the Afternoons",
                         "options": [
-                            "10:15",
-                            "1500 years – Thành phố này bao nhiêu năm tuổi?",
+                            "In the mornings",
+                            "Late at night",
                             "In the Afternoons"
                         ]
                     },
                     {
-                        "question": "Question 6:",
-                        "answer": "At the park – A man is calling his friend. Where will they meet? ( Nam gọi điện hẹn gặp )",
+                        "question": "Question 6: A man is calling his friend. Where will they meet? ( Nam gọi điện hẹn gặp )",
+                        "answer": "At the park",
                         "options": [
-                            "At the park – A man is calling his friend. Where will they meet? ( Nam gọi điện hẹn gặp )",
-                            "In a townhouse",
-                            "In the corner"
+                            "At the park",
+                            "At the cafe",
+                            "Outside the station"
                         ]
                     },
                     {
                         "question": "What does this family do most weekends?",
                         "answer": "Goes for a walk",
                         "options": [
-                            "Sick",
+                            "Goes camping",
                             "Goes for a walk",
-                            "Not enough people"
+                            "Stays at home"
                         ]
                     },
                     {
                         "question": "Two colleagues talking about a meeting. What day do they meet?",
                         "answer": "Tuesday",
-                        "options": ["Tuesday", "At 9:15", "9 am on Sunday"]
+                        "options": ["Tuesday", "Thursday", "Wednesday"]
                     },
                     {
                         "question": "What career did he choose?",
                         "answer": "To work in business",
                         "options": [
-                            "Play football",
+                            "To work in education",
                             "To work in business",
-                            "writer"
+                            "To become a writer"
                         ]
                     },
                     {
                         "question": "What course will he take this year?",
                         "answer": "Computer",
-                        "options": ["Phone", "Computer", "white"]
+                        "options": ["Math", "Computer", "History"]
                     },
                     {
                         "question": "How is being a writer different from other jobs?",
                         "answer": "She works irregular hours",
                         "options": [
                             "She works irregular hours",
-                            "Have coffee – What is the woman going to do?",
-                            "Go to the theater and play sports"
+                            "She works from home",
+                            "She travels a lot"
                         ]
                     },
                     {
                         "question": "Where is she going to do shopping?",
                         "answer": "At a new shopping centre",
                         "options": [
-                            "On the First floor – Văn phòng ở tầng mấy?",
-                            "Go to the park",
+                            "At the local market",
+                            "At a boutique downtown",
                             "At a new shopping centre"
                         ]
                     },
@@ -1751,9 +1743,9 @@
                         "question": "What causes poor air quality?",
                         "answer": "Fire from the countryside",
                         "options": [
-                            "he taught he a lot",
+                            "Exhaust fumes from cars",
                             "Fire from the countryside",
-                            "Go to the theater and play sports"
+                            "Smoke from factories"
                         ]
                     }
                 ]
@@ -1765,38 +1757,30 @@
                     {
                         "question": "How much can Max pay for the computer?",
                         "answer": "250 pounds",
-                        "options": [
-                            "20 minutes – Mất bao lâu để đến ga?",
-                            "250 pounds",
-                            "One pound fifty – Dụng cụ vệ sinh giá bao nhiêu?"
-                        ]
+                        "options": ["200 pounds", "250 pounds", "350 pounds"]
                     },
                     {
                         "question": "What will they bring to the picnic? (Pierre and Emma)",
                         "answer": "food",
-                        "options": ["Eggs", "Water", "food"]
+                        "options": ["drinks", "fruits", "food"]
                     },
                     {
                         "question": "What colour is the teacher's building?",
                         "answer": "white",
-                        "options": ["white", "Phone", "Glasses"]
+                        "options": ["white", "grey", "yellow"]
                     },
                     {
                         "question": "What time does the football match start?",
                         "answer": "1 p.m",
-                        "options": [
-                            "1 p.m",
-                            "Over 300,000 copies – Anh ta đã bán được bao nhiêu bản copies?",
-                            "35 minutes – Cô ấy mất bao lâu đi xe đạp?"
-                        ]
+                        "options": ["1 p.m", "2 p.m", "1:30 p.m"]
                     },
                     {
                         "question": "What will she do during the holiday?",
                         "answer": "Go for a walk",
                         "options": [
-                            "A large stone – Động lực gì khiến cô ấy nghiên cứu khoa học?",
+                            "Go cycling",
                             "Go for a walk",
-                            "Persuading his family – Người đàn ông muốn mua một căn nhà mới. Vấn đề lớn nhất của anh ấy là gì?"
+                            "Stay at home"
                         ]
                     },
                     {
@@ -1804,30 +1788,26 @@
                         "answer": "he taught he a lot",
                         "options": [
                             "he taught he a lot",
-                            "Go to the theater and play sports",
-                            "She works irregular hours"
+                            "he was very funny",
+                            "he helped her find a job"
                         ]
                     },
                     {
                         "question": "What does the man want to do next?",
                         "answer": "writer",
-                        "options": [
-                            "Speak at a conference",
-                            "writer",
-                            "Red – Nhà của Jack màu gì?"
-                        ]
+                        "options": ["teacher", "writer", "actor"]
                     },
                     {
                         "question": "Lucy is calling her brother. What does the brother have to drink? ( Yêu cầu anh trai uống đủ nước ) (cẩn thận nhầm với câu \"iced tea\" vì đáp án sai của câu \"iced tea\" cũng có water)",
                         "answer": "Water",
-                        "options": ["food", "Water", "Eggs"]
+                        "options": ["Coffee", "Water", "Juice"]
                     },
                     {
                         "question": "What was his favorite thing about school?",
                         "answer": "history classes",
                         "options": [
-                            "Arrange private classes for his son",
-                            "Cold and wet – Thời tiết hôm nay như thế nào?",
+                            "math classes",
+                            "sports activities",
                             "history classes"
                         ]
                     },
@@ -1836,17 +1816,17 @@
                         "answer": "He has to drive to work",
                         "options": [
                             "He has to drive to work",
-                            "Help people – Tại sao cô ấy muốn làm nhà văn?",
-                            "he taught he a lot"
+                            "He wants to travel",
+                            "His family needs a driver"
                         ]
                     },
                     {
                         "question": "What do mother and daughter have in common?",
                         "answer": "They have similar interests",
                         "options": [
-                            "His sister and her children – ai sắp đến thăm anh ấy?",
+                            "They look alike",
                             "They have similar interests",
-                            "They were thin"
+                            "They have the same job"
                         ]
                     },
                     {
@@ -1854,17 +1834,17 @@
                         "answer": "a suit for the office",
                         "options": [
                             "a suit for the office",
-                            "Poor weather conditions – Tại sao chuyến bay bị hủy",
-                            "They have similar interests"
+                            "a pair of shoes",
+                            "a casual jacket"
                         ]
                     },
                     {
                         "question": "What do birds do in the winter?",
                         "answer": "Stay together for group protection",
                         "options": [
-                            "Where to buy a new table",
+                            "Fly to warmer places",
                             "Stay together for group protection",
-                            "The south – cô ấy chọn đi đâu cho kỳ nghỉ?"
+                            "Build stronger nests"
                         ]
                     }
                 ]
@@ -1878,97 +1858,77 @@
                         "answer": "To suggest a drink",
                         "options": [
                             "To suggest a drink",
-                            "Residential area – Anh ấy đang mô tả về khu vực nào?",
-                            "Go for a walk"
+                            "To ask for help",
+                            "To borrow money"
                         ]
                     },
                     {
                         "question": "How much does the smallest car cost him? (thêm him)",
                         "answer": "3250 pounds",
-                        "options": [
-                            "2000 – Thị trấn sẽ xây bao nhiêu tòa nhà?",
-                            "15 minutes – Anh ấy phải thuyết trình trong bao nhiêu phút?",
-                            "3250 pounds"
-                        ]
+                        "options": ["3500 pounds", "3200 pounds", "3250 pounds"]
                     },
                     {
                         "question": "What did she lose?",
                         "answer": "Phone",
-                        "options": ["white", "Phone", "Furniture"]
+                        "options": ["Wallet", "Phone", "Keys"]
                     },
                     {
                         "question": "A man is talking on the phone. What did the man lose?",
                         "answer": "Glasses",
-                        "options": ["Furniture", "Glasses", "Computer"]
+                        "options": ["Watch", "Glasses", "Phone"]
                     },
                     {
                         "question": "How many clients are Americans?",
                         "answer": "One",
-                        "options": ["One", "Goes running", "writer"]
+                        "options": ["One", "Two", "Three"]
                     },
                     {
                         "question": "What is Soobin's favorite room? (Soobin’s favorite room is ___)",
                         "answer": "Bathroom",
-                        "options": ["In the east", "Bathroom", "Go to the park"]
+                        "options": ["Bedroom", "Bathroom", "Kitchen"]
                     },
                     {
                         "question": "What did the family do last year?",
                         "answer": "Camping",
-                        "options": [
-                            "A large stone – Động lực gì khiến cô ấy nghiên cứu khoa học?",
-                            "Camping",
-                            "Short – chị gái cô ấy trông như thế nào? (khác trên web)"
-                        ]
+                        "options": ["Hiking", "Camping", "Skiing"]
                     },
                     {
                         "question": "A mom is talking to her son. What does he like to study?",
                         "answer": "Art",
-                        "options": [
-                            "Goes for a walk – gia đình này làm gì hầu hết cuối tuần?",
-                            "Art",
-                            "Have meeting without him – Anh ấy yêu cầu điều chỉnh buổi họp như thế nào?"
-                        ]
+                        "options": ["Science", "Art", "Music"]
                     },
                     {
                         "question": "What does she do in her free time?",
                         "answer": "Go to the theater and play sports",
                         "options": [
-                            "His sister and her children – ai sắp đến thăm anh ấy?",
+                            "Read books and cook",
                             "Go to the theater and play sports",
-                            "Help people – Tại sao cô ấy muốn làm nhà văn?"
+                            "Watch TV and listen to music"
                         ]
                     },
                     {
                         "question": "Mary is talking to her friend about her new home. What does she ask her friend about?",
                         "answer": "Where to buy a new table",
                         "options": [
-                            "The south – cô ấy chọn đi đâu cho kỳ nghỉ?",
-                            "He has to drive to work",
+                            "How to decorate the living room",
+                            "When to move in",
                             "Where to buy a new table"
                         ]
                     },
                     {
                         "question": "A man is talking about how he goes to work. Why does he prefer traveling by train?",
                         "answer": "Practical",
-                        "options": [
-                            "Chocolates – Anh ta mua gì cho chị gái?",
-                            "stayed at home",
-                            "Practical"
-                        ]
+                        "options": ["Cheaper", "Faster", "Practical"]
                     },
                     {
                         "question": "A saleswoman is talking to a customer about a house. What is not original?",
                         "answer": "Furniture",
-                        "options": ["white", "Furniture", "Computer"]
+                        "options": ["Windows", "Furniture", "Doors"]
                     },
                     {
                         "question": "Which number to press in order to buy a computer?",
                         "answer": "Three",
-                        "options": [
-                            "Three",
-                            "France",
-                            "Sick – anh ấy cảm thấy thế nào?"
-                        ]
+                        "options": ["Three", "One", "Two"]
                     }
                 ]
             },
@@ -1980,81 +1940,69 @@
                         "question": "Ahmed is calling his friend Rose. What time does Ahmed meet Rose?",
                         "answer": "Quarter to eight",
                         "options": [
-                            "1500 years – Thành phố này bao nhiêu năm tuổi?",
+                            "Half past seven",
                             "Quarter to eight",
-                            "In the morning"
+                            "Quarter past eight"
                         ]
                     },
                     {
-                        "question": "Question 2:",
-                        "answer": "At the marketplace – Anna is calling her friend. Where will they meet? ( Nữ gọi điện )",
+                        "question": "Anna is calling her friend. Where will they meet?",
+                        "answer": "At the marketplace",
                         "options": [
-                            "In a town hall – anh ấy muốn đi đâu vào ngày mai?",
-                            "At the marketplace – Anna is calling her friend. Where will they meet? ( Nữ gọi điện )",
-                            "By bus"
+                            "At the library",
+                            "At the marketplace",
+                            "At the cinema"
                         ]
                     },
                     {
                         "question": "Stephanie is looking for a job taking care of children. How old is she?",
                         "answer": "21",
-                        "options": [
-                            "21",
-                            "15 minutes – Anh ấy phải thuyết trình trong bao nhiêu phút?",
-                            "7 o’clock – Anh ta ăn lúc mấy giờ?"
-                        ]
+                        "options": ["21", "20", "22"]
                     },
                     {
                         "question": "The football club is near",
                         "answer": "A park",
-                        "options": ["A park", "In the east", "Go to the park"]
+                        "options": ["A park", "A school", "A hospital"]
                     },
                     {
                         "question": "What does he feed the cat?",
                         "answer": "Fish",
-                        "options": ["food", "Eggs", "Fish"]
+                        "options": ["Chicken", "Milk", "Fish"]
                     },
                     {
                         "question": "What does this family do most weekends?",
-                        "answer": "Goes for a walk – gia đình này làm gì hầu hết cuối tuần?",
+                        "answer": "Goes for a walk",
                         "options": [
-                            "Action film",
-                            "Goes for a walk – gia đình này làm gì hầu hết cuối tuần?",
-                            "Request a transfer – lời khuyên dành cho những người thiếu động lực trong công việc?"
+                            "Visits relatives",
+                            "Goes for a walk",
+                            "Goes shopping"
                         ]
                     },
                     {
                         "question": "What does Jack need to buy for his sister?",
-                        "answer": "Chocolates – Anh ta mua gì cho chị gái?",
-                        "options": [
-                            "Three",
-                            "Short – chị gái cô ấy trông như thế nào? (khác trên web)",
-                            "Chocolates – Anh ta mua gì cho chị gái?"
-                        ]
+                        "answer": "Chocolates",
+                        "options": ["Flowers", "A book", "Chocolates"]
                     },
                     {
                         "question": "The train was delayed. What time did the train depart?",
-                        "answer": "At 9:30 – Tàu bị delay, tàu chạy lúc mấy giờ?",
-                        "options": [
-                            "At 9:30 – Tàu bị delay, tàu chạy lúc mấy giờ?",
-                            "2 pm",
-                            "Thursday 13th"
-                        ]
+                        "answer": "At 9:30",
+                        "options": ["At 9:30", "At 9:00", "At 10:00"]
                     },
                     {
                         "question": "Where will the weather be best?",
                         "answer": "In the east",
                         "options": [
                             "In the east",
-                            "By train – Anh ấy đi du lịch bằng phương tiện gì?",
-                            "Opposite the hotel – Văn phòng ở đâu"
+                            "In the north",
+                            "In the south"
                         ]
                     },
                     {
                         "question": "Why was the tour canceled?",
                         "answer": "Not enough people",
                         "options": [
-                            "photography",
-                            "Play football",
+                            "Bad weather",
+                            "Guide was sick",
                             "Not enough people"
                         ]
                     },
@@ -2063,25 +2011,25 @@
                         "answer": "Opposite the gift shop",
                         "options": [
                             "Opposite the gift shop",
-                            "In a town hall – anh ấy muốn đi đâu vào ngày mai?",
-                            "The river boat"
+                            "Next to the entrance",
+                            "Behind the museum"
                         ]
                     },
                     {
                         "question": "Where will tea be served?",
                         "answer": "The river boat",
                         "options": [
-                            "opposite the hotel",
+                            "The main hall",
                             "The river boat",
-                            "Outside the station"
+                            "The garden"
                         ]
                     },
                     {
                         "question": "Which room is the largest?",
                         "answer": "The kitchen",
                         "options": [
-                            "His sister and her children – ai sắp đến thăm anh ấy?",
-                            "The south – cô ấy chọn đi đâu cho kỳ nghỉ?",
+                            "The living room",
+                            "The master bedroom",
                             "The kitchen"
                         ]
                     }
@@ -2095,9 +2043,9 @@
                         "question": "Why does Vincent call James?",
                         "answer": "To suggest to drink",
                         "options": [
-                            "stayed at home",
+                            "To invite for dinner",
                             "To suggest to drink",
-                            "writer"
+                            "To ask for a favor"
                         ]
                     },
                     {
@@ -2105,8 +2053,8 @@
                         "answer": "9 am on Sunday",
                         "options": [
                             "9 am on Sunday",
-                            "On Thursday morning – Họ jojp với nhau vào lúc nào?",
-                            "2 weeks"
+                            "10 am on Sunday",
+                            "9 am on Saturday"
                         ]
                     },
                     {
@@ -2114,16 +2062,16 @@
                         "answer": "Long and red",
                         "options": [
                             "Long and red",
-                            "A dress – Cô ấy đã mua được gì?",
-                            "Not enough people"
+                            "Short and blue",
+                            "Long and black"
                         ]
                     },
                     {
                         "question": "A doctor's office is calling to change the appointment. When is the new appointment?",
                         "answer": "Thursday 13th",
                         "options": [
-                            "Wednesday afternoon",
-                            "Friday",
+                            "Tuesday 11th",
+                            "Friday 14th",
                             "Thursday 13th"
                         ]
                     },
@@ -2132,30 +2080,30 @@
                         "answer": "Outside the station",
                         "options": [
                             "Outside the station",
-                            "At the marketplace – Anna is calling her friend. Where will they meet? ( Nữ gọi điện )",
-                            "The college"
+                            "Inside the cafe",
+                            "At the bus stop"
                         ]
                     },
                     {
                         "question": ". What did she do last week?",
                         "answer": "stayed at home",
                         "options": [
-                            "Arrange private classes for his son",
+                            "went on a trip",
                             "stayed at home",
-                            "Not enough people"
+                            "visited friends"
                         ]
                     },
                     {
                         "question": "How long does Nate stay in India?",
                         "answer": "2 weeks",
-                        "options": ["At 9:15", "2 weeks", "In the morning"]
+                        "options": ["1 week", "2 weeks", "1 month"]
                     },
                     {
                         "question": "Where is the office located?",
                         "answer": "opposite the hotel",
                         "options": [
-                            "In the corner",
-                            "At the park – A man is calling his friend. Where will they meet? ( Nam gọi điện hẹn gặp )",
+                            "next to the bank",
+                            "behind the supermarket",
                             "opposite the hotel"
                         ]
                     },
@@ -2163,47 +2111,34 @@
                         "question": "Where will they wait for the bus?",
                         "answer": "By the hotel’s main entrance",
                         "options": [
-                            "At the marketplace – Anna is calling her friend. Where will they meet? ( Nữ gọi điện )",
+                            "At the corner of the street",
                             "By the hotel’s main entrance",
-                            "opposite the hotel"
+                            "Near the park"
                         ]
                     },
                     {
                         "question": "What does the man’s wife enjoy?",
                         "answer": "photography",
-                        "options": [
-                            "Practical",
-                            "photography",
-                            "To suggest to drink"
-                        ]
+                        "options": ["painting", "photography", "gardening"]
                     },
                     {
                         "question": "What can people do in the afternoon? (Bị lặp hai lần trên web)",
                         "answer": "Play golf",
-                        "options": ["photography", "Play golf", "Sick"]
-                    },
-                    {
-                        "question": "What can the people do in the afternoon?",
-                        "answer": "play golf",
-                        "options": ["Action film", "play golf", "Camping"]
+                        "options": ["Go swimming", "Play golf", "Play tennis"]
                     },
                     {
                         "question": "A man is talking about the city concert. How will the concert end?",
-                        "answer": "The city’s favorite group – Người phụ nữ đang giới thiệu về một buổi hòa nhạc. ở cuối buổi hòa nhạc có điều gì?",
+                        "answer": "The city’s favorite group",
                         "options": [
-                            "She works irregular hours",
-                            "The city’s favorite group – Người phụ nữ đang giới thiệu về một buổi hòa nhạc. ở cuối buổi hòa nhạc có điều gì?",
-                            "Clothes"
+                            "A fireworks display",
+                            "The city’s favorite group",
+                            "A special guest singer"
                         ]
                     },
                     {
                         "question": "What was the writer's first job?",
-                        "answer": "Teacher – Công việc đầu tiên của nhà văn là gì?",
-                        "options": [
-                            "The window – Họ cần sửa chữa gì cho building?",
-                            "Go to the theater and play sports",
-                            "Teacher – Công việc đầu tiên của nhà văn là gì?"
-                        ]
+                        "answer": "Teacher",
+                        "options": ["Journalist", "Librarian", "Teacher"]
                     }
                 ]
             },
@@ -2213,120 +2148,92 @@
                 "questions": [
                     {
                         "question": "Which room will they study in?",
-                        "answer": "Room 301 – Lớp học ở phòng nào?",
-                        "options": [
-                            "Room 301 – Lớp học ở phòng nào?",
-                            "15 minutes – Anh ấy phải thuyết trình trong bao nhiêu phút?",
-                            "1.5 pound"
-                        ]
+                        "answer": "Room 301",
+                        "options": ["Room 301", "Room 310", "Room 303"]
                     },
                     {
                         "question": "What time does the football match start?",
                         "answer": "1 p.m",
-                        "options": [
-                            "1 p.m",
-                            "Over 300,000 copies – Anh ta đã bán được bao nhiêu bản copies?",
-                            "2.5"
-                        ]
+                        "options": ["1 p.m", "2 p.m", "1:30 p.m"]
                     },
                     {
                         "question": "What is the Teleshop’s phone number?",
-                        "answer": "20.10.30 – Số điện thoại của cửa hàng là gì?",
-                        "options": [
-                            "One pound fifty – Dụng cụ vệ sinh giá bao nhiêu?",
-                            "1 p.m",
-                            "20.10.30 – Số điện thoại của cửa hàng là gì?"
-                        ]
+                        "answer": "20.10.30",
+                        "options": ["20.01.30", "20.10.13", "20.10.30"]
                     },
                     {
                         "question": "What did they bring to the picnic? (Pierre and Emma)",
-                        "answer": "Food – 2 người mang gì đi picnic?",
-                        "options": [
-                            "Food – 2 người mang gì đi picnic?",
-                            "Outside the shop – Người đàn ông đang gọi điện cho vợ anh ta. 2 vợ chồng hẹn gặp nhau ở đâu?",
-                            "20 minutes – Mất bao lâu để đến ga?"
-                        ]
+                        "answer": "Food",
+                        "options": ["Food", "Drinks", "A blanket"]
                     },
                     {
                         "question": "How many copies of Freeze Frame magazine were sold?",
-                        "answer": "Over 300,000 copies – Anh ta đã bán được bao nhiêu bản copies?",
+                        "answer": "Over 300,000 copies",
                         "options": [
-                            "Over 300,000 copies – Anh ta đã bán được bao nhiêu bản copies?",
-                            "Best friends – Mối quan hệ giữa 2 người là gì",
-                            "20"
+                            "Over 300,000 copies",
+                            "Over 200,000 copies",
+                            "Over 400,000 copies"
                         ]
                     },
                     {
                         "question": "What did the family do last year?",
-                        "answer": "Camping – năm ngoái họ đi đâu?",
-                        "options": [
-                            "To suggest a drink",
-                            "Short – chị gái cô ấy trông như thế nào? (khác trên web)",
-                            "Camping – năm ngoái họ đi đâu?"
-                        ]
+                        "answer": "Camping",
+                        "options": ["Hiking", "Sailing", "Camping"]
                     },
                     {
                         "question": "What do the man and woman decide to do in the evening?",
-                        "answer": "Make plans later – 2 người làm gì cùng nhau?",
+                        "answer": "Make plans later",
                         "options": [
-                            "Make plans later – 2 người làm gì cùng nhau?",
-                            "7 o’clock – Anh ta ăn lúc mấy giờ?",
-                            "10.00"
+                            "Make plans later",
+                            "Watch a movie",
+                            "Go out for dinner"
                         ]
                     },
                     {
-                        "question": "Question 8:",
-                        "answer": "Tea – Linda is talking about what she likes to eat. What does she have for lunch?",
-                        "options": [
-                            "Going to the theatre",
-                            "Tea – Linda is talking about what she likes to eat. What does she have for lunch?",
-                            "Order the food"
-                        ]
+                        "question": "Linda is talking about what she likes to eat. What does she have for lunch?",
+                        "answer": "Tea",
+                        "options": ["Coffee", "Tea", "Juice"]
                     },
                     {
                         "question": "Who is she taking a photo of?",
-                        "answer": "The girl’s team – cô ấy đang chụp ảnh ai?",
+                        "answer": "The girl’s team",
                         "options": [
-                            "He enjoys his job here",
-                            "His sister and her children – ai sắp đến thăm anh ấy?",
-                            "The girl’s team – cô ấy đang chụp ảnh ai?"
+                            "The boy’s team",
+                            "The coach",
+                            "The girl’s team"
                         ]
                     },
                     {
                         "question": "What did the woman do on holiday?",
                         "answer": "Go to the park",
                         "options": [
-                            "At the park – A man is calling his friend. Where will they meet? ( Nam gọi điện hẹn gặp )",
-                            "In the corner",
+                            "Visit museums",
+                            "Go to the beach",
                             "Go to the park"
                         ]
                     },
                     {
                         "question": "What do they think the weather will be like?",
-                        "answer": "Cold and wet – Thời tiết hôm nay như thế nào?",
+                        "answer": "Cold and wet",
                         "options": [
-                            "Cold and wet – Thời tiết hôm nay như thế nào?",
-                            "Not enough people",
-                            "Goes for a walk"
+                            "Cold and wet",
+                            "Warm and sunny",
+                            "Cloudy and windy"
                         ]
                     },
                     {
                         "question": "What did they decide to do?",
-                        "answer": "Have meeting without him – Anh ấy yêu cầu điều chỉnh buổi họp như thế nào?",
+                        "answer": "Have meeting without him",
                         "options": [
-                            "Speak at a conference",
-                            "Have meeting without him – Anh ấy yêu cầu điều chỉnh buổi họp như thế nào?",
-                            "To have some quiet time"
+                            "Postpone the meeting",
+                            "Have meeting without him",
+                            "Cancel the meeting"
                         ]
                     },
                     {
                         "question": "Which platform to wait for the train?",
-                        "answer": "Two – đi cửa nào để đi tàu đến Edinburgh?",
-                        "options": [
-                            "Two – đi cửa nào để đi tàu đến Edinburgh?",
-                            "Football – môn thể thao mà cô ấy giỏi?",
-                            "stayed at home"
-                        ]
+                        "answer": "Two",
+                        "options": ["Two", "Three", "Four"]
                     }
                 ]
             },
@@ -2336,119 +2243,94 @@
                 "questions": [
                     {
                         "question": "A man is calling his teacher to meet for the assignment. When is the meeting?",
-                        "answer": "On Thursday morning – Họ jojp với nhau vào lúc nào?",
+                        "answer": "On Thursday morning",
                         "options": [
-                            "In the afternoons – Cô ấy thường viết vào thời gian nào?",
-                            "2 weeks",
-                            "On Thursday morning – Họ jojp với nhau vào lúc nào?"
+                            "On Friday morning",
+                            "On Thursday afternoon",
+                            "On Thursday morning"
                         ]
                     },
                     {
                         "question": "How old is the city?",
-                        "answer": "1500 years – Thành phố này bao nhiêu năm tuổi?",
-                        "options": [
-                            "1500 years – Thành phố này bao nhiêu năm tuổi?",
-                            "Friday",
-                            "2 pm"
-                        ]
+                        "options": ["1500 years", "1000 years", "500 years"]
                     },
                     {
                         "question": "What color is Jack’s house?",
-                        "answer": "Red – Nhà của Jack màu gì?",
-                        "options": [
-                            "A dress – Cô ấy đã mua được gì?",
-                            "Red – Nhà của Jack màu gì?",
-                            "Black – Anh ta đã mua áo sơ mi màu gì?"
-                        ]
+                        "answer": "Red",
+                        "options": ["Blue", "Red", "White"]
                     },
                     {
                         "question": "What does Jana’s sister look like?",
-                        "answer": "Short – chị gái cô ấy trông như thế nào? (khác trên web)",
-                        "options": [
-                            "Three o’clock – Cô ta gặp con lúc mấy giờ?",
-                            "Chocolates – Anh ta mua gì cho chị gái?",
-                            "Short – chị gái cô ấy trông như thế nào? (khác trên web)"
-                        ]
+                        "answer": "Short",
+                        "options": ["Tall", "Overweight", "Short"]
                     },
                     {
-                        "question": "What is the man going to do after work? ( Có 2 câu hỏi anh ấy làm gì sau giờ làm việc, đáp án khác nhau )",
+                        "question": "What is the man going to do after work?",
                         "answer": "Goes running",
                         "options": [
                             "Goes running",
-                            "Sick",
-                            "Arrange private classes for his son"
+                            "Goes to the gym",
+                            "Goes swimming"
                         ]
                     },
                     {
                         "question": "How is he going to travel to the city?",
-                        "answer": "By train – Anh ấy đi du lịch bằng phương tiện gì?",
-                        "options": [
-                            "By train – Anh ấy đi du lịch bằng phương tiện gì?",
-                            "At the park – A man is calling his friend. Where will they meet? ( Nam gọi điện hẹn gặp )",
-                            "Outside the station"
-                        ]
+                        "answer": "By train",
+                        "options": ["By train", "By bus", "By car"]
                     },
                     {
                         "question": "How much time does she spend cycling?",
-                        "answer": "35 minutes – Cô ấy mất bao lâu đi xe đạp?",
-                        "options": [
-                            "Room 301 – Lớp học ở phòng nào?",
-                            "35 minutes – Cô ấy mất bao lâu đi xe đạp?",
-                            "7 o’clock – Anh ta ăn lúc mấy giờ?"
-                        ]
+                        "answer": "35 minutes",
+                        "options": ["25 minutes", "35 minutes", "45 minutes"]
                     },
                     {
                         "question": "What will the father do?",
                         "answer": "Arrange private classes for his son",
                         "options": [
                             "Arrange private classes for his son",
-                            "To work in business",
-                            "history classes"
+                            "Talk to his son's teacher",
+                            "Help his son with homework"
                         ]
                     },
                     {
                         "question": "What is the woman's favorite form of entertainment?",
                         "answer": "Going to the theatre",
                         "options": [
-                            "The Performance space",
+                            "Going to the cinema",
                             "Going to the theatre",
-                            "Fire from the countryside"
+                            "Attending concerts"
                         ]
                     },
                     {
                         "question": "What was the woman good at?",
-                        "answer": "Football – môn thể thao mà cô ấy giỏi?",
-                        "options": [
-                            "Drawing – Nam diễn viên thích làm gì?",
-                            "history classes",
-                            "Football – môn thể thao mà cô ấy giỏi?"
-                        ]
+                        "answer": "Football",
+                        "options": ["Basketball", "Tennis", "Football"]
                     },
                     {
                         "question": "In what way does his mother and his aunt alike?",
                         "answer": "They were thin",
                         "options": [
-                            "Teacher – Công việc đầu tiên của nhà văn là gì?",
-                            "They have similar interests",
+                            "They were tall",
+                            "They had dark hair",
                             "They were thin"
                         ]
                     },
                     {
                         "question": "When does she usually write?",
-                        "answer": "In the afternoons – Cô ấy thường viết vào thời gian nào?",
+                        "answer": "In the afternoons",
                         "options": [
-                            "10:15",
-                            "In the afternoons – Cô ấy thường viết vào thời gian nào?",
-                            "In the Afternoons"
+                            "In the mornings",
+                            "In the afternoons",
+                            "Late at night"
                         ]
                     },
                     {
                         "question": "What is the solution to the lack of satisfaction at work?",
-                        "answer": "Request a transfer – lời khuyên dành cho những người thiếu động lực trong công việc?",
+                        "answer": "Request a transfer",
                         "options": [
-                            "Request a transfer – lời khuyên dành cho những người thiếu động lực trong công việc?",
-                            "Long and red",
-                            "Have meeting without him – Anh ấy yêu cầu điều chỉnh buổi họp như thế nào?"
+                            "Request a transfer",
+                            "Ask for a raise",
+                            "Quit the job"
                         ]
                     }
                 ]
@@ -2460,100 +2342,71 @@
                     {
                         "question": "Where does Anna go for a walk every night? (v)",
                         "answer": "The college",
-                        "options": [
-                            "By the hotel’s main entrance",
-                            "In a town hall – anh ấy muốn đi đâu vào ngày mai?",
-                            "The college"
-                        ]
+                        "options": ["The park", "The river", "The college"]
                     },
                     {
                         "question": "How many chairs does she need? (v)",
                         "answer": "20",
-                        "options": [
-                            "20",
-                            "2 p.m – Buổi họp lúc mấy giờ?",
-                            "35 minutes – Cô ấy mất bao lâu đi xe đạp?"
-                        ]
+                        "options": ["20", "15", "25"]
                     },
                     {
                         "question": "What did she forget, and where did she leave it? (v)",
                         "answer": "In the corner",
                         "options": [
-                            "Outside the station",
+                            "On the table",
                             "In the corner",
-                            "opposite the hotel"
+                            "By the door"
                         ]
                     },
                     {
                         "question": "Where did she meet her dad?",
-                        "answer": "The front entrance – 2 người hẹn gặp nhau ở đâu?",
+                        "answer": "The front entrance",
                         "options": [
-                            "250 pounds",
-                            "The front entrance – 2 người hẹn gặp nhau ở đâu?",
-                            "Outside the shop – Người đàn ông đang gọi điện cho vợ anh ta. 2 vợ chồng hẹn gặp nhau ở đâu?"
+                            "The back door",
+                            "The front entrance",
+                            "The parking lot"
                         ]
                     },
                     {
-                        "question": "A woman is going home after shopping. What did she buy? (v)",
-                        "answer": "A dress – Cô ấy đã mua được gì?",
-                        "options": [
-                            "A dress – Cô ấy đã mua được gì?",
-                            "Persuading his family – Người đàn ông muốn mua một căn nhà mới. Vấn đề lớn nhất của anh ấy là gì?",
-                            "Art"
-                        ]
+                        "question": "A woman is going home after shopping. What did she buy?",
+                        "answer": "A dress",
+                        "options": ["A dress", "A skirt", "A shirt"]
                     },
                     {
-                        "question": "What is the teacher preparing for the meeting now? (v)",
+                        "question": "What is the teacher preparing for the meeting now?",
                         "answer": "Order the food",
                         "options": [
-                            "Stay together for group protection",
-                            "The Mountains – cô ấy sẽ đi đâu với gia đình cô ta?",
+                            "Print the documents",
+                            "Set up the projector",
                             "Order the food"
                         ]
                     },
                     {
                         "question": "When will he need the computer? (v)",
                         "answer": "Friday",
-                        "options": [
-                            "Friday",
-                            "On Thursday morning – Họ jojp với nhau vào lúc nào?",
-                            "6.30 pm – Họ gặp nhau lúc mấy giờ? (x)"
-                        ]
+                        "options": ["Friday", "Thursday", "Monday"]
                     },
                     {
                         "question": "What country will they study next semester?",
                         "answer": "France",
-                        "options": [
-                            "One",
-                            "To say thank you – anh ấy gọi điện để nói gì?",
-                            "France"
-                        ]
+                        "options": ["Spain", "Germany", "France"]
                     },
                     {
-                        "question": "What is she going to change in their house? (v)",
-                        "answer": "The window – Họ cần sửa chữa gì cho building?",
-                        "options": [
-                            "The window – Họ cần sửa chữa gì cho building?",
-                            "Where to buy a new table",
-                            "The ending"
-                        ]
+                        "question": "What is she going to change in their house?",
+                        "answer": "The window",
+                        "options": ["The window", "The door", "The roof"]
                     },
                     {
-                        "question": "What does the actor like to do in his free time? (v)",
-                        "answer": "Drawing – Nam diễn viên thích làm gì?",
-                        "options": [
-                            "Drawing – Nam diễn viên thích làm gì?",
-                            "Goes for a walk",
-                            "Camping"
-                        ]
+                        "question": "What does the actor like to do in his free time?",
+                        "options": ["Drawing", "Painting", "Reading"]
                     },
                     {
                         "question": "What new facility will the school have?",
                         "answer": "The Performance space",
                         "options": [
                             "The Performance space",
-                            "The window – Họ cần sửa chữa gì cho building?",
-                            "The ending"
+                            "The sports hall",
+                            "The science lab"
                         ]
                     },
                     {
@@ -2561,17 +2414,17 @@
                         "answer": "He enjoys his job here",
                         "options": [
                             "He enjoys his job here",
-                            "The ending",
-                            "The south – cô ấy chọn đi đâu cho kỳ nghỉ?"
+                            "He likes the weather",
+                            "He loves the food"
                         ]
                     },
                     {
                         "question": "What does he advice young people to do to save money?",
-                        "answer": "Cook for yourself – Anh ta khuyên người trẻ làm gì để tiết kiệm?",
+                        "answer": "Cook for yourself",
                         "options": [
-                            "One",
-                            "Cook for yourself – Anh ta khuyên người trẻ làm gì để tiết kiệm?",
-                            "Have meeting without him – Anh ấy yêu cầu điều chỉnh buổi họp như thế nào?"
+                            "Use public transport",
+                            "Cook for yourself",
+                            "Share an apartment"
                         ]
                     }
                 ]
@@ -2582,119 +2435,91 @@
                 "questions": [
                     {
                         "question": "Jorge is calling his friend Jose. What time do they meet?",
-                        "answer": "6.30 pm – Họ gặp nhau lúc mấy giờ? (x)",
-                        "options": [
-                            "6.30 pm – Họ gặp nhau lúc mấy giờ? (x)",
-                            "Friday",
-                            "On Saturday morning – hạn nộp bài tập?"
-                        ]
+                        "answer": "6.30 pm",
+                        "options": ["6.30 pm", "7.00 pm", "6.00 pm"]
                     },
                     {
                         "question": "What time will the mother meet the son?",
-                        "answer": "Three o’clock – Cô ta gặp con lúc mấy giờ?",
+                        "answer": "Three o’clock",
                         "options": [
-                            "Sick – anh ấy cảm thấy thế nào?",
-                            "Three o’clock – Cô ta gặp con lúc mấy giờ?",
-                            "Chocolates – Anh ta mua gì cho chị gái?"
+                            "Four o’clock",
+                            "Three o’clock",
+                            "Half past three"
                         ]
                     },
                     {
-                        "question": "Question 3:",
-                        "answer": "Have coffee – What is the woman going to do?",
-                        "options": [
-                            "Have coffee – What is the woman going to do?",
-                            "Stay late at the office – Tại sao cô ta không thể đón con được?",
-                            "he taught he a lot"
-                        ]
+                        "question": "What is the woman going to do?",
+                        "answer": "Have coffee",
+                        "options": ["Have coffee", "Have tea", "Eat lunch"]
                     },
                     {
-                        "question": "How many new houses are going to be built? (v)",
-                        "answer": "2000 – Thị trấn sẽ xây bao nhiêu tòa nhà?",
-                        "options": [
-                            "2000 – Thị trấn sẽ xây bao nhiêu tòa nhà?",
-                            "250 pounds",
-                            "10,000 – Có bao nhiêu cư dân ở ngôi làng này?"
-                        ]
+                        "question": "How many new houses are going to be built?",
+                        "answer": "2000",
+                        "options": ["2000", "3000", "1500"]
                     },
                     {
-                        "question": "What does she usually do on Saturdays? (v)",
+                        "question": "What does she usually do on Saturdays?",
                         "answer": "Seeing her family",
                         "options": [
-                            "He has to drive to work",
+                            "Meeting friends",
                             "Seeing her family",
-                            "She works irregular hours"
+                            "Going shopping"
                         ]
                     },
                     {
                         "question": "What does the man buy in the shop?",
                         "answer": "Clothes",
+                        "options": ["Shoes", "Clothes", "Electronics"]
+                    },
+                    {
+                        "question": "What color top is he going to buy?",
+                        "answer": "Black",
+                        "options": ["White", "Black", "Grey"]
+                    },
+                    {
+                        "question": "Julie is asking her professor about the assignment. When is the work due?",
+                        "answer": "On Saturday morning",
                         "options": [
-                            "Teacher – Công việc đầu tiên của nhà văn là gì?",
-                            "Clothes",
-                            "Stay late at the office – Tại sao cô ta không thể đón con được?"
+                            "On Sunday evening",
+                            "On Saturday morning",
+                            "On Friday afternoon"
                         ]
                     },
                     {
-                        "question": "What color top is he going to buy? (v)",
-                        "answer": "Black – Anh ta đã mua áo sơ mi màu gì?",
-                        "options": [
-                            "Chocolates – Anh ta mua gì cho chị gái?",
-                            "Black – Anh ta đã mua áo sơ mi màu gì?",
-                            "Practical"
-                        ]
-                    },
-                    {
-                        "question": "Julie is asking her professor about the assignment. When is the work due? (v)",
-                        "answer": "On Saturday morning – hạn nộp bài tập?",
-                        "options": [
-                            "Thursday 13th",
-                            "On Saturday morning – hạn nộp bài tập?",
-                            "In the morning"
-                        ]
-                    },
-                    {
-                        "question": "What does the professor ask his student to do? (v)",
+                        "question": "What does the professor ask his student to do?",
                         "answer": "Speak at a conference",
                         "options": [
-                            "A dress – Cô ấy đã mua được gì?",
+                            "Write an essay",
                             "Speak at a conference",
-                            "A large stone – Động lực gì khiến cô ấy nghiên cứu khoa học?"
+                            "Lead a seminar"
                         ]
                     },
                     {
-                        "question": "The woman talking about her holiday plans. Where is she going next? (v)",
-                        "answer": "The south – cô ấy chọn đi đâu cho kỳ nghỉ?",
+                        "question": "The woman talking about her holiday plans. Where is she going next?",
+                        "answer": "The south",
+                        "options": ["The south", "The north", "The west"]
+                    },
+                    {
+                        "question": "Which is the most attractive part of the song?",
+                        "answer": "The words",
+                        "options": ["The melody", "The words", "The rhythm"]
+                    },
+                    {
+                        "question": "What did she like best about the film?",
+                        "answer": "The mountain scenes",
                         "options": [
-                            "The south – cô ấy chọn đi đâu cho kỳ nghỉ?",
-                            "Stay together for group protection",
-                            "Stay late at the office – Tại sao cô ta không thể đón con được?"
+                            "The mountain scenes",
+                            "The action sequences",
+                            "The romantic plot"
                         ]
                     },
                     {
-                        "question": "Which is the most attractive part of the song? (v)",
-                        "answer": "The words – Điều gì đăc biệt ở bài hát mới?",
+                        "question": "What encouraged her to become a scientist?",
+                        "answer": "A large stone",
                         "options": [
-                            "Fire from the countryside",
-                            "The words – Điều gì đăc biệt ở bài hát mới?",
-                            "The mountain scenes – Điều gì cô ấy thích nhất ở bộ phim?"
-                        ]
-                    },
-                    {
-                        "question": "What did she like best about the film? (v)",
-                        "answer": "The mountain scenes – Điều gì cô ấy thích nhất ở bộ phim?",
-                        "options": [
-                            "The mountain scenes – Điều gì cô ấy thích nhất ở bộ phim?",
-                            "Stay late at the office – Tại sao cô ta không thể đón con được?",
-                            "Stay together for group protection"
-                        ]
-                    },
-                    {
-                        "question": "What encouraged her to become a scientist? (v)",
-                        "answer": "A large stone – Động lực gì khiến cô ấy nghiên cứu khoa học?",
-                        "options": [
-                            "Sick",
-                            "Long and red",
-                            "A large stone – Động lực gì khiến cô ấy nghiên cứu khoa học?"
+                            "A TV documentary",
+                            "A science teacher",
+                            "A large stone"
                         ]
                     }
                 ]
@@ -2704,120 +2529,104 @@
                 "topic": "Tea",
                 "questions": [
                     {
-                        "question": "What does the woman enjoy during lunch? (v)",
-                        "answer": "Tea – cô gái dùng gì cho bữa trưa?",
+                        "question": "What does the woman enjoy during lunch?",
+                        "answer": "Tea",
+                        "options": ["Coffee", "Tea", "Juice"]
+                    },
+                    {
+                        "question": "How many people live in the town?",
+                        "answer": "10,000",
+                        "options": ["10,000", "50,000", "100,000"]
+                    },
+                    {
+                        "question": "Where does he live now?",
+                        "answer": "In a town hall",
                         "options": [
-                            "Goes for a walk – gia đình này làm gì hầu hết cuối tuần?",
-                            "Tea – cô gái dùng gì cho bữa trưa?",
-                            "Cook for yourself – Anh ta khuyên người trẻ làm gì để tiết kiệm?"
+                            "In a cottage",
+                            "In a modern apartment",
+                            "In a town hall"
                         ]
                     },
                     {
-                        "question": "How many people live in the town? (v)",
-                        "answer": "10,000 – Có bao nhiêu cư dân ở ngôi làng này?",
+                        "question": "Where is the main office?",
+                        "answer": "On the First floor",
                         "options": [
-                            "10,000 – Có bao nhiêu cư dân ở ngôi làng này?",
-                            "15 minutes – Anh ấy phải thuyết trình trong bao nhiêu phút?",
-                            "250 pounds"
+                            "On the Ground floor",
+                            "On the Second floor",
+                            "On the First floor"
                         ]
                     },
                     {
-                        "question": "Where does he live now? (v)",
-                        "answer": "In a town hall – anh ấy muốn đi đâu vào ngày mai?",
-                        "options": [
-                            "At the marketplace – Anna is calling her friend. Where will they meet? ( Nữ gọi điện )",
-                            "In a townhouse",
-                            "In a town hall – anh ấy muốn đi đâu vào ngày mai?"
-                        ]
-                    },
-                    {
-                        "question": "Where is the main office? (v)",
-                        "answer": "On the First floor – Văn phòng ở tầng mấy?",
-                        "options": [
-                            "opposite the hotel",
-                            "Go to the park",
-                            "On the First floor – Văn phòng ở tầng mấy?"
-                        ]
-                    },
-                    {
-                        "question": "Lalia is calling her mom. How much does she think the bus fare will be? (v)",
+                        "question": "Lalia is calling her mom. How much does she think the bus fare will be?",
                         "answer": "2.5",
-                        "options": [
-                            "2.5",
-                            "10.00",
-                            "Outside the shop – Người đàn ông đang gọi điện cho vợ anh ta. 2 vợ chồng hẹn gặp nhau ở đâu?"
-                        ]
+                        "options": ["2.5", "1.5", "3.0"]
                     },
                     {
-                        "question": "When is the meeting scheduled? (v)",
+                        "question": "When is the meeting scheduled?",
                         "answer": "Wednesday afternoon",
                         "options": [
-                            "In the Afternoons",
+                            "Tuesday morning",
                             "Wednesday afternoon",
-                            "Friday"
+                            "Thursday afternoon"
                         ]
                     },
                     {
-                        "question": "Where is the office located? (v)",
-                        "answer": "Opposite the hotel – Văn phòng ở đâu",
+                        "question": "Where is the office located?",
+                        "answer": "Opposite the hotel",
                         "options": [
-                            "On the First floor – Văn phòng ở tầng mấy?",
-                            "In a town hall – anh ấy muốn đi đâu vào ngày mai?",
-                            "Opposite the hotel – Văn phòng ở đâu"
+                            "Next to the bank",
+                            "Behind the station",
+                            "Opposite the hotel"
                         ]
                     },
                     {
                         "question": "A man is calling his wife. Where will they meet?",
-                        "answer": "Outside the shop – Người đàn ông đang gọi điện cho vợ anh ta. 2 vợ chồng hẹn gặp nhau ở đâu?",
+                        "answer": "Outside the shop",
                         "options": [
-                            "Outside the shop – Người đàn ông đang gọi điện cho vợ anh ta. 2 vợ chồng hẹn gặp nhau ở đâu?",
-                            "20.10.30 – Số điện thoại của cửa hàng là gì?",
-                            "35 minutes – Cô ấy mất bao lâu đi xe đạp?"
+                            "Outside the shop",
+                            "Inside the mall",
+                            "At the bus stop"
                         ]
                     },
                     {
-                        "question": "What time does he usually eat? (v)",
-                        "answer": "7 o’clock – Anh ta ăn lúc mấy giờ?",
-                        "options": [
-                            "Make plans later – 2 người làm gì cùng nhau?",
-                            "7 o’clock – Anh ta ăn lúc mấy giờ?",
-                            "21"
-                        ]
+                        "question": "What time does he usually eat?",
+                        "answer": "7 o’clock",
+                        "options": ["6 o’clock", "7 o’clock", "8 o’clock"]
                     },
                     {
                         "question": "A woman is calling her brother. What does he usually do after work.",
                         "answer": "Play football",
                         "options": [
-                            "writer",
-                            "To suggest a drink",
+                            "Go to the gym",
+                            "Watch TV",
                             "Play football"
                         ]
                     },
                     {
-                        "question": "What elements of the film do they agree on? (v)",
+                        "question": "What elements of the film do they agree on?",
                         "answer": "The ending",
                         "options": [
-                            "They have similar interests",
+                            "The acting",
                             "The ending",
-                            "Where to buy a new table"
+                            "The soundtrack"
                         ]
                     },
                     {
-                        "question": "Helen is calling a friend about the place her whole family is standing while seeing her off to college. Where are they standing? (v)",
-                        "answer": "Residential area – Anh ấy đang mô tả về khu vực nào?",
+                        "question": "Helen is calling a friend about the place her whole family is standing while seeing her off to college. Where are they standing?",
+                        "answer": "Residential area",
                         "options": [
-                            "Residential area – Anh ấy đang mô tả về khu vực nào?",
-                            "Not enough people",
-                            "Cook for yourself – Anh ta khuyên người trẻ làm gì để tiết kiệm?"
+                            "Residential area",
+                            "Industrial park",
+                            "Commercial district"
                         ]
                     },
                     {
-                        "question": "A man is talking to a friend about his family. What is his main problem? (v)",
-                        "answer": "Persuading his family – Người đàn ông muốn mua một căn nhà mới. Vấn đề lớn nhất của anh ấy là gì?",
+                        "question": "A man is talking to a friend about his family. What is his main problem?",
+                        "answer": "Persuading his family",
                         "options": [
-                            "Persuading his family – Người đàn ông muốn mua một căn nhà mới. Vấn đề lớn nhất của anh ấy là gì?",
-                            "writer",
-                            "Sick – anh ấy cảm thấy thế nào?"
+                            "Persuading his family",
+                            "Finding a job",
+                            "Saving money"
                         ]
                     }
                 ]
@@ -2828,119 +2637,91 @@
                 "questions": [
                     {
                         "question": "How does Evan feel?",
-                        "answer": "Sick – anh ấy cảm thấy thế nào?",
-                        "options": [
-                            "Sick – anh ấy cảm thấy thế nào?",
-                            "Persuading his family – Người đàn ông muốn mua một căn nhà mới. Vấn đề lớn nhất của anh ấy là gì?",
-                            "To say thank you – anh ấy gọi điện để nói gì?"
-                        ]
+                        "answer": "Sick",
+                        "options": ["Sick", "Tired", "Angry"]
                     },
                     {
                         "question": "How long does it take to get to the station?",
-                        "answer": "20 minutes – Mất bao lâu để đến ga?",
-                        "options": [
-                            "15 minutes – Anh ấy phải thuyết trình trong bao nhiêu phút?",
-                            "20 minutes – Mất bao lâu để đến ga?",
-                            "3250 pounds"
-                        ]
+                        "answer": "20 minutes",
+                        "options": ["15 minutes", "20 minutes", "30 minutes"]
                     },
                     {
                         "question": "Why does Douglas call Kay?",
-                        "answer": "To say thank you – anh ấy gọi điện để nói gì?",
+                        "answer": "To say thank you",
                         "options": [
-                            "Three",
-                            "To say thank you – anh ấy gọi điện để nói gì?",
-                            "Have meeting without him – Anh ấy yêu cầu điều chỉnh buổi họp như thế nào?"
+                            "To ask for advice",
+                            "To say thank you",
+                            "To apologize"
                         ]
                     },
                     {
                         "question": "Who is visiting Tom this weekend?",
-                        "answer": "His sister and her children – ai sắp đến thăm anh ấy?",
+                        "answer": "His sister and her children",
                         "options": [
-                            "Where to buy a new table",
-                            "Poor weather conditions – Tại sao chuyến bay bị hủy",
-                            "His sister and her children – ai sắp đến thăm anh ấy?"
+                            "His parents",
+                            "His college friends",
+                            "His sister and her children"
                         ]
                     },
                     {
                         "question": "What time is the meeting?",
-                        "answer": "2 p.m – Buổi họp lúc mấy giờ?",
-                        "options": [
-                            "3250 pounds",
-                            "2 p.m – Buổi họp lúc mấy giờ?",
-                            "35 minutes – Cô ấy mất bao lâu đi xe đạp?"
-                        ]
+                        "answer": "2 p.m",
+                        "options": ["3 p.m", "2 p.m", "1 p.m"]
                     },
                     {
                         "question": "Anna is calling her brother. What will Anna do?",
-                        "answer": "Stay late at the office – Tại sao cô ta không thể đón con được?",
+                        "answer": "Stay late at the office",
                         "options": [
                             "Stay late at the office",
-                            "Go to the theater and play sports",
-                            "Stay late at the office – Tại sao cô ta không thể đón con được?"
+                            "Go home early",
+                            "Meet a client"
                         ]
                     },
                     {
-                        "question": "How much are the cleaning products? (v)",
-                        "answer": "One pound fifty – Dụng cụ vệ sinh giá bao nhiêu?",
+                        "question": "How much are the cleaning products?",
+                        "answer": "One pound fifty",
                         "options": [
-                            "One pound fifty – Dụng cụ vệ sinh giá bao nhiêu?",
-                            "The front entrance – 2 người hẹn gặp nhau ở đâu?",
-                            "2 p.m – Buổi họp lúc mấy giờ?"
+                            "One pound fifty",
+                            "Two pounds",
+                            "One pound twenty"
                         ]
                     },
                     {
                         "question": "Where is she going on holiday?",
-                        "answer": "The Mountains – cô ấy sẽ đi đâu với gia đình cô ta?",
-                        "options": [
-                            "The kitchen",
-                            "Stay late at the office",
-                            "The Mountains – cô ấy sẽ đi đâu với gia đình cô ta?"
-                        ]
+                        "answer": "The Mountains",
+                        "options": ["The Beach", "The City", "The Mountains"]
                     },
                     {
                         "question": "A man is talking about his trip. What did he enjoy last year?",
-                        "answer": "Cycling – Anh ấy hay làm gì vào năm ngoái?",
-                        "options": [
-                            "Cycling – Anh ấy hay làm gì vào năm ngoái?",
-                            "Tea – cô gái dùng gì cho bữa trưa?",
-                            "stayed at home"
-                        ]
+                        "answer": "Cycling",
+                        "options": ["Cycling", "Swimming", "Running"]
                     },
                     {
                         "question": "How many minutes did he have to speak?",
-                        "answer": "15 minutes – Anh ấy phải thuyết trình trong bao nhiêu phút?",
-                        "options": [
-                            "Over 300,000 copies – Anh ta đã bán được bao nhiêu bản copies?",
-                            "One pound fifty – Dụng cụ vệ sinh giá bao nhiêu?",
-                            "15 minutes – Anh ấy phải thuyết trình trong bao nhiêu phút?"
-                        ]
+                        "answer": "15 minutes",
+                        "options": ["10 minutes", "20 minutes", "15 minutes"]
                     },
                     {
                         "question": "What is the relationship between the speaker and Lisa?",
-                        "answer": "Best friends – Mối quan hệ giữa 2 người là gì",
-                        "options": [
-                            "20",
-                            "7 o’clock – Anh ta ăn lúc mấy giờ?",
-                            "Best friends – Mối quan hệ giữa 2 người là gì"
-                        ]
+                        "answer": "Best friends",
+                        "options": ["Sisters", "Colleagues", "Best friends"]
                     },
                     {
                         "question": "Why does she want to become a writer?",
-                        "answer": "Help people – Tại sao cô ấy muốn làm nhà văn?",
+                        "answer": "Help people",
                         "options": [
-                            "Seeing her family",
-                            "Help people – Tại sao cô ấy muốn làm nhà văn?",
-                            "a suit for the office"
+                            "Make money",
+                            "Help people",
+                            "Become famous"
                         ]
                     },
                     {
                         "question": "Why is the air travel cancelled?",
-                        "answer": "Poor weather conditions – Tại sao chuyến bay bị hủy",
+                        "answer": "Poor weather conditions",
                         "options": [
-                            "Poor weather conditions – Tại sao chuyến bay bị hủy",
-                            "His sister and her children – ai sắp đến thăm anh ấy?",
-                            "The mountain scenes – Điều gì cô ấy thích nhất ở bộ phim?"
+                            "Poor weather conditions",
+                            "Technical issues",
+                            "Pilot strike"
                         ]
                     }
                 ]
@@ -2952,79 +2733,67 @@
                     {
                         "question": "When does the meeting start?",
                         "answer": "10:15",
-                        "options": [
-                            "10:15",
-                            "On Saturday morning – hạn nộp bài tập?",
-                            "On Thursday morning – Họ jojp với nhau vào lúc nào?"
-                        ]
+                        "options": ["10:15", "10:30", "10:45"]
                     },
                     {
                         "question": "Vincent is calling James. Why does Vincent call James?",
                         "answer": "To suggest a drink",
                         "options": [
-                            "Long and red",
-                            "Chocolates – Anh ta mua gì cho chị gái?",
+                            "To invite for lunch",
+                            "To ask for help",
                             "To suggest a drink"
                         ]
                     },
                     {
                         "question": "How does Evan feel?",
                         "answer": "Sick",
-                        "options": [
-                            "Sick",
-                            "play golf",
-                            "Arrange private classes for his son"
-                        ]
+                        "options": ["Sick", "Tired", "Bored"]
                     },
                     {
                         "question": "Anne is calling her daughter Sally. What do Anne need?",
                         "answer": "Eggs",
-                        "options": ["Water", "Eggs", "food"]
+                        "options": ["Milk", "Eggs", "Bread"]
                     },
                     {
                         "question": "Samia is going to meet her friend. When are they going to meet? (v)",
                         "answer": "10.00",
-                        "options": [
-                            "Make plans later – 2 người làm gì cùng nhau?",
-                            "The front entrance – 2 người hẹn gặp nhau ở đâu?",
-                            "10.00"
-                        ]
+                        "options": ["10.30", "10.00", "11.00"]
                     },
                     {
                         "question": "Anna is calling her brother. What will Anna do? (v)",
                         "answer": "Stay late at the office",
                         "options": [
                             "Stay late at the office",
-                            "Where to buy a new table",
-                            "Teacher – Công việc đầu tiên của nhà văn là gì?"
+                            "Go home",
+                            "Meet friends"
                         ]
                     },
                     {
                         "question": "What film did she recommend? (v)",
                         "answer": "Action film",
-                        "options": ["Sick", "Action film", "stayed at home"]
+                        "options": ["Comedy film", "Action film", "Horror film"]
                     },
                     {
                         "question": "A teacher is talking to her students. Where does he live now?",
                         "answer": "In a townhouse",
                         "options": [
                             "In a townhouse",
-                            "By bus",
-                            "The river boat"
+                            "In an apartment",
+                            "In a villa"
                         ]
                     },
                     {
                         "question": "Greg is talking about a working day in his life. How does Greg go to work?(v)",
                         "answer": "By bus",
-                        "options": ["Bathroom", "By bus", "The river boat"]
+                        "options": ["By car", "By bus", "By train"]
                     },
                     {
                         "question": "What time is the best for children to eat fruit?",
                         "answer": "In the morning",
                         "options": [
-                            "On Saturday morning – hạn nộp bài tập?",
+                            "In the afternoon",
                             "In the morning",
-                            "6.30 pm – Họ gặp nhau lúc mấy giờ? (x)"
+                            "Before bed"
                         ]
                     },
                     {
@@ -3032,27 +2801,23 @@
                         "answer": "To have some quiet time",
                         "options": [
                             "To have some quiet time",
-                            "Camping – năm ngoái họ đi đâu?",
-                            "Goes running"
+                            "To exercise",
+                            "To prepare breakfast"
                         ]
                     },
                     {
                         "question": "Why does he need to learn to drive?",
                         "answer": "He has to drive to work",
                         "options": [
-                            "he taught he a lot",
-                            "They were thin",
+                            "He wants to buy a car",
+                            "His family needs help",
                             "He has to drive to work"
                         ]
                     },
                     {
                         "question": "What does the man buy in the shop?",
                         "answer": "Clothes",
-                        "options": [
-                            "They have similar interests",
-                            "He has to drive to work",
-                            "Clothes"
-                        ]
+                        "options": ["Food", "Clothes", "Books"]
                     }
                 ]
             }
@@ -3322,7 +3087,7 @@
         "part15": [
             {
                 "id": 19,
-                "topic": "University B W M W ( 0121 ) - Nam nói trước",
+                "topic": "University (Nam nói trước)",
                 "questions": [
                     {
                         "statement": "Technology helps make education more accessible",
@@ -3344,7 +3109,7 @@
             },
             {
                 "id": 20,
-                "topic": "Actor  M W B B (2100) - Nam nói trước",
+                "topic": "Actor (Nam nói trước)",
                 "questions": [
                     {
                         "statement": "Auditions are the most important of casting",
@@ -3366,7 +3131,7 @@
             },
             {
                 "id": 21,
-                "topic": "arts. WMBM ( 1202 ) - Nam nói trước",
+                "topic": "Arts (Nam nói trước)",
                 "questions": [
                     {
                         "statement": "Art is only suitable for the privileged few",
@@ -3388,7 +3153,7 @@
             },
             {
                 "id": 22,
-                "topic": "Singer and music  WBMB ( 1020 ) - Nam nói trước",
+                "topic": "Singer and music  (Nam nói trước)",
                 "questions": [
                     {
                         "statement": "Singer can be good models for the young",
@@ -3410,7 +3175,7 @@
             },
             {
                 "id": 23,
-                "topic": "politics BMWB ( 0210 ) - Nam nói trước",
+                "topic": "politics (Nam nói trước)",
                 "questions": [
                     {
                         "statement": "Young people are more into politics",
@@ -3432,7 +3197,7 @@
             },
             {
                 "id": 24,
-                "topic": "Community design - BWMB ( 0120 ) - Nam nói trước",
+                "topic": "Community design (Nam nói trước)",
                 "questions": [
                     {
                         "statement": "Building design can influence people’s behavior",
@@ -3454,7 +3219,7 @@
             },
             {
                 "id": 25,
-                "topic": "the local center - MBWB ( 2010 ) - Nam nói trước",
+                "topic": "the local center (Nam nói trước)",
                 "questions": [
                     {
                         "statement": "Exhibitions should be different.",
@@ -3476,7 +3241,7 @@
             },
             {
                 "id": 26,
-                "topic": "urban farming. WMMB ( 1220 ) - nam nói trước",
+                "topic": "urban farming (Nam nói trước)",
                 "questions": [
                     {
                         "statement": "Living space is more important than farming space",
@@ -3498,7 +3263,7 @@
             },
             {
                 "id": 27,
-                "topic": "internet. W B M B ( 1020 ) - Nam nói trước",
+                "topic": "internet (Nam nói trước)",
                 "questions": [
                     {
                         "statement": "There is too much information on the internet",
@@ -3520,7 +3285,7 @@
             },
             {
                 "id": 28,
-                "topic": "information and technology MWWB ( 2110 ) - nam nói trước",
+                "topic": "information and technology (Nam nói trước)",
                 "questions": [
                     {
                         "statement": "The future generation will fail to cope with new information",
@@ -3542,7 +3307,7 @@
             },
             {
                 "id": 29,
-                "topic": "changes in the workplace MWBM ( 2102 ) - Nam nói trước",
+                "topic": "changes in the workplace (Nam nói trước)",
                 "questions": [
                     {
                         "statement": "Continuity is important when planning a career",
@@ -3564,7 +3329,7 @@
             },
             {
                 "id": 30,
-                "topic": "the subject of beauty. WMBM ( 1202 ) - Nam nói trước",
+                "topic": "the subject of beauty (Nam nói trước)",
                 "questions": [
                     {
                         "statement": "People share very similar ideas about beauty",
@@ -3603,7 +3368,7 @@
             },
             {
                 "id": 2,
-                "topic": "making plans (k có audio)",
+                "topic": "making plans",
                 "answers": [
                     "They help you make decisions",
                     "It requires you to set certain limits for yourself"
