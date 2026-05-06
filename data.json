@@ -1685,7 +1685,7 @@
                         ]
                     },
                     {
-                        "question": "Question 6: A man is calling his friend. Where will they meet? ( Nam gọi điện hẹn gặp )",
+                        "question": "A man is calling his friend. Where will they meet? ( Nam gọi điện hẹn gặp )",
                         "answer": "At the park",
                         "options": [
                             "At the park",
@@ -2252,6 +2252,7 @@
                     },
                     {
                         "question": "How old is the city?",
+                        "answer": "1500 years",
                         "options": ["1500 years", "1000 years", "500 years"]
                     },
                     {
@@ -2398,6 +2399,7 @@
                     },
                     {
                         "question": "What does the actor like to do in his free time?",
+                        "answer": "Drawing",
                         "options": ["Drawing", "Painting", "Reading"]
                     },
                     {
