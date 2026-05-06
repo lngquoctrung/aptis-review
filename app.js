@@ -379,9 +379,25 @@ function renderReadingOrdering(topicData) {
 }
 
 function renderReadingPart4(topicData) {
+    // Render passage cards if available
+    let passagesHtml = '';
+    if (topicData.passages && topicData.passages.length > 0) {
+        const cards = topicData.passages.map(p => `
+            <div class="passage-card">
+                <div class="passage-person">${p.person}</div>
+                <p class="passage-text">${p.text}</p>
+            </div>
+        `).join('');
+        passagesHtml = `
+            <div class="passages-container">
+                <div class="passages-label"><i class="fa-solid fa-book-open"></i> Đọc các đoạn văn sau, sau đó trả lời câu hỏi bên dưới</div>
+                <div class="passages-grid">${cards}</div>
+            </div>
+        `;
+    }
+
     // Extract unique answers for the dropdown
     const uniqueAnswers = [...new Set(topicData.questions.map(q => q.answer))].sort();
-    
     const optionsHtml = uniqueAnswers.map(ans => `<option value="${ans}">${ans}</option>`).join('');
 
     const questionsHtml = topicData.questions.map((q, index) => `
@@ -394,7 +410,7 @@ function renderReadingPart4(topicData) {
         </div>
     `).join('');
 
-    return questionsHtml;
+    return passagesHtml + questionsHtml;
 }
 
 // --- Listening Render Functions ---
