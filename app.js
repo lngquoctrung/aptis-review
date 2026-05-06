@@ -189,10 +189,18 @@ function renderPractice(part, topicId) {
     renderBreadcrumbs();
     
     let topicData;
+    let topicIndex;
+    let totalTopics;
     if (state.currentSkill === 'reading') {
-        topicData = state.data[part].find(t => t.id === topicId);
+        const topics = state.data[part] || [];
+        topicIndex = topics.findIndex(t => t.id === topicId);
+        topicData = topics[topicIndex];
+        totalTopics = topics.length;
     } else {
-        topicData = state.data.listening[part].find(t => t.id === topicId);
+        const topics = state.data.listening[part] || [];
+        topicIndex = topics.findIndex(t => t.id === topicId);
+        topicData = topics[topicIndex];
+        totalTopics = topics.length;
     }
 
     if (!topicData) {
@@ -205,7 +213,11 @@ function renderPractice(part, topicId) {
     let contentHtml = '';
     let validationFunction = '';
 
-    const title = topicData.topic ? `<h3>${topicData.topic}</h3>` : '';
+    const topicNumber = topicIndex + 1;
+    const topicLabel = topicData.topic
+        ? `<h3><span class="topic-badge">Topic ${topicNumber}/${totalTopics}</span> ${topicData.topic}</h3>`
+        : `<h3><span class="topic-badge">Topic ${topicNumber}/${totalTopics}</span></h3>`;
+    const title = topicLabel;
 
     if (state.currentSkill === 'reading') {
         if (part === 'part1') {

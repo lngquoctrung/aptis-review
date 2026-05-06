@@ -547,6 +547,20 @@ select.modern-select:focus {
 .badge-reading { background: #EEF2FF; color: #4F46E5; }
 .badge-listening { background: #ECFDF5; color: #10B981; }
 
+/* Topic number badge in practice view */
+.topic-badge {
+    display: inline-block;
+    padding: 0.15rem 0.65rem;
+    border-radius: 999px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    background: #EEF2FF;
+    color: var(--primary);
+    margin-right: 0.5rem;
+    vertical-align: middle;
+    letter-spacing: 0.02em;
+}
+
 /* Progress Bar */
 .mock-progress-bar {
     height: 6px;
