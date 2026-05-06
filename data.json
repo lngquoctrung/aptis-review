@@ -2926,6 +2926,10 @@
                         "hint_start": "At our college, we had to study educational software programs"
                     },
                     {
+                        "answer": "Communicate with friends",
+                        "hint_start": "Quite a few of my friends"
+                    },
+                    {
                         "answer": "Find transport information",
                         "hint_start": "I’m not a fan of studying online"
                     }
