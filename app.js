@@ -246,13 +246,30 @@ function renderPractice(part, topicId) {
         }
     }
 
+    const nextTopicIndex = topicIndex + 1;
+    const hasNextTopic = nextTopicIndex < totalTopics;
+    const nextTopicId = hasNextTopic
+        ? (state.currentSkill === 'reading' ? state.data[part][nextTopicIndex].id : state.data.listening[part][nextTopicIndex].id)
+        : null;
+
+    const nextBtnHtml = hasNextTopic
+        ? `<button class="btn btn-next" onclick="renderPractice('${part}', ${nextTopicId})">
+                Next Topic <i class="fa-solid fa-arrow-right"></i>
+           </button>`
+        : `<button class="btn btn-next" disabled title="Đây là topic cuối cùng">
+                <i class="fa-solid fa-check"></i> Topic Cuối
+           </button>`;
+
     appContainer.innerHTML = `
         <div class="practice-container">
             <div class="practice-header">
                 <h2>Practice</h2>
-                <button class="btn btn-secondary" onclick="renderTopicSelection('${part}')">
-                    <i class="fa-solid fa-arrow-left"></i> Back to Topics
-                </button>
+                <div class="nav-buttons">
+                    <button class="btn btn-secondary" onclick="renderTopicSelection('${part}')">
+                        <i class="fa-solid fa-list"></i> Chọn Topic
+                    </button>
+                    ${nextBtnHtml}
+                </div>
             </div>
             ${title}
             <div id="practiceContent">
