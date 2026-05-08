@@ -311,6 +311,7 @@ select.modern-select:focus {
     font-weight: 500;
     cursor: grab;
     user-select: none;
+    touch-action: none; /* prevent scroll hijacking on touch devices */
     display: inline-block;
 }
 
@@ -327,6 +328,13 @@ select.modern-select:focus {
     vertical-align: middle;
     text-align: center;
     padding: 0.2rem 0.5rem;
+    transition: background 0.15s, border-color 0.15s;
+}
+
+.drop-zone.drag-over {
+    background: rgba(79, 70, 229, 0.1);
+    border-bottom: 2px solid var(--primary);
+    border-radius: 4px;
 }
 
 .drop-zone.filled {
