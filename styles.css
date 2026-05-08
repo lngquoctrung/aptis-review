@@ -220,8 +220,30 @@ body {
     box-shadow: none;
 }
 
+.btn-prev {
+    background: linear-gradient(135deg, #6366F1, #4F46E5);
+    color: white;
+    border: none;
+    box-shadow: 0 2px 8px rgba(99, 102, 241, 0.35);
+    transition: all 0.2s;
+}
+
+.btn-prev:hover:not(:disabled) {
+    background: linear-gradient(135deg, #4F46E5, #4338CA);
+    box-shadow: 0 4px 12px rgba(99, 102, 241, 0.45);
+    transform: translateX(-2px);
+}
+
+.btn-prev:disabled {
+    background: var(--border);
+    color: var(--text-muted);
+    cursor: not-allowed;
+    box-shadow: none;
+}
+
 .nav-buttons {
     display: flex;
+    flex-wrap: wrap;
     gap: 0.75rem;
     align-items: center;
 }

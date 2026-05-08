@@ -246,11 +246,25 @@ function renderPractice(part, topicId) {
         }
     }
 
+    const prevTopicIndex = topicIndex - 1;
     const nextTopicIndex = topicIndex + 1;
+    const hasPrevTopic = prevTopicIndex >= 0;
     const hasNextTopic = nextTopicIndex < totalTopics;
-    const nextTopicId = hasNextTopic
-        ? (state.currentSkill === 'reading' ? state.data[part][nextTopicIndex].id : state.data.listening[part][nextTopicIndex].id)
-        : null;
+
+    const getTopicId = (idx) => state.currentSkill === 'reading'
+        ? state.data[part][idx].id
+        : state.data.listening[part][idx].id;
+
+    const prevTopicId = hasPrevTopic ? getTopicId(prevTopicIndex) : null;
+    const nextTopicId = hasNextTopic ? getTopicId(nextTopicIndex) : null;
+
+    const prevBtnHtml = hasPrevTopic
+        ? `<button class="btn btn-prev" onclick="renderPractice('${part}', ${prevTopicId})">
+                <i class="fa-solid fa-arrow-left"></i> Prev Topic
+           </button>`
+        : `<button class="btn btn-prev" disabled title="Đây là topic đầu tiên">
+                <i class="fa-solid fa-arrow-left"></i> Prev Topic
+           </button>`;
 
     const nextBtnHtml = hasNextTopic
         ? `<button class="btn btn-next" onclick="renderPractice('${part}', ${nextTopicId})">
@@ -268,6 +282,7 @@ function renderPractice(part, topicId) {
                     <button class="btn btn-secondary" onclick="renderTopicSelection('${part}')">
                         <i class="fa-solid fa-list"></i> Chọn Topic
                     </button>
+                    ${prevBtnHtml}
                     ${nextBtnHtml}
                 </div>
             </div>
@@ -323,13 +338,12 @@ function renderReadingPart1(topicData) {
 }
 
 function setupDragAndDrop() {
-    const chips = document.querySelectorAll('.chip');
     const chipsContainer = document.getElementById('chipsContainer');
 
+    // ── Mouse / Desktop drag-and-drop ──────────────────────────────────────
     let draggedItem = null;
 
-    // ── Mouse / Desktop drag-and-drop ──────────────────────────────────────
-    chips.forEach(chip => {
+    document.querySelectorAll('.chip').forEach(chip => {
         chip.addEventListener('dragstart', function() {
             draggedItem = this;
             setTimeout(() => this.style.opacity = '0.5', 0);
@@ -345,48 +359,43 @@ function setupDragAndDrop() {
             e.preventDefault();
             zone.classList.add('drag-over');
         });
-        zone.addEventListener('dragleave', () => {
-            zone.classList.remove('drag-over');
-        });
+        zone.addEventListener('dragleave', () => zone.classList.remove('drag-over'));
         zone.addEventListener('drop', function(e) {
             e.preventDefault();
             zone.classList.remove('drag-over');
-            if (draggedItem) {
-                if (this.children.length > 0) {
-                    chipsContainer.appendChild(this.children[0]);
-                }
-                this.appendChild(draggedItem);
-                this.classList.add('filled');
-            }
+            if (!draggedItem) return;
+            if (this.children.length > 0) chipsContainer.appendChild(this.children[0]);
+            this.appendChild(draggedItem);
+            this.classList.add('filled');
         });
     });
 
     chipsContainer.addEventListener('dragover', e => e.preventDefault());
     chipsContainer.addEventListener('drop', function(e) {
         e.preventDefault();
-        if (draggedItem) {
-            this.appendChild(draggedItem);
-            document.querySelectorAll('.drop-zone').forEach(z => {
-                if (z.children.length === 0) z.classList.remove('filled');
-            });
-        }
+        if (!draggedItem) return;
+        this.appendChild(draggedItem);
+        document.querySelectorAll('.drop-zone').forEach(z => {
+            if (z.children.length === 0) z.classList.remove('filled');
+        });
     });
 
     // ── Touch / Mobile drag-and-drop ───────────────────────────────────────
-    let touchClone = null;       // floating visual clone
-    let touchSource = null;      // original chip element being dragged
-    let lastDropZone = null;     // zone being hovered
+    // Strategy: listen at DOCUMENT level so the browser never intercepts
+    // the touch as a scroll gesture before JS sees it.
+    let touchSource = null;
+    let touchClone  = null;
+    let lastZone    = null;
 
-    function getTouchTarget(touch) {
-        // Hide the clone so elementFromPoint can see what's underneath
-        if (touchClone) touchClone.style.display = 'none';
-        const el = document.elementFromPoint(touch.clientX, touch.clientY);
-        if (touchClone) touchClone.style.display = '';
+    function pointTarget(clientX, clientY) {
+        // Temporarily hide clone so elementFromPoint sees what's underneath
+        if (touchClone) touchClone.style.visibility = 'hidden';
+        const el = document.elementFromPoint(clientX, clientY);
+        if (touchClone) touchClone.style.visibility = '';
         return el;
     }
 
-    function findDropTarget(el) {
-        // Walk up the DOM to find a .drop-zone or #chipsContainer
+    function closestZoneOrContainer(el) {
         while (el) {
             if (el.classList && el.classList.contains('drop-zone')) return { type: 'zone', el };
             if (el.id === 'chipsContainer') return { type: 'container', el };
@@ -395,86 +404,92 @@ function setupDragAndDrop() {
         return null;
     }
 
-    function removeTouchClone() {
+    function clearClone() {
         if (touchClone) { touchClone.remove(); touchClone = null; }
     }
 
-    chips.forEach(chip => {
-        chip.addEventListener('touchstart', function(e) {
-            e.preventDefault(); // prevent scroll while dragging a chip
-            touchSource = this;
+    // Intercept touchstart at document level (passive:false = we CAN preventDefault)
+    document.addEventListener('touchstart', function(e) {
+        const chip = e.target.closest('.chip');
+        if (!chip || !chipsContainer) return;   // only care about chips
+        e.preventDefault();                     // stop browser scroll/zoom
 
-            // Create floating clone
-            const rect = this.getBoundingClientRect();
-            touchClone = this.cloneNode(true);
-            touchClone.style.cssText = `
-                position: fixed;
-                width: ${rect.width}px;
-                pointer-events: none;
-                opacity: 0.85;
-                z-index: 9999;
-                left: ${rect.left}px;
-                top: ${rect.top}px;
-                margin: 0;
-                transform: scale(1.08);
-                transition: transform 0.1s;
-            `;
-            document.body.appendChild(touchClone);
-            this.style.opacity = '0.3';
-        }, { passive: false });
+        touchSource = chip;
+        chip.style.opacity = '0.3';
 
-        chip.addEventListener('touchmove', function(e) {
-            e.preventDefault();
-            const touch = e.touches[0];
+        const rect = chip.getBoundingClientRect();
+        const t = e.touches[0];
+        touchClone = chip.cloneNode(true);
+        Object.assign(touchClone.style, {
+            position:      'fixed',
+            width:         rect.width + 'px',
+            pointerEvents: 'none',
+            opacity:       '0.9',
+            zIndex:        '99999',
+            left:          (t.clientX - rect.width / 2) + 'px',
+            top:           (t.clientY - rect.height / 2) + 'px',
+            margin:        '0',
+            transform:     'scale(1.1)',
+            boxShadow:     '0 8px 20px rgba(0,0,0,0.25)',
+            transition:    'none'
+        });
+        document.body.appendChild(touchClone);
+    }, { passive: false });
 
-            // Move the clone with the finger
-            if (touchClone) {
-                touchClone.style.left = (touch.clientX - touchClone.offsetWidth / 2) + 'px';
-                touchClone.style.top  = (touch.clientY - touchClone.offsetHeight / 2) + 'px';
-            }
+    document.addEventListener('touchmove', function(e) {
+        if (!touchSource) return;
+        e.preventDefault();
+        const t = e.touches[0];
 
-            // Highlight hovered drop-zone
-            const target = findDropTarget(getTouchTarget(touch));
-            if (lastDropZone) lastDropZone.classList.remove('drag-over');
-            if (target && target.type === 'zone') {
-                lastDropZone = target.el;
-                lastDropZone.classList.add('drag-over');
+        // Move clone
+        touchClone.style.left = (t.clientX - touchClone.offsetWidth  / 2) + 'px';
+        touchClone.style.top  = (t.clientY - touchClone.offsetHeight / 2) + 'px';
+
+        // Highlight drop zone under finger
+        const under = closestZoneOrContainer(pointTarget(t.clientX, t.clientY));
+        if (lastZone) lastZone.classList.remove('drag-over');
+        if (under && under.type === 'zone') {
+            lastZone = under.el;
+            lastZone.classList.add('drag-over');
+        } else {
+            lastZone = null;
+        }
+    }, { passive: false });
+
+    document.addEventListener('touchend', function(e) {
+        if (!touchSource) return;
+        e.preventDefault();
+        const t = e.changedTouches[0];
+
+        if (lastZone) lastZone.classList.remove('drag-over');
+        touchSource.style.opacity = '1';
+        clearClone();
+
+        const dest = closestZoneOrContainer(pointTarget(t.clientX, t.clientY));
+        if (dest) {
+            if (dest.type === 'zone') {
+                if (dest.el.children.length > 0) chipsContainer.appendChild(dest.el.children[0]);
+                dest.el.appendChild(touchSource);
+                dest.el.classList.add('filled');
             } else {
-                lastDropZone = null;
+                chipsContainer.appendChild(touchSource);
+                document.querySelectorAll('.drop-zone').forEach(z => {
+                    if (z.children.length === 0) z.classList.remove('filled');
+                });
             }
-        }, { passive: false });
+        }
 
-        chip.addEventListener('touchend', function(e) {
-            e.preventDefault();
-            const touch = e.changedTouches[0];
-            if (lastDropZone) lastDropZone.classList.remove('drag-over');
+        touchSource = null;
+        lastZone    = null;
+    }, { passive: false });
 
-            this.style.opacity = '1';
-            removeTouchClone();
-
-            if (!touchSource) return;
-
-            const target = findDropTarget(getTouchTarget(touch));
-            if (target) {
-                if (target.type === 'zone') {
-                    const zone = target.el;
-                    // If zone already occupied, send its chip back to container
-                    if (zone.children.length > 0) {
-                        chipsContainer.appendChild(zone.children[0]);
-                    }
-                    zone.appendChild(touchSource);
-                    zone.classList.add('filled');
-                } else if (target.type === 'container') {
-                    chipsContainer.appendChild(touchSource);
-                    document.querySelectorAll('.drop-zone').forEach(z => {
-                        if (z.children.length === 0) z.classList.remove('filled');
-                    });
-                }
-            }
-
-            touchSource = null;
-            lastDropZone = null;
-        }, { passive: false });
+    document.addEventListener('touchcancel', function() {
+        if (!touchSource) return;
+        touchSource.style.opacity = '1';
+        clearClone();
+        if (lastZone) lastZone.classList.remove('drag-over');
+        touchSource = null;
+        lastZone    = null;
     });
 }
 
