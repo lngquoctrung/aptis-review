@@ -1356,50 +1356,50 @@
             "topic": "new station",
             "passages": [
                 {
-                    "person": "Yulan",
+                    "person": "A",
                     "text": "The city planners say that there is a need to build a new station. Personally, I don’t see the need for it. I don't use the trains regularly, but when I do, they are always on time. The bus services, which I use to go to the hospital, are just the same."
                 },
                 {
-                    "person": "Moussa",
+                    "person": "B",
                     "text": "I take the train to work every day, and I am tired of the overcrowded trains. I can’t even find a seat and have to see many people standing in a very crowded place. The buses are no better. I think the new station will make a big difference."
                 },
                 {
-                    "person": "Liam",
+                    "person": "C",
                     "text": "The city planners promised money for building a hospital. Now they say that they need to build a new station that will improve the whole city's traffic. I don’t understand. It may require the whole annual budget and leave no money to invest in health facilities. Personally, I believe there should be more money spent on improving medical services."
                 },
                 {
-                    "person": "Emia",
+                    "person": "D",
                     "text": "The new station will be in the residential area, close to the hospital and university. We already have buses for getting around, and even though they might be slow sometimes, that’s not a reason for not punctuation. I always go to work on time, even in the high time in morning, as I always work on my schedule. I think people should do the same."
                 }
             ],
             "questions": [
                 {
                     "question": "Who thinks that people should plan their journey better?",
-                    "answer": "Emia"
+                    "answer": "D"
                 },
                 {
                     "question": "Who thinks that the transport doesn’t need to be improved?",
-                    "answer": "Yulan"
+                    "answer": "A"
                 },
                 {
                     "question": "Who thinks that the bus has good service?",
-                    "answer": "Yulan"
+                    "answer": "A"
                 },
                 {
                     "question": "Who thinks that the public transport is too busy?",
-                    "answer": "Moussa"
+                    "answer": "B"
                 },
                 {
                     "question": "Who thinks that the station will improve train travel?",
-                    "answer": "Moussa"
+                    "answer": "B"
                 },
                 {
                     "question": "Who thinks that better medical facilities are needed?",
-                    "answer": "Liam"
+                    "answer": "C"
                 },
                 {
                     "question": "Who thinks that the station will cost too much to build?",
-                    "answer": "Liam"
+                    "answer": "C"
                 }
             ]
         },
