@@ -531,14 +531,19 @@ function renderReadingPart4(topicData) {
         `;
     }
 
-    // Extract unique answers for the dropdown
+    // Extract unique answers for the dropdown (sorted A-Z so order stays fixed)
     const uniqueAnswers = [...new Set(topicData.questions.map(q => q.answer))].sort();
     const optionsHtml = uniqueAnswers.map(ans => `<option value="${ans}">${ans}</option>`).join('');
 
-    const questionsHtml = topicData.questions.map((q, index) => `
-        <div class="question-block">
-            <div class="question-text">${index + 1}. ${q.question}</div>
-            <select class="modern-select" id="q_${index}">
+    // Shuffle question ORDER so users can't memorise answer patterns
+    const shuffledQuestions = shuffleArray(
+        topicData.questions.map((q, originalIndex) => ({ ...q, originalIndex }))
+    );
+
+    const questionsHtml = shuffledQuestions.map((q, displayIndex) => `
+        <div class="question-block" data-original-index="${q.originalIndex}">
+            <div class="question-text">${displayIndex + 1}. ${q.question}</div>
+            <select class="modern-select" id="q_${displayIndex}">
                 <option value="">Select an answer...</option>
                 ${optionsHtml}
             </select>
@@ -692,34 +697,32 @@ function validateReadingOrdering(topicId) {
 
 function validateReadingPart4(topicId) {
     const topicData = state.data.part4.find(t => t.id === topicId);
-    
-    topicData.questions.forEach((q, index) => {
-        const select = document.getElementById(`q_${index}`);
-        const block = select.closest('.question-block');
+
+    // Questions are rendered in shuffled order; each block stores data-original-index
+    // so we can look up the correct answer regardless of display order.
+    const blocks = document.querySelectorAll('#practiceContent .question-block');
+
+    blocks.forEach((block, displayIndex) => {
+        const select = document.getElementById(`q_${displayIndex}`);
         block.classList.remove('correct', 'incorrect');
 
-        // Remove old feedback elements
+        // Remove old feedback
         const oldFeedback = block.querySelector('.p4-feedback');
         if (oldFeedback) oldFeedback.remove();
-        
-        const userAnswer = select.value;
-        const correctAnswer = q.answer;
+
+        const originalIndex = parseInt(block.getAttribute('data-original-index'), 10);
+        const correctAnswer = topicData.questions[originalIndex].answer;
+        const userAnswer = select ? select.value : '';
         const isCorrect = userAnswer === correctAnswer;
 
-        if (isCorrect) {
-            block.classList.add('correct');
-        } else {
-            block.classList.add('incorrect');
-        }
+        block.classList.add(isCorrect ? 'correct' : 'incorrect');
 
-        // Build feedback element
         const feedback = document.createElement('div');
         feedback.className = 'p4-feedback';
 
         if (isCorrect) {
             feedback.innerHTML = `<span class="p4-feedback-correct"><i class="fa-solid fa-circle-check"></i> Correct!</span>`;
         } else {
-            const displayUser = userAnswer ? userAnswer : '(chưa chọn)';
             feedback.innerHTML = `
                 <span class="p4-feedback-wrong"><i class="fa-solid fa-circle-xmark"></i> Sai!</span>
                 <span class="p4-feedback-answer"><i class="fa-solid fa-lightbulb"></i> Đáp án đúng: <strong>${correctAnswer}</strong></span>
@@ -1011,9 +1014,12 @@ function collectAndGradePart(part, topicData) {
             }
         });
     } else if (part === 'part4') {
-        topicData.questions.forEach((q, i) => {
+        // Questions are shuffled; read order from DOM using data-original-index
+        document.querySelectorAll('#practiceContent .question-block').forEach((block, displayIndex) => {
             result.total++;
-            const select = document.getElementById(`q_${i}`);
+            const originalIndex = parseInt(block.getAttribute('data-original-index'), 10);
+            const q = topicData.questions[originalIndex];
+            const select = document.getElementById(`q_${displayIndex}`);
             const userAnswer = select ? select.value : '(bỏ trống)';
             if (userAnswer === q.answer) {
                 result.correct++;
