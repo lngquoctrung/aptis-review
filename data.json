@@ -3170,266 +3170,293 @@
             {
                 "id": 7,
                 "topic": "Doing exercise",
-                "options": [
+                "questions": [
                     {
-                        "answer": "improve work performance",
-                        "hint_start": "I'm not that keen on"
+                        "question": "I'm not that keen on",
+                        "correct_answer": "Improve work performance"
                     },
                     {
-                        "answer": "have fun exercising with other",
-                        "hint_start": "I'm a bit strange"
+                        "question": "I'm a bit strange",
+                        "correct_answer": "Have fun exercising with others"
                     },
                     {
-                        "answer": "Find exercise tiring",
-                        "hint_start": "I don't feel"
+                        "question": "I don't feel",
+                        "correct_answer": "Find exercise tiring"
                     },
                     {
-                        "answer": "hate exercising",
-                        "hint_start": "Well, you're not getting"
+                        "question": "Well, you're not getting",
+                        "correct_answer": "Hate exercising"
                     }
+                ],
+                "distractors": [
+                    "Want to lose weight",
+                    "Train for a sports competition"
                 ]
             },
             {
                 "id": 8,
-                "topic": "A place to studying",
-                "options": [
+                "topic": "A place to study",
+                "questions": [
                     {
-                        "answer": "at home",
-                        "hint_start": "To study effectively, I need a quiet environment"
+                        "question": "To study effectively, I need a quiet environment",
+                        "correct_answer": "At home"
                     },
                     {
-                        "answer": "on public transport",
-                        "hint_start": "Some people find it difficult to study in public, but I have no choice"
+                        "question": "Some people find it difficult to study in public, but I have no choice",
+                        "correct_answer": "On public transport"
                     },
                     {
-                        "answer": "in a coffee shop",
-                        "hint_start": "I don't find it difficult concentrating"
+                        "question": "I don't find it difficult concentrating",
+                        "correct_answer": "In a coffee shop"
                     },
                     {
-                        "answer": "in a park",
-                        "hint_start": "Like most students, I don't like studying in the classroom in the summer because it can be really hot"
+                        "question": "Like most students, I don't like studying in the classroom in the summer because it can be really hot",
+                        "correct_answer": "In a park"
                     }
-                ]
+                ],
+                "distractors": ["In the school library", "At a friend's house"]
             },
             {
                 "id": 9,
-                "topic": "Outdoor activities.",
-                "options": [
+                "topic": "Outdoor activities",
+                "questions": [
                     {
-                        "answer": "enjoys hiking",
-                        "hint_start": "I love the trails in the mountains"
+                        "question": "I love the trails in the mountains",
+                        "correct_answer": "Enjoys hiking"
                     },
                     {
-                        "answer": "Mountain biking",
-                        "hint_start": "The area where I live is perfect"
+                        "question": "The area where I live is perfect",
+                        "correct_answer": "Mountain biking"
                     },
                     {
-                        "answer": "Going for a run",
-                        "hint_start": "There are no hills in our country"
+                        "question": "There are no hills in our country",
+                        "correct_answer": "Going for a run"
                     },
                     {
-                        "answer": "Horse riding",
-                        "hint_start": "We've got a lot of snow in the winter where we live"
+                        "question": "We've got a lot of snow in the winter where we live",
+                        "correct_answer": "Horse riding"
                     }
-                ]
+                ],
+                "distractors": ["Camping by the lake", "Playing team sports"]
             },
             {
                 "id": 10,
-                "topic": "protect the environment",
-                "options": [
+                "topic": "Protect the environment",
+                "questions": [
                     {
-                        "answer": "Shopping online",
-                        "hint_start": "I have my groceries delivered to my door"
+                        "question": "I have my groceries delivered to my door",
+                        "correct_answer": "Shopping online"
                     },
                     {
-                        "answer": "Using less electricity",
-                        "hint_start": "There are many small things we can do to reduce"
+                        "question": "There are many small things we can do to reduce",
+                        "correct_answer": "Using less electricity"
                     },
                     {
-                        "answer": "Using less water",
-                        "hint_start": "I would love to walk or cycle to work"
+                        "question": "I would love to walk or cycle to work",
+                        "correct_answer": "Not driving to work"
                     },
                     {
-                        "answer": "Not driving to work",
-                        "hint_start": "Everybody seems to be buying things online these days"
+                        "question": "Everybody seems to be buying things online these days",
+                        "correct_answer": "Using less water"
                     }
+                ],
+                "distractors": [
+                    "Planting more trees",
+                    "Recycling plastic bottles"
                 ]
             },
             {
                 "id": 11,
                 "topic": "The use of the internet",
-                "options": [
+                "questions": [
                     {
-                        "answer": "Watch film",
-                        "hint_start": "I used to go on the Internet to play games"
+                        "question": "I used to go on the Internet to play games",
+                        "correct_answer": "Watch films"
                     },
                     {
-                        "answer": "Complete assignments",
-                        "hint_start": "At our college, we had to study educational software programs"
+                        "question": "At our college, we had to study educational software programs",
+                        "correct_answer": "Complete assignments"
                     },
                     {
-                        "answer": "Communicate with friends",
-                        "hint_start": "Quite a few of my friends"
+                        "question": "Quite a few of my friends",
+                        "correct_answer": "Communicate with friends"
                     },
                     {
-                        "answer": "Find transport information",
-                        "hint_start": "I’m not a fan of studying online"
+                        "question": "I’m not a fan of studying online",
+                        "correct_answer": "Find transport information"
                     }
-                ]
+                ],
+                "distractors": ["Read daily news", "Shop for clothes online"]
             },
             {
                 "id": 12,
                 "topic": "Shopping online",
-                "options": [
+                "questions": [
                     {
-                        "answer": "It saves time",
-                        "hint_start": "I’ve always been a bit short on time"
+                        "question": "I’ve always been a bit short on time",
+                        "correct_answer": "It saves time"
                     },
                     {
-                        "answer": "It is cheaper",
-                        "hint_start": "For me, one of the main reasons I shop online"
+                        "question": "For me, one of the main reasons I shop online",
+                        "correct_answer": "It is cheaper"
                     },
                     {
-                        "answer": "The products are delivered",
-                        "hint_start": "The biggest advantage of shopping online"
+                        "question": "The biggest advantage of shopping online",
+                        "correct_answer": "The products are delivered"
                     },
                     {
-                        "answer": "There are more choices",
-                        "hint_start": "What I love about shopping online"
+                        "question": "What I love about shopping online",
+                        "correct_answer": "There are more choices"
                     }
+                ],
+                "distractors": [
+                    "Better customer service",
+                    "Easy to return items"
                 ]
             },
             {
                 "id": 13,
-                "topic": "listening to music",
-                "options": [
+                "topic": "Listening to music",
+                "questions": [
                     {
-                        "answer": "to relax",
-                        "hint_start": "What I love to do after every busy day after studying.."
+                        "question": "What I love to do after every busy day after studying..",
+                        "correct_answer": "To relax"
                     },
                     {
-                        "answer": "While singing",
-                        "hint_start": "I love listening to pop music."
+                        "question": "I love listening to pop music.",
+                        "correct_answer": "While singing"
                     },
                     {
-                        "answer": "While studying",
-                        "hint_start": ". Most of my friends play music to relax or have some fun..."
+                        "question": ". Most of my friends play music to relax or have some fun...",
+                        "correct_answer": "While studying"
                     },
                     {
-                        "answer": "After waking up",
-                        "hint_start": "My brother listens to music to relax."
+                        "question": "My brother listens to music to relax.",
+                        "correct_answer": "After waking up"
                     }
-                ]
+                ],
+                "distractors": ["While exercising", "Before going to sleep"]
             },
             {
                 "id": 14,
-                "topic": "ART",
-                "options": [
+                "topic": "Art",
+                "questions": [
                     {
-                        "answer": "Social activity",
-                        "hint_start": "I love when people come together to create something"
+                        "question": "I love when people come together to create something",
+                        "correct_answer": "Social activity"
                     },
                     {
-                        "answer": "With chidren",
-                        "hint_start": "Kids are so fearless with art"
+                        "question": "Kids are so fearless with art",
+                        "correct_answer": "With children"
                     },
                     {
-                        "answer": "As part of their job",
-                        "hint_start": "Art is part of my work"
+                        "question": "Art is part of my work",
+                        "correct_answer": "As part of their job"
                     },
                     {
-                        "answer": "Alone",
-                        "hint_start": "Art, for me, is a quiet, personal thing."
+                        "question": "Art, for me, is a quiet, personal thing.",
+                        "correct_answer": "Alone"
                     }
+                ],
+                "distractors": [
+                    "To decorate the house",
+                    "Visiting art galleries"
                 ]
             },
             {
                 "id": 15,
                 "topic": "Journey to work",
-                "options": [
+                "questions": [
                     {
-                        "answer": "walks with friends",
-                        "hint_start": "It's about 3 km"
+                        "question": "It's about 3 km",
+                        "correct_answer": "Walks with friends"
                     },
                     {
-                        "answer": "travels by car",
-                        "hint_start": "Well, I live deep in the countryside"
+                        "question": "Well, I live deep in the countryside",
+                        "correct_answer": "Travels by car"
                     },
                     {
-                        "answer": "travel by bus",
-                        "hint_start": "Well, I really believe that we should do something to contribute"
+                        "question": "Well, I really believe that we should do something to contribute",
+                        "correct_answer": "Travels by bus"
                     },
                     {
-                        "answer": "walk alone",
-                        "hint_start": "I'm a doctor"
+                        "question": "I'm a doctor",
+                        "correct_answer": "Walks alone"
                     }
-                ]
+                ],
+                "distractors": ["Rides a bicycle", "Takes the train"]
             },
             {
                 "id": 16,
-                "topic": "protect the environment",
-                "options": [
+                "topic": "Protect the environment",
+                "questions": [
                     {
-                        "answer": "Give away used items",
-                        "hint_start": "Some people buy things at charity shops…"
+                        "question": "Some people buy things at charity shops…",
+                        "correct_answer": "Give away used items"
                     },
                     {
-                        "answer": "Reuse containers for storing food",
-                        "hint_start": "I am shocked by the amount of waste that we produced…"
+                        "question": "I am shocked by the amount of waste that we produced…",
+                        "correct_answer": "Reuse containers for storing food"
                     },
                     {
-                        "answer": "Buy environmentally friendly products",
-                        "hint_start": "I believe consumerism is destroying the Earth…"
+                        "question": "I believe consumerism is destroying the Earth…",
+                        "correct_answer": "Buy environmentally friendly products"
                     },
                     {
-                        "answer": "Does not use commercial cleaning products",
-                        "hint_start": "Honestly, I don’t think I have an eco-friendly lifestyle…"
+                        "question": "Honestly, I don’t think I have an eco-friendly lifestyle…",
+                        "correct_answer": "Does not use commercial cleaning products"
                     }
+                ],
+                "distractors": [
+                    "Turn off lights when leaving",
+                    "Use public transport"
                 ]
             },
             {
                 "id": 17,
                 "topic": "The place that they run",
-                "options": [
+                "questions": [
                     {
-                        "answer": "In the fitness centre",
-                        "hint_start": "Obviously, running in the park or forest is ideal"
+                        "question": "Obviously, running in the park or forest is ideal",
+                        "correct_answer": "In the fitness centre"
                     },
                     {
-                        "answer": "In the street",
-                        "hint_start": "My husband and I usually go for walks in the forest"
+                        "question": "My husband and I usually go for walks in the forest",
+                        "correct_answer": "In the street"
                     },
                     {
-                        "answer": "At the seaside",
-                        "hint_start": "often have our vacation by the beach"
+                        "question": "Often have our vacation by the beach",
+                        "correct_answer": "At the seaside"
                     },
                     {
-                        "answer": "On the running track",
-                        "hint_start": "I live by the seaside"
+                        "question": "I live by the seaside",
+                        "correct_answer": "On the running track"
                     }
-                ]
+                ],
+                "distractors": ["In the mountains", "Around the local stadium"]
             },
             {
                 "id": 18,
-                "topic": "studying habits",
-                "options": [
+                "topic": "Studying habits",
+                "questions": [
                     {
-                        "answer": "In various places",
-                        "hint_start": "I don’t usually revise"
+                        "question": "I don’t usually revise",
+                        "correct_answer": "In various places"
                     },
                     {
-                        "answer": "In a quiet place",
-                        "hint_start": "I start doing my homework"
+                        "question": "I start doing my homework",
+                        "correct_answer": "In a quiet place"
                     },
                     {
-                        "answer": "With music",
-                        "hint_start": "I know many people lose concentration"
+                        "question": "I know many people lose concentration",
+                        "correct_answer": "With music"
                     },
                     {
-                        "answer": "Late at night",
-                        "hint_start": "I study late in the evening"
+                        "question": "I study late in the evening",
+                        "correct_answer": "Late at night"
                     }
-                ]
+                ],
+                "distractors": ["Early in the morning", "In a study group"]
             }
         ],
         "part15": [

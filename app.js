@@ -599,17 +599,20 @@ function renderListeningPart16_17(topicData) {
 }
 
 function renderListeningPart14(topicData) {
-    // Collect all hint_starts for dropdowns
-    const hintStarts = topicData.options.map(opt => opt.hint_start);
-    // Shuffle the hint starts for the dropdown options so they aren't always in order
-    const shuffledHints = shuffleArray(hintStarts);
-    const dropdownOptions = shuffledHints.map(hint => `<option value="${hint.replace(/"/g, '&quot;')}">${hint}</option>`).join('');
+    // Collect all correct answers and distractors for dropdowns
+    const allOptions = [
+        ...topicData.questions.map(q => q.correct_answer),
+        ...(topicData.distractors || [])
+    ];
+    // Shuffle the options
+    const shuffledOptions = shuffleArray(allOptions);
+    const dropdownOptions = shuffledOptions.map(opt => `<option value="${opt.replace(/"/g, '&quot;')}">${opt}</option>`).join('');
 
-    const linesHtml = topicData.options.map((opt, index) => `
+    const linesHtml = topicData.questions.map((q, index) => `
         <div class="question-block">
-            <div class="question-text">Person ${index + 1}: ${opt.answer}</div>
+            <div class="question-text">Person ${index + 1}: ${q.question}</div>
             <select class="modern-select" id="p14_${index}">
-                <option value="">Select what they say (Hint Start)...</option>
+                <option value="">Select an option...</option>
                 ${dropdownOptions}
             </select>
         </div>
@@ -815,7 +818,7 @@ function validateListeningPart16_17(topicId) {
 function validateListeningPart14(topicId) {
     const topicData = state.data.listening.part14.find(t => t.id === topicId);
     
-    topicData.options.forEach((opt, index) => {
+    topicData.questions.forEach((q, index) => {
         const select = document.getElementById(`p14_${index}`);
         const block = select.closest('.question-block');
         block.classList.remove('correct', 'incorrect');
@@ -825,7 +828,7 @@ function validateListeningPart14(topicId) {
         if (oldFeedback) oldFeedback.remove();
 
         const userAnswer = select.value;
-        const correctAnswer = opt.hint_start;
+        const correctAnswer = q.correct_answer;
         const isCorrect = userAnswer === correctAnswer;
 
         block.classList.add(isCorrect ? 'correct' : 'incorrect');
@@ -837,7 +840,7 @@ function validateListeningPart14(topicId) {
         } else {
             feedback.innerHTML = `
                 <span class="p4-feedback-wrong"><i class="fa-solid fa-circle-xmark"></i> Sai!</span>
-                <span class="p4-feedback-answer"><i class="fa-solid fa-lightbulb"></i> Đáp án đúng bắt đầu bằng: <strong>"${correctAnswer}"</strong></span>
+                <span class="p4-feedback-answer"><i class="fa-solid fa-lightbulb"></i> Đáp án đúng: <strong>${correctAnswer}</strong></span>
             `;
         }
         block.appendChild(feedback);
@@ -899,7 +902,7 @@ function setupHintSystem(part, topicData) {
         } else if (part === 'part16' || part === 'part17') {
             hintsHtml += topicData.answers.map((ans, i) => `<li>Đáp án đúng ${i+1}: <strong>${ans}</strong></li>`).join('');
         } else if (part === 'part14') {
-            hintsHtml += topicData.options.map((opt, i) => `<li>Person ${i+1} (${opt.answer}):<br>Starts with: <strong>"${opt.hint_start}"</strong></li>`).join('');
+            hintsHtml += topicData.questions.map((q, i) => `<li>Person ${i+1} (${q.question}):<br>Answer: <strong>${q.correct_answer}</strong></li>`).join('');
         } else if (part === 'part15') {
             hintsHtml += topicData.questions.map((q, i) => `<li>${q.statement}<br>Speaker: <strong>${q.answer}</strong></li>`).join('');
         }
@@ -1099,14 +1102,14 @@ function collectAndGradePart(part, topicData) {
             }
         });
     } else if (part === 'part14') {
-        topicData.options.forEach((opt, i) => {
+        topicData.questions.forEach((q, i) => {
             result.total++;
             const select = document.getElementById(`p14_${i}`);
             const userAnswer = select ? select.value : '(bỏ trống)';
-            if (userAnswer === opt.hint_start) {
+            if (userAnswer === q.correct_answer) {
                 result.correct++;
             } else {
-                result.wrong.push({ question: `Person ${i + 1}: ${opt.answer}`, userAnswer: userAnswer || '(bỏ trống)', correctAnswer: opt.hint_start });
+                result.wrong.push({ question: `Person ${i + 1}: ${q.question}`, userAnswer: userAnswer || '(bỏ trống)', correctAnswer: q.correct_answer });
             }
         });
     } else if (part === 'part15') {
