@@ -697,15 +697,36 @@ function validateReadingPart4(topicId) {
         const select = document.getElementById(`q_${index}`);
         const block = select.closest('.question-block');
         block.classList.remove('correct', 'incorrect');
+
+        // Remove old feedback elements
+        const oldFeedback = block.querySelector('.p4-feedback');
+        if (oldFeedback) oldFeedback.remove();
         
         const userAnswer = select.value;
         const correctAnswer = q.answer;
+        const isCorrect = userAnswer === correctAnswer;
 
-        if (userAnswer === correctAnswer) {
+        if (isCorrect) {
             block.classList.add('correct');
         } else {
             block.classList.add('incorrect');
         }
+
+        // Build feedback element
+        const feedback = document.createElement('div');
+        feedback.className = 'p4-feedback';
+
+        if (isCorrect) {
+            feedback.innerHTML = `<span class="p4-feedback-correct"><i class="fa-solid fa-circle-check"></i> Correct!</span>`;
+        } else {
+            const displayUser = userAnswer ? userAnswer : '(chưa chọn)';
+            feedback.innerHTML = `
+                <span class="p4-feedback-wrong"><i class="fa-solid fa-circle-xmark"></i> Sai!</span>
+                <span class="p4-feedback-answer"><i class="fa-solid fa-lightbulb"></i> Đáp án đúng: <strong>${correctAnswer}</strong></span>
+            `;
+        }
+
+        block.appendChild(feedback);
     });
 }
 
