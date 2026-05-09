@@ -740,20 +740,34 @@ function validateListeningMultipleChoice(topicId) {
     // Because we shuffled, we need to match by question text
     const blocks = document.querySelectorAll('.question-block');
     
-    blocks.forEach((block, index) => {
+    blocks.forEach((block) => {
         block.classList.remove('correct', 'incorrect');
+
+        // Remove old feedback
+        const oldFeedback = block.querySelector('.p4-feedback');
+        if (oldFeedback) oldFeedback.remove();
+
         const qText = block.getAttribute('data-original-question');
         const originalQuestion = topicData.questions.find(q => q.question === qText);
         
         const selectedRadio = block.querySelector('input[type="radio"]:checked');
         const userAnswer = selectedRadio ? selectedRadio.value : null;
         const correctAnswer = originalQuestion.answer;
+        const isCorrect = userAnswer === correctAnswer;
 
-        if (userAnswer === correctAnswer) {
-            block.classList.add('correct');
+        block.classList.add(isCorrect ? 'correct' : 'incorrect');
+
+        const feedback = document.createElement('div');
+        feedback.className = 'p4-feedback';
+        if (isCorrect) {
+            feedback.innerHTML = `<span class="p4-feedback-correct"><i class="fa-solid fa-circle-check"></i> Correct!</span>`;
         } else {
-            block.classList.add('incorrect');
+            feedback.innerHTML = `
+                <span class="p4-feedback-wrong"><i class="fa-solid fa-circle-xmark"></i> Sai!</span>
+                <span class="p4-feedback-answer"><i class="fa-solid fa-lightbulb"></i> Đáp án đúng: <strong>${correctAnswer}</strong></span>
+            `;
         }
+        block.appendChild(feedback);
     });
 }
 
@@ -763,24 +777,38 @@ function validateListeningPart16_17(topicId) {
     const correctAnswers = topicData.answers;
 
     const checkboxes = document.querySelectorAll('input[name="p16_17"]');
-    const selectedAnswers = Array.from(checkboxes)
-        .filter(cb => cb.checked)
-        .map(cb => cb.value);
 
-    // Highlight each option label
+    // Highlight each option label with badge
     checkboxes.forEach(cb => {
         const label = cb.closest('.option-label');
         label.classList.remove('correct', 'incorrect', 'missed');
+
+        // Remove old badge
+        const oldBadge = label.querySelector('.p16-badge');
+        if (oldBadge) oldBadge.remove();
+
         const isCorrect = correctAnswers.includes(cb.value);
         const isSelected = cb.checked;
 
+        const badge = document.createElement('span');
+        badge.className = 'p16-badge';
+
         if (isSelected && isCorrect) {
             label.classList.add('correct');
+            badge.innerHTML = `<i class="fa-solid fa-circle-check"></i> Đúng`;
+            badge.classList.add('p4-feedback-correct');
         } else if (isSelected && !isCorrect) {
             label.classList.add('incorrect');
+            badge.innerHTML = `<i class="fa-solid fa-circle-xmark"></i> Sai`;
+            badge.classList.add('p4-feedback-wrong');
         } else if (!isSelected && isCorrect) {
-            label.classList.add('missed'); // show what was missed
+            label.classList.add('missed');
+            badge.innerHTML = `<i class="fa-solid fa-lightbulb"></i> Đáp án đúng`;
+            badge.classList.add('p4-feedback-answer');
+        } else {
+            return; // unselected + wrong: no badge needed
         }
+        label.appendChild(badge);
     });
 }
 
@@ -791,34 +819,63 @@ function validateListeningPart14(topicId) {
         const select = document.getElementById(`p14_${index}`);
         const block = select.closest('.question-block');
         block.classList.remove('correct', 'incorrect');
-        
+
+        // Remove old feedback
+        const oldFeedback = block.querySelector('.p4-feedback');
+        if (oldFeedback) oldFeedback.remove();
+
         const userAnswer = select.value;
         const correctAnswer = opt.hint_start;
+        const isCorrect = userAnswer === correctAnswer;
 
-        if (userAnswer === correctAnswer) {
-            block.classList.add('correct');
+        block.classList.add(isCorrect ? 'correct' : 'incorrect');
+
+        const feedback = document.createElement('div');
+        feedback.className = 'p4-feedback';
+        if (isCorrect) {
+            feedback.innerHTML = `<span class="p4-feedback-correct"><i class="fa-solid fa-circle-check"></i> Correct!</span>`;
         } else {
-            block.classList.add('incorrect');
+            feedback.innerHTML = `
+                <span class="p4-feedback-wrong"><i class="fa-solid fa-circle-xmark"></i> Sai!</span>
+                <span class="p4-feedback-answer"><i class="fa-solid fa-lightbulb"></i> Đáp án đúng bắt đầu bằng: <strong>"${correctAnswer}"</strong></span>
+            `;
         }
+        block.appendChild(feedback);
     });
 }
 
 function validateListeningPart15(topicId) {
     const topicData = state.data.listening.part15.find(t => t.id === topicId);
     
+    const speakerLabel = { M: 'Man (M)', W: 'Woman (W)', B: 'Both (B)' };
+
     topicData.questions.forEach((q, index) => {
         const select = document.getElementById(`p15_${index}`);
         const block = select.closest('.question-block');
         block.classList.remove('correct', 'incorrect');
-        
+
+        // Remove old feedback
+        const oldFeedback = block.querySelector('.p4-feedback');
+        if (oldFeedback) oldFeedback.remove();
+
         const userAnswer = select.value;
         const correctAnswer = q.answer;
+        const isCorrect = userAnswer === correctAnswer;
 
-        if (userAnswer === correctAnswer) {
-            block.classList.add('correct');
+        block.classList.add(isCorrect ? 'correct' : 'incorrect');
+
+        const feedback = document.createElement('div');
+        feedback.className = 'p4-feedback';
+        if (isCorrect) {
+            feedback.innerHTML = `<span class="p4-feedback-correct"><i class="fa-solid fa-circle-check"></i> Correct!</span>`;
         } else {
-            block.classList.add('incorrect');
+            const correctLabel = speakerLabel[correctAnswer] || correctAnswer;
+            feedback.innerHTML = `
+                <span class="p4-feedback-wrong"><i class="fa-solid fa-circle-xmark"></i> Sai!</span>
+                <span class="p4-feedback-answer"><i class="fa-solid fa-lightbulb"></i> Người nói đúng: <strong>${correctLabel}</strong></span>
+            `;
         }
+        block.appendChild(feedback);
     });
 }
 

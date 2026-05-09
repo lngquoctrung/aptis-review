@@ -857,3 +857,12 @@ select.modern-select:focus {
 .p4-feedback-answer i {
     color: #F59E0B;
 }
+
+/* Part 16/17 inline badge inside option-label */
+.p16-badge {
+    margin-left: auto;
+    font-size: 0.82rem;
+    font-weight: 600;
+    flex-shrink: 0;
+    animation: fadeInUp 0.25s ease;
+}
