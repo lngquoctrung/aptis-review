@@ -3173,11 +3173,11 @@
                 "questions": [
                     {
                         "question": "I'm not that keen on",
-                        "correct_answer": "Improve work performance"
+                        "correct_answer": "improve work performance"
                     },
                     {
                         "question": "I'm a bit strange",
-                        "correct_answer": "Have fun exercising with others"
+                        "correct_answer": "have fun exercising with other"
                     },
                     {
                         "question": "I don't feel",
@@ -3185,7 +3185,7 @@
                     },
                     {
                         "question": "Well, you're not getting",
-                        "correct_answer": "Hate exercising"
+                        "correct_answer": "hate exercising"
                     }
                 ],
                 "distractors": [
@@ -3195,34 +3195,34 @@
             },
             {
                 "id": 8,
-                "topic": "A place to study",
+                "topic": "A place to studying",
                 "questions": [
                     {
                         "question": "To study effectively, I need a quiet environment",
-                        "correct_answer": "At home"
+                        "correct_answer": "at home"
                     },
                     {
                         "question": "Some people find it difficult to study in public, but I have no choice",
-                        "correct_answer": "On public transport"
+                        "correct_answer": "on public transport"
                     },
                     {
                         "question": "I don't find it difficult concentrating",
-                        "correct_answer": "In a coffee shop"
+                        "correct_answer": "in a coffee shop"
                     },
                     {
                         "question": "Like most students, I don't like studying in the classroom in the summer because it can be really hot",
-                        "correct_answer": "In a park"
+                        "correct_answer": "in a park"
                     }
                 ],
-                "distractors": ["In the school library", "At a friend's house"]
+                "distractors": ["in the school library", "at a friend's house"]
             },
             {
                 "id": 9,
-                "topic": "Outdoor activities",
+                "topic": "Outdoor activities.",
                 "questions": [
                     {
                         "question": "I love the trails in the mountains",
-                        "correct_answer": "Enjoys hiking"
+                        "correct_answer": "enjoys hiking"
                     },
                     {
                         "question": "The area where I live is perfect",
@@ -3241,7 +3241,7 @@
             },
             {
                 "id": 10,
-                "topic": "Protect the environment",
+                "topic": "protect the environment",
                 "questions": [
                     {
                         "question": "I have my groceries delivered to my door",
@@ -3253,11 +3253,11 @@
                     },
                     {
                         "question": "I would love to walk or cycle to work",
-                        "correct_answer": "Not driving to work"
+                        "correct_answer": "Using less water"
                     },
                     {
                         "question": "Everybody seems to be buying things online these days",
-                        "correct_answer": "Using less water"
+                        "correct_answer": "Not driving to work"
                     }
                 ],
                 "distractors": [
@@ -3271,7 +3271,7 @@
                 "questions": [
                     {
                         "question": "I used to go on the Internet to play games",
-                        "correct_answer": "Watch films"
+                        "correct_answer": "Watch film"
                     },
                     {
                         "question": "At our college, we had to study educational software programs",
@@ -3316,11 +3316,11 @@
             },
             {
                 "id": 13,
-                "topic": "Listening to music",
+                "topic": "listening to music",
                 "questions": [
                     {
                         "question": "What I love to do after every busy day after studying..",
-                        "correct_answer": "To relax"
+                        "correct_answer": "to relax"
                     },
                     {
                         "question": "I love listening to pop music.",
@@ -3339,7 +3339,7 @@
             },
             {
                 "id": 14,
-                "topic": "Art",
+                "topic": "ART",
                 "questions": [
                     {
                         "question": "I love when people come together to create something",
@@ -3347,7 +3347,7 @@
                     },
                     {
                         "question": "Kids are so fearless with art",
-                        "correct_answer": "With children"
+                        "correct_answer": "With chidren"
                     },
                     {
                         "question": "Art is part of my work",
@@ -3369,26 +3369,26 @@
                 "questions": [
                     {
                         "question": "It's about 3 km",
-                        "correct_answer": "Walks with friends"
+                        "correct_answer": "walks with friends"
                     },
                     {
                         "question": "Well, I live deep in the countryside",
-                        "correct_answer": "Travels by car"
+                        "correct_answer": "travels by car"
                     },
                     {
                         "question": "Well, I really believe that we should do something to contribute",
-                        "correct_answer": "Travels by bus"
+                        "correct_answer": "travel by bus"
                     },
                     {
                         "question": "I'm a doctor",
-                        "correct_answer": "Walks alone"
+                        "correct_answer": "walk alone"
                     }
                 ],
-                "distractors": ["Rides a bicycle", "Takes the train"]
+                "distractors": ["rides a bicycle", "takes the train"]
             },
             {
                 "id": 16,
-                "topic": "Protect the environment",
+                "topic": "protect the environment",
                 "questions": [
                     {
                         "question": "Some people buy things at charity shops…",
@@ -3425,7 +3425,7 @@
                         "correct_answer": "In the street"
                     },
                     {
-                        "question": "Often have our vacation by the beach",
+                        "question": "often have our vacation by the beach",
                         "correct_answer": "At the seaside"
                     },
                     {
@@ -3437,7 +3437,7 @@
             },
             {
                 "id": 18,
-                "topic": "Studying habits",
+                "topic": "studying habits",
                 "questions": [
                     {
                         "question": "I don’t usually revise",
