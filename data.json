@@ -1044,50 +1044,50 @@
             "topic": "eating and cooking",
             "passages": [
                 {
-                    "person": "Cecilia",
+                    "person": "A",
                     "text": "As a child, I always enjoyed eating with friends, whether it was at family gatherings or simple meals after school. Sharing food was a way for me to bond with people, and it still brings back happy memories. I believe that the company makes the meal more enjoyable and turns any ordinary dish into a special occasion."
                 },
                 {
-                    "person": "Benigo",
+                    "person": "B",
                     "text": "A few years ago, I used to eat out a lot, but I realized I needed to save money on eating. Now, I prefer to eat alone, where I can enjoy my meal in peace without distractions. Eating alone allows me to focus on the taste and quality of the food without the need for conversation."
                 },
                 {
-                    "person": "Gloria",
+                    "person": "C",
                     "text": "Going to a restaurant is exciting because I like a wide variety of food, and I’m always eager to try new dishes from different cultures. I’m also taking a cookery course to improve my skills so I can recreate some of my favorite meals at home and expand my culinary knowledge."
                 },
                 {
-                    "person": "Alon",
+                    "person": "D",
                     "text": "Fast food is nowhere near as good as home-cooked food because it feels healthier and more comforting than eating out. However, I just eat a few types of food, sticking to simple, familiar dishes that I know I’ll enjoy. I’m not very adventurous when it comes to trying new things, but I appreciate the comfort of my favorite meals."
                 }
             ],
             "questions": [
                 {
                     "question": "Who needs to save money on eating?",
-                    "answer": "Ben"
+                    "answer": "Person B"
                 },
                 {
                     "question": "Who likes a wide variety of food?",
-                    "answer": "Glo"
+                    "answer": "Person C"
                 },
                 {
                     "question": "Who prefers to eat home-cooked food?",
-                    "answer": "Alon"
+                    "answer": "Person D"
                 },
                 {
                     "question": "Who enjoys eating with friends?",
-                    "answer": "Ceci"
+                    "answer": "Person A"
                 },
                 {
                     "question": "Who only eats a few types of food?",
-                    "answer": "Alon"
+                    "answer": "Person D"
                 },
                 {
                     "question": "Who is taking a cookery course?",
-                    "answer": "Gloria"
+                    "answer": "Person C"
                 },
                 {
                     "question": "Who prefers to eat alone?",
-                    "answer": "Ben"
+                    "answer": "Person B"
                 }
             ]
         },
