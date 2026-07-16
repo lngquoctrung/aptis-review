@@ -3,302 +3,413 @@
         {
             "id": 1,
             "words": [
-                "Long",
-                "Detail",
-                "Copy",
-                "Client",
-                "Busy",
-                "Short",
-                "Manager",
-                "Write"
+                "change",
+                "weather",
+                "hotter",
+                "colder",
+                "plant",
+                "plastic",
+                "paper",
+                "something"
             ],
-            "answers": ["Long", "Detail", "Copy", "Client", "Busy"],
-            "hint": "Một ngày___ : Tôi phải kiểm tra___ , in___ báo cáo để gặp___ => khiến tôi___"
+            "answers": ["change", "hotter", "plant", "plastic", "something"],
+            "hint": "Khí hậu ___ làm trời ___ , hãy ___ , bớt dùng ___ để làm ___ tốt cho Trái Đất."
         },
         {
             "id": 2,
             "words": [
-                "Near",
-                "Friendly",
-                "Practice",
-                "Read",
-                "So",
-                "Far",
-                "Write",
-                "Because"
+                "rare",
+                "common",
+                "borrowed",
+                "bought",
+                "watched",
+                "prepare",
+                "luck",
+                "read"
             ],
-            "answers": ["Near", "Friendly", "Practice", "Read", "So"],
-            "hint": "___ nhà tôi có một người bạn___ . Chúng tôi cùng nhau___ và___ mỗi ngày,___ chúng tôi học rất giỏi."
+            "answers": ["rare", "borrowed", "watched", "prepare", "luck"],
+            "hint": "Gặp cuốn sách ___ thì ___ về ___ , ___ thật tốt sẽ gặp ___ ."
         },
         {
             "id": 3,
             "words": [
-                "Sick",
-                "Read",
-                "Meeting",
-                "Ringing",
-                "Drink",
-                "Well",
-                "Write",
-                "Eat"
+                "old",
+                "new",
+                "visited",
+                "ate",
+                "drank",
+                "visit",
+                "gifts",
+                "cards"
             ],
-            "answers": ["Sick", "Read", "Meeting", "Ringing", "Drink"],
-            "hint": "Tôi bị ___ nhưng vẫn cố ___ báo cáo để chuẩn bị cho ___, thì điện thoại ___. Vội ___ nước rồi đi ngay!\""
+            "answers": ["old", "visited", "drank", "visit", "gifts"],
+            "hint": "Đến ___ ___ người thân, ___ trà với bà, hẹn ___ lần sau và mang ___ ."
         },
         {
             "id": 4,
             "words": [
-                "Miss",
-                "Call",
-                "Ready",
-                "Meet",
-                "Dinner",
-                "Talk",
-                "Wait",
-                "Lunch"
+                "hard",
+                "easy",
+                "followed",
+                "ignored",
+                "checked",
+                "submit",
+                "help",
+                "leave"
             ],
-            "answers": ["Miss", "Call", "Ready", "Meet", "Dinner"],
-            "hint": "Thằng cu ___ ___ cho ny để thông báo ___ ___ vào ___"
+            "answers": ["hard", "followed", "checked", "submit", "help"],
+            "hint": "___ thì ___ hướng dẫn, ___ kỹ rồi ___ sẽ có ___ ."
         },
         {
             "id": 5,
             "words": [
-                "Just",
-                "Too",
-                "At",
-                "Some",
-                "Give",
-                "Quick",
-                "Much",
-                "Take"
+                "interesting",
+                "boring",
+                "wrote",
+                "read",
+                "completed",
+                "start",
+                "support",
+                "finish"
             ],
-            "answers": ["Just", "Too", "At", "Some", "Give"],
-            "hint": "___ ___ ___ khi đi toilet mang thiếu ___ giấy. Mọi người hãy ___ giấy cho Just đi !"
+            "answers": [
+                "interesting",
+                "wrote",
+                "completed",
+                "start",
+                "support"
+            ],
+            "hint": "Đọc ___ rồi ___ email, ___ công việc, ___ họp với sự ___ của mọi người."
         },
         {
             "id": 6,
             "words": [
-                "Great",
-                "boat",
-                "then",
-                "around",
-                "too",
-                "Bad",
-                "ship",
-                "never"
+                "sunny",
+                "rainy",
+                "breakfast",
+                "lunch",
+                "rented",
+                "visit",
+                "gifts",
+                "bought"
             ],
-            "answers": ["Great", "boat", "then", "around", "too"],
-            "hint": "Tình yêu của họ ___ thế mà vẫn chìm ___ ,___ nhìn ___ lại thấy ___ nhớ nhau"
+            "answers": ["sunny", "breakfast", "rented", "visit", "gifts"],
+            "hint": "___ nên ăn ___ , ___ ___ phố cổ rồi mua ___ ."
         },
         {
             "id": 7,
             "words": [
-                "clear",
-                "sun",
-                "enjoyable",
-                "working",
-                "read",
-                "cloud",
-                "hard",
-                "watch"
+                "nice",
+                "bad",
+                "made",
+                "bought",
+                "mixed",
+                "bring",
+                "soon",
+                "late"
             ],
-            "answers": ["read", "clear", "sun", "working", "enjoyable"],
-            "hint": "Cần ___ lời thoại ___ , mượt như ___ thì ___ mới ___ được"
+            "answers": ["nice", "made", "mixed", "bring", "soon"],
+            "hint": "Bánh ___ vì mẹ ___ , ___ nguyên liệu rồi ___ đi nướng , ___ có bánh ăn."
         },
         {
             "id": 8,
             "words": [
-                "Balance",
-                "Statement",
-                "Think",
-                "Slowly",
-                "Before",
-                "Money",
-                "Fast",
-                "After"
+                "busy",
+                "quiet",
+                "museum",
+                "park",
+                "ate",
+                "take",
+                "souvenirs",
+                "drank"
             ],
-            "answers": ["Balance", "Statement", "Think", "Slowly", "Before"],
-            "hint": "___ tài khoản phải đọc ___ kĩ, ___ ___, ___ cháy tài khoản"
+            "answers": ["busy", "museum", "ate", "take", "souvenirs"],
+            "hint": "Thành phố ___ nên vào ___ , ___ trưa xong ___ ảnh và mua ___ ."
         },
         {
             "id": 9,
             "words": [
-                "Live",
-                "Share",
-                "Class",
-                "Driver",
-                "Cook",
-                "Hate",
-                "Teacher",
-                "Eat"
+                "loud",
+                "quiet",
+                "took",
+                "drove",
+                "watched",
+                "buy",
+                "fun",
+                "boring"
             ],
-            "answers": ["Live", "Share", "Driver", "Class", "Cook"],
-            "hint": "___, ___ vui vẻ rồi gặp anh ___ ở ___ , sau đó rủ anh về nhà ___. 3 tháng sau cưới"
+            "answers": ["loud", "took", "watched", "buy", "fun"],
+            "hint": "___ thì ___ taxi, ___ biểu diễn, ___ áo, thật ___ ."
         },
         {
             "id": 10,
             "words": [
-                "Late",
-                "meetings",
-                "park",
-                "shop",
-                "cook",
-                "Early",
-                "Run",
-                "Eat"
+                "cool",
+                "warm",
+                "watched",
+                "ignored",
+                "explored",
+                "visit",
+                "much",
+                "little"
             ],
-            "answers": ["Late", "meetings", "park", "shop", "cook"],
-            "hint": "Đi ___ ___ nên tôi bị đuổi việc. Tôi cũng rất buồn nên ra ___ thư giãn, sau đó ra ___ mua đồ về ___ . Câu chuyện : Bị đuổi việc vì đi họp muộn"
+            "answers": ["cool", "watched", "explored", "visit", "much"],
+            "hint": "___ thì ___ , ___ hang rồi ___ nữa, thích ___ ."
         },
         {
             "id": 11,
             "words": [
-                "Window",
-                "Buy",
-                "market",
-                "Cake",
-                "Watch",
-                "Door",
-                "Sell",
-                "Play"
+                "dusty",
+                "clean",
+                "found",
+                "lost",
+                "fixed",
+                "organize",
+                "soon",
+                "late"
             ],
-            "answers": ["Window", "Buy", "market", "Cake", "Watch"],
-            "hint": "Nhìn ra ___ , thấy người ta ___ đồ ngoài ___ , tôi cũng tự đi mua ___ để ăn khi ___ phim!"
+            "answers": ["dusty", "found", "fixed", "organize", "soon"],
+            "hint": "___ ___ chìa khóa, ___ ghế rồi ___ gara, ___ xong."
         },
         {
             "id": 12,
             "words": [
-                "Early",
-                "Lunch",
-                "Leave",
-                "Car",
-                "Sleep",
-                "Late",
-                "Dinner",
-                "Bus"
+                "clean",
+                "dirty",
+                "showed",
+                "hid",
+                "ate",
+                "work",
+                "well",
+                "badly"
             ],
-            "answers": ["Early", "Lunch", "Leave", "Car", "Sleep"],
-            "hint": "Dậy ___ , ăn ___ xong, rồi ___ ra ___ để ___ luôn"
+            "answers": ["clean", "showed", "ate", "work", "well"],
+            "hint": "___ ___ , ___ sáng rồi ___ thật ___ ."
         },
         {
             "id": 13,
             "words": [
                 "Home",
+                "School",
                 "Drive",
+                "Walk",
                 "Friends",
                 "Park",
                 "Pretty",
-                "Work",
-                "Walk",
                 "Ugly"
             ],
             "answers": ["Home", "Drive", "Friends", "Park", "Pretty"],
-            "hint": "Về ___ ,___ đi đón ___ đi___ ngắm cảnh ___ ."
+            "hint": "Về ___ , lấy xe ra ___ tới đón ___ đi ___ ngắm cảnh ___ ."
         },
         {
             "id": 14,
             "words": [
-                "Friendly",
-                "Walk",
-                "First",
-                "Speak",
-                "Together",
-                "Mean",
-                "Run",
-                "Listen"
+                "useful",
+                "useless",
+                "discussed",
+                "ignored",
+                "finished",
+                "send",
+                "need",
+                "keep"
             ],
-            "answers": ["Friendly", "Walk", "First", "Speak", "Together"],
-            "hint": "___ tôi gặp ở 1 lần ___ trong công viên. ___ nhưng họ ___ rất gần gũi, nên chơi ___ luôn"
+            "answers": ["useful", "discussed", "finished", "send", "need"],
+            "hint": "___ thì ___ , ___ rồi ___ khi ___ ."
         },
         {
             "id": 15,
             "words": [
+                "light",
+                "heavy",
+                "fixed",
+                "broke",
+                "rode",
+                "take",
+                "soon",
+                "late"
+            ],
+            "answers": ["light", "fixed", "rode", "take", "soon"],
+            "hint": "___ được ___ rồi ___ , nhớ ___ mũ, ___ đến nơi."
+        },
+        {
+            "id": 16,
+            "words": [
+                "sweet",
+                "sour",
+                "made",
+                "drank",
+                "washed",
+                "buy",
+                "great",
+                "bad"
+            ],
+            "answers": ["sweet", "made", "washed", "buy", "great"],
+            "hint": "___ thì ___ nước ép, ___ trái cây, ___ đường, ăn ___ ."
+        },
+        {
+            "id": 17,
+            "words": [
+                "warm",
+                "cold",
+                "ate",
+                "drank",
+                "visited",
+                "buy",
+                "all",
+                "none"
+            ],
+            "answers": ["warm", "ate", "visited", "buy", "all"],
+            "hint": "___ bụng nhờ ___ , ___ bà, ___ trái cây, thích ___ ."
+        },
+        {
+            "id": 18,
+            "words": [
+                "good",
+                "bad",
+                "helped",
+                "left",
+                "mixed",
+                "make",
+                "for",
+                "with"
+            ],
+            "answers": ["good", "helped", "mixed", "make", "for"],
+            "hint": "Bánh ___ vì có người ___ , cùng ___ bột ___ bánh ___ tiệc."
+        },
+        {
+            "id": 19,
+            "words": [
+                "calm",
+                "noisy",
+                "caught",
+                "missed",
+                "started",
+                "drive",
+                "nice",
+                "bad"
+            ],
+            "answers": ["calm", "caught", "started", "drive", "nice"],
+            "hint": "___ ___ tàu, xe ___ , thay nhau ___ , chuyến đi thật ___ ."
+        },
+        {
+            "id": 20,
+            "words": [
+                "packed",
+                "opened",
+                "gave",
+                "took",
+                "bring",
+                "eat",
+                "fun",
+                "boring"
+            ],
+            "answers": ["packed", "gave", "bring", "eat", "fun"],
+            "hint": "___ bánh, ___ nước, ___ chăn rồi ___ , rất ___ ."
+        },
+        {
+            "id": 21,
+            "words": [
+                "playful",
+                "lazy",
+                "took",
+                "left",
+                "cleaned",
+                "do",
+                "control",
+                "lose"
+            ],
+            "answers": ["playful", "took", "cleaned", "do", "control"],
+            "hint": "___ được ___ , về ___ chuồng, ___ để biết ___ ."
+        },
+        {
+            "id": 22,
+            "words": [
                 "Station",
+                "Airport",
                 "Stop",
+                "Go",
                 "Green",
                 "Dinner",
                 "Movies",
-                "Train",
-                "Go",
                 "Red"
             ],
             "answers": ["Station", "Stop", "Green", "Dinner", "Movies"],
             "hint": "Trước khi tới ___ , tôi ___ ở cột đèn ___ để ___ và ___"
         },
         {
-            "id": 16,
+            "id": 23,
             "words": [
                 "morning",
+                "evening",
                 "friends",
+                "stay",
                 "leave",
                 "good",
                 "food",
-                "evening",
-                "family",
                 "bad"
             ],
             "answers": ["morning", "friends", "leave", "good", "food"],
             "hint": "___ hôm sau ___ đã ___ và để lại đánh giá ___ về dịch vụ ___"
         },
         {
-            "id": 17,
+            "id": 24,
             "words": [
                 "park",
+                "school",
                 "classes",
                 "silver",
                 "breakfast",
                 "meditation",
-                "school",
                 "gold",
                 "lunch"
             ],
             "answers": ["park", "classes", "silver", "breakfast", "meditation"],
-            "hint": "___ , ___ là những địa điểm \"___ \" để ___ và ngồi ___"
+            "hint": "___ và ___ là những địa điểm \"___ \" để ___ và ngồi ___"
         },
         {
-            "id": 18,
+            "id": 25,
             "words": [
                 "love",
+                "hate",
                 "small",
+                "big",
                 "shop",
                 "people",
                 "visit",
-                "hate",
-                "big",
                 "leave"
             ],
             "answers": ["love", "small", "shop", "people", "visit"],
-            "hint": "Khi ___ ___ mở ___ thì anh sẽ mời ___ ___"
+            "hint": "Khi ___ ___ của anh mở ___ thì anh sẽ mời ___ ___"
         },
         {
-            "id": 19,
+            "id": 26,
             "words": [
                 "staying",
+                "leaving",
                 "garden",
+                "house",
                 "children",
                 "visit",
                 "old",
-                "leaving",
-                "house",
                 "young"
             ],
             "answers": ["staying", "garden", "children", "visit", "old"],
-            "hint": "Ở ___ ___ với ___ và ___ ___"
+            "hint": "___ ___ chơi với ___ và ___ ___"
         },
         {
-            "id": 20,
+            "id": 27,
             "words": [
                 "home",
+                "work",
                 "customers",
                 "easy",
+                "hard",
                 "prepare",
                 "watch",
-                "work",
-                "hard",
                 "read"
             ],
-            "answers": ["home", "customers", "prepare", "easy", "watch"],
-            "hint": "Về___ , tôi thấy___ nói việc___ một bữa ăn thật___ trong lúc họ ngồi___ TV."
+            "answers": ["home", "customers", "easy", "prepare", "watch"],
+            "hint": "___ ___ rất ___ ___ sẽ là nơi đặt ___"
         }
     ],
     "part2": [
@@ -3164,6 +3275,341 @@
                         "options": ["Food", "Clothes", "Books"]
                     }
                 ]
+            },
+            {
+                "id": 13,
+                "topic": "Land",
+                "questions": [
+                    {
+                        "question": "What will the student write about?",
+                        "answer": "Land",
+                        "options": ["Land"]
+                    },
+                    {
+                        "question": "What does the teacher want the student to do?",
+                        "answer": "Complete the assignment on time",
+                        "options": ["Complete the assignment on time"]
+                    },
+                    {
+                        "question": "Why can’t the repairman do the job today?",
+                        "answer": "He has another appointment.",
+                        "options": ["He has another appointment."]
+                    },
+                    {
+                        "question": "What can the staff use for now?",
+                        "answer": "The computers",
+                        "options": ["The computers"]
+                    },
+                    {
+                        "question": "What does the woman need to buy?",
+                        "answer": "Some medicine",
+                        "options": ["Some medicine"]
+                    },
+                    {
+                        "question": "What do the students need to do every Tuesday?",
+                        "answer": "Write a report",
+                        "options": ["Write a report"]
+                    },
+                    {
+                        "question": "What is the number of the bus stops near the boy's house?",
+                        "answer": "Eight",
+                        "options": ["Eight"]
+                    },
+                    {
+                        "question": "Why was the conference cancelled?",
+                        "answer": "There was a power outage.",
+                        "options": ["There was a power outage."]
+                    },
+                    {
+                        "question": "How many days does the man have to work?",
+                        "answer": "3 days",
+                        "options": ["3 days"]
+                    },
+                    {
+                        "question": "What aspect of the new restaurant does he complain about?",
+                        "answer": "The place was cold.",
+                        "options": ["The place was cold."]
+                    },
+                    {
+                        "question": "What is the man going to do?",
+                        "answer": "Get something to eat",
+                        "options": ["Get something to eat"]
+                    },
+                    {
+                        "question": "When will the party start?",
+                        "answer": "Three o’clock",
+                        "options": ["Three o’clock"]
+                    },
+                    {
+                        "question": "Where is the director’s presentation going to happen?",
+                        "answer": "The meeting room",
+                        "options": ["The meeting room"]
+                    }
+                ]
+            },
+            {
+                "id": 14,
+                "topic": "Games",
+                "questions": [
+                    {
+                        "question": "What is she going to take?",
+                        "answer": "Games",
+                        "options": ["Games"]
+                    },
+                    {
+                        "question": "What do they decide to write about?",
+                        "answer": "Historian",
+                        "options": ["Historian"]
+                    },
+                    {
+                        "question": "What is next to the new health center?",
+                        "answer": "A train station",
+                        "options": ["A train station"]
+                    },
+                    {
+                        "question": "What is the boy planning to study?",
+                        "answer": "Engineering",
+                        "options": ["Engineering"]
+                    },
+                    {
+                        "question": "When is dinner?",
+                        "answer": "7:30 p.m.",
+                        "options": ["7:30 p.m."]
+                    },
+                    {
+                        "question": "Why did the man return to the store?",
+                        "answer": "To exchange a jacket",
+                        "options": ["To exchange a jacket"]
+                    },
+                    {
+                        "question": "How much money should the mother leave in the kitchen?",
+                        "answer": "10 pounds",
+                        "options": ["10 pounds"]
+                    },
+                    {
+                        "question": "Why is she absent today?",
+                        "answer": "She is feeling sick",
+                        "options": ["She is feeling sick"]
+                    },
+                    {
+                        "question": "On which floor is the French class going to take place?",
+                        "answer": "Second floor",
+                        "options": ["Second floor"]
+                    },
+                    {
+                        "question": "How much does a bus card cost?",
+                        "answer": "$20",
+                        "options": ["$20"]
+                    },
+                    {
+                        "question": "At what time is the meeting arranged?",
+                        "answer": "At 5:30 p.m.",
+                        "options": ["At 5:30 p.m."]
+                    },
+                    {
+                        "question": "Where is she taking the staff to?",
+                        "answer": "To a different country",
+                        "options": ["To a different country"]
+                    },
+                    {
+                        "question": "When is the meeting?",
+                        "answer": "Tuesday",
+                        "options": ["Tuesday"]
+                    }
+                ]
+            },
+            {
+                "id": 15,
+                "topic": "A shorter travel time",
+                "questions": [
+                    {
+                        "question": "Why does he like his new job?",
+                        "answer": "He has a shorter travel time.",
+                        "options": ["He has a shorter travel time."]
+                    },
+                    {
+                        "question": "Why did he decide to buy this jacket?",
+                        "answer": "It will keep him warm.",
+                        "options": ["It will keep him warm."]
+                    },
+                    {
+                        "question": "Listen to a message about a book club. Where is the meeting?",
+                        "answer": "The Arts Center.",
+                        "options": ["The Arts Center."]
+                    },
+                    {
+                        "question": "Which club is the student going to choose?",
+                        "answer": "The Art Club.",
+                        "options": ["The Art Club."]
+                    },
+                    {
+                        "question": "What are they opening next week?",
+                        "answer": "The coffee shop.",
+                        "options": ["The coffee shop."]
+                    },
+                    {
+                        "question": "What is the new shop next to?",
+                        "answer": "The bank.",
+                        "options": ["The bank."]
+                    },
+                    {
+                        "question": "What is he going to buy?",
+                        "answer": "Tea.",
+                        "options": ["Tea."]
+                    },
+                    {
+                        "question": "What has he had problems with?",
+                        "answer": "Using technology.",
+                        "options": ["Using technology."]
+                    },
+                    {
+                        "question": "Why does the woman want to work in another country?",
+                        "answer": "To be closer to her family.",
+                        "options": ["To be closer to her family."]
+                    },
+                    {
+                        "question": "What should the teachers focus on this week?",
+                        "answer": "Building the students' confidence.",
+                        "options": ["Building the students' confidence."]
+                    },
+                    {
+                        "question": "Where is the break room?",
+                        "answer": "Third floor.",
+                        "options": ["Third floor."]
+                    },
+                    {
+                        "question": "When is the shop going to open again?",
+                        "answer": "Thursday.",
+                        "options": ["Thursday."]
+                    },
+                    {
+                        "question": "The driving trainer is calling a man. When is the new appointment date?",
+                        "answer": "Friday.",
+                        "options": ["Friday."]
+                    }
+                ]
+            },
+            {
+                "id": 16,
+                "topic": "8h30 AM",
+                "questions": [
+                    {
+                        "question": "What time does the shop open on Monday?",
+                        "answer": "8:30 a.m.",
+                        "options": ["8:30 a.m."]
+                    },
+                    {
+                        "question": "When is the best time for her to get up?",
+                        "answer": "At 7 o'clock.",
+                        "options": ["At 7 o'clock."]
+                    },
+                    {
+                        "question": "How long does it take to get to the station?",
+                        "answer": "40 minutes",
+                        "options": ["40 minutes"]
+                    },
+                    {
+                        "question": "How much does the flight in the morning cost?",
+                        "answer": "350 pounds",
+                        "options": ["350 pounds"]
+                    },
+                    {
+                        "question": "How much did she sell it for?",
+                        "answer": "50 dollars",
+                        "options": ["50 dollars"]
+                    },
+                    {
+                        "question": "What is the main reason she gets late?",
+                        "answer": "Missed the train",
+                        "options": ["Missed the train"]
+                    },
+                    {
+                        "question": "What time will they meet?",
+                        "answer": "7 PM",
+                        "options": ["7 PM"]
+                    },
+                    {
+                        "question": "What shouldn't they do?",
+                        "answer": "Ask for more money",
+                        "options": ["Ask for more money"]
+                    },
+                    {
+                        "question": "What will it end with?",
+                        "answer": "A surprise performance",
+                        "options": ["A surprise performance"]
+                    },
+                    {
+                        "question": "Which part of the cabinet is original?",
+                        "answer": "The drawer",
+                        "options": ["The drawer"]
+                    },
+                    {
+                        "question": "What is she talking about?",
+                        "answer": "Her journey to work",
+                        "options": ["Her journey to work"]
+                    },
+                    {
+                        "question": "Where is the library located?",
+                        "answer": "On the left of the square",
+                        "options": ["On the left of the square"]
+                    },
+                    {
+                        "question": "What advice does she give to save money?",
+                        "answer": "Use the public transport",
+                        "options": ["Use the public transport"]
+                    }
+                ]
+            },
+            {
+                "id": 17,
+                "topic": "Go on a city tour",
+                "questions": [
+                    {
+                        "question": "What is she going to do this afternoon?",
+                        "answer": "Go on a city tour",
+                        "options": ["Go on a city tour"]
+                    },
+                    {
+                        "question": "What time are they going to meet?",
+                        "answer": "5.30",
+                        "options": ["5.30"]
+                    },
+                    {
+                        "question": "Where is he working now?",
+                        "answer": "In a bank",
+                        "options": ["In a bank"]
+                    },
+                    {
+                        "question": "Where did he find the key?",
+                        "answer": "In the front door",
+                        "options": ["In the front door"]
+                    },
+                    {
+                        "question": "How long will he be late?",
+                        "answer": "10 minutes",
+                        "options": ["10 minutes"]
+                    },
+                    {
+                        "question": "What time does the movie begin?",
+                        "answer": "06h40",
+                        "options": ["06h40"]
+                    },
+                    {
+                        "question": "Where should Dan turn right?",
+                        "answer": "At the traffic lights",
+                        "options": ["At the traffic lights"]
+                    },
+                    {
+                        "question": "How much is the cheapest computer in the shop?",
+                        "answer": "135 pounds",
+                        "options": ["135 pounds"]
+                    },
+                    {
+                        "question": "What is this building currently used for?",
+                        "answer": "A department store",
+                        "options": ["A department store"]
+                    }
+                ]
             }
         ],
         "part14": [
@@ -3457,6 +3903,75 @@
                     }
                 ],
                 "distractors": ["Early in the morning", "In a study group"]
+            },
+            {
+                "id": 19,
+                "topic": "A new museum",
+                "questions": [
+                    {
+                        "question": "I was excited",
+                        "correct_answer": "got lost during the visit"
+                    },
+                    {
+                        "question": "A history museum",
+                        "correct_answer": "finished the visit quickly"
+                    },
+                    {
+                        "question": "I thought it would be a brief visit",
+                        "correct_answer": "wants to visit again"
+                    },
+                    {
+                        "question": "My visit to the museum",
+                        "correct_answer": "enjoyed the use of technology"
+                    }
+                ],
+                "distractors": []
+            },
+            {
+                "id": 20,
+                "topic": "Reading",
+                "questions": [
+                    {
+                        "question": "As a kid, I would read anything",
+                        "correct_answer": "does not have time to read now"
+                    },
+                    {
+                        "question": "My parents usually",
+                        "correct_answer": "only reads in bed"
+                    },
+                    {
+                        "question": "My house is full of books",
+                        "correct_answer": "prefers a new thing to reading"
+                    },
+                    {
+                        "question": "When I was a kid",
+                        "correct_answer": "reads while travelling to school"
+                    }
+                ],
+                "distractors": []
+            },
+            {
+                "id": 21,
+                "topic": "Doing arts",
+                "questions": [
+                    {
+                        "question": "I used to go",
+                        "correct_answer": "does arts as a social activity"
+                    },
+                    {
+                        "question": "At school I",
+                        "correct_answer": "does arts with their children"
+                    },
+                    {
+                        "question": "When I was young",
+                        "correct_answer": "does arts as part of their job"
+                    },
+                    {
+                        "question": "A few",
+                        "correct_answer": "does arts alone"
+                    }
+                ],
+                "distractors": []
             }
         ],
         "part15": [
@@ -3723,6 +4238,116 @@
                         "answer": "M"
                     }
                 ]
+            },
+            {
+                "id": 31,
+                "topic": "Environment volunteer programme (Nam nói trước)",
+                "questions": [
+                    {
+                        "statement": "Media exaggerates the advantages of the programme",
+                        "answer": "B"
+                    },
+                    {
+                        "statement": "Littering will always be a problem",
+                        "answer": "M"
+                    },
+                    {
+                        "statement": "The motivation of volunteers do not affect the programme outcome",
+                        "answer": "W"
+                    },
+                    {
+                        "statement": "Punishment is the most effective way to prevent littering",
+                        "answer": "M"
+                    }
+                ]
+            },
+            {
+                "id": 32,
+                "topic": "Children and young people with technology (Nam nói trước)",
+                "questions": [
+                    {
+                        "statement": "Children are interested in tech-based learning",
+                        "answer": "B"
+                    },
+                    {
+                        "statement": "Children find it difficult to communicate offline",
+                        "answer": "B"
+                    },
+                    {
+                        "statement": "Families need help to manage technology",
+                        "answer": "M"
+                    },
+                    {
+                        "statement": "Children can learn to regulate their online interactions",
+                        "answer": "W"
+                    }
+                ]
+            },
+            {
+                "id": 33,
+                "topic": "Home schooling (Nam nói trước)",
+                "questions": [
+                    {
+                        "statement": "Parents should create their own curriculum",
+                        "answer": "M"
+                    },
+                    {
+                        "statement": "Homeschooling multiple children at the same time is a good idea",
+                        "answer": "B"
+                    },
+                    {
+                        "statement": "Homeschooling deprives children from the important social interaction",
+                        "answer": "W"
+                    },
+                    {
+                        "statement": "Homeschooling will become less popular in the future",
+                        "answer": "M"
+                    }
+                ]
+            },
+            {
+                "id": 34,
+                "topic": "Local Cultural Differences (Nam nói trước)",
+                "questions": [
+                    {
+                        "statement": "Language is the main barrier to experiencing a local culture",
+                        "answer": "M"
+                    },
+                    {
+                        "statement": "Globalisation is having an impact on local cultures",
+                        "answer": "B"
+                    },
+                    {
+                        "statement": "Young people are less interested in their own local heritage",
+                        "answer": "W"
+                    },
+                    {
+                        "statement": "Travel is the best way to understand cultural differences",
+                        "answer": "W"
+                    }
+                ]
+            },
+            {
+                "id": 35,
+                "topic": "Work Business / Business and Culture (Nam nói trước)",
+                "questions": [
+                    {
+                        "statement": "Statement 1",
+                        "answer": "M"
+                    },
+                    {
+                        "statement": "Statement 2",
+                        "answer": "B"
+                    },
+                    {
+                        "statement": "Statement 3",
+                        "answer": "W"
+                    },
+                    {
+                        "statement": "Statement 4",
+                        "answer": "W"
+                    }
+                ]
             }
         ],
         "part16": [
@@ -3905,6 +4530,54 @@
                     "Provides them with a balance in their lives",
                     "They need to make the customers feel valued and welcome"
                 ]
+            },
+            {
+                "id": 13,
+                "topic": "Podcasting",
+                "answers": [
+                    "Creators do not promote their shows",
+                    "It is a great way to build a community"
+                ],
+                "options": [
+                    "Creators do not promote their shows",
+                    "It is a great way to build a community"
+                ]
+            },
+            {
+                "id": 14,
+                "topic": "Music industry",
+                "answers": [
+                    "Trusting her musical instincts",
+                    "New performers often struggle to establish themselves"
+                ],
+                "options": [
+                    "Trusting her musical instincts",
+                    "New performers often struggle to establish themselves"
+                ]
+            },
+            {
+                "id": 15,
+                "topic": "Writer's block",
+                "answers": [
+                    "Create dedicated periods for writing",
+                    "She refused to seek advice from others"
+                ],
+                "options": [
+                    "Create dedicated periods for writing",
+                    "She refused to seek advice from others"
+                ]
+            },
+            {
+                "id": 16,
+                "topic": "The Greek Artist Jim Panos",
+                "answers": [
+                    "Panos’ paintings would be similar to paintings of other artists.",
+                    "It provides a window to the past."
+                ],
+                "options": [
+                    "Panos’ paintings would be similar to paintings of other artists.",
+                    "It provides a window to the past."
+                ]
             }
         ],
         "part17": [
@@ -4086,6 +4759,54 @@
                     "He could have been more successful",
                     "Seek advice from someone who has experience",
                     "It depends on your situation and personality"
+                ]
+            },
+            {
+                "id": 13,
+                "topic": "Using time effectively",
+                "answers": [
+                    "Effective time management",
+                    "Using them effectively requires effort"
+                ],
+                "options": [
+                    "Effective time management",
+                    "Using them effectively requires effort"
+                ]
+            },
+            {
+                "id": 14,
+                "topic": "A book critic talks about a biography",
+                "answers": [
+                    "Its detailed portrayal of a particular period in history",
+                    "It is an unconventional biography"
+                ],
+                "options": [
+                    "Its detailed portrayal of a particular period in history",
+                    "It is an unconventional biography"
+                ]
+            },
+            {
+                "id": 15,
+                "topic": "Personal finance",
+                "answers": [
+                    "Organizing their resources more effectively",
+                    "Get advice from people who have experience"
+                ],
+                "options": [
+                    "Organizing their resources more effectively",
+                    "Get advice from people who have experience"
+                ]
+            },
+            {
+                "id": 16,
+                "topic": "A new novel",
+                "answers": [
+                    "They are difficult to relate to.",
+                    "It is an ambitious failure."
+                ],
+                "options": [
+                    "They are difficult to relate to.",
+                    "It is an ambitious failure."
                 ]
             }
         ]
