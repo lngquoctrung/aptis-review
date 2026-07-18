@@ -3283,67 +3283,67 @@
                     {
                         "question": "What will the student write about?",
                         "answer": "Land",
-                        "options": ["Land"]
+                        "options": ["Land", "Ocean", "Space"]
                     },
                     {
                         "question": "What does the teacher want the student to do?",
                         "answer": "Complete the assignment on time",
-                        "options": ["Complete the assignment on time"]
+                        "options": ["Complete the assignment on time", "Submit the report early", "Ask for an extension"]
                     },
                     {
                         "question": "Why can’t the repairman do the job today?",
                         "answer": "He has another appointment.",
-                        "options": ["He has another appointment."]
+                        "options": ["He has another appointment.", "He is sick today.", "He forgot his tools."]
                     },
                     {
                         "question": "What can the staff use for now?",
                         "answer": "The computers",
-                        "options": ["The computers"]
+                        "options": ["The computers", "The printers", "The projectors"]
                     },
                     {
                         "question": "What does the woman need to buy?",
                         "answer": "Some medicine",
-                        "options": ["Some medicine"]
+                        "options": ["Some medicine", "Some groceries", "Some books"]
                     },
                     {
                         "question": "What do the students need to do every Tuesday?",
                         "answer": "Write a report",
-                        "options": ["Write a report"]
+                        "options": ["Write a report", "Read an article", "Give a presentation"]
                     },
                     {
                         "question": "What is the number of the bus stops near the boy's house?",
                         "answer": "Eight",
-                        "options": ["Eight"]
+                        "options": ["Eight", "Nine", "Seven"]
                     },
                     {
                         "question": "Why was the conference cancelled?",
                         "answer": "There was a power outage.",
-                        "options": ["There was a power outage."]
+                        "options": ["There was a power outage.", "The speaker was sick.", "The weather was bad."]
                     },
                     {
                         "question": "How many days does the man have to work?",
                         "answer": "3 days",
-                        "options": ["3 days"]
+                        "options": ["3 days", "2 days", "4 days"]
                     },
                     {
                         "question": "What aspect of the new restaurant does he complain about?",
                         "answer": "The place was cold.",
-                        "options": ["The place was cold."]
+                        "options": ["The place was cold.", "The food was bad.", "The service was slow."]
                     },
                     {
                         "question": "What is the man going to do?",
                         "answer": "Get something to eat",
-                        "options": ["Get something to eat"]
+                        "options": ["Get something to eat", "Go for a walk", "Call a friend"]
                     },
                     {
                         "question": "When will the party start?",
                         "answer": "Three o’clock",
-                        "options": ["Three o’clock"]
+                        "options": ["Three o’clock", "Four o’clock", "Two o’clock"]
                     },
                     {
                         "question": "Where is the director’s presentation going to happen?",
                         "answer": "The meeting room",
-                        "options": ["The meeting room"]
+                        "options": ["The meeting room", "The main hall", "The cafeteria"]
                     }
                 ]
             },
@@ -3354,67 +3354,67 @@
                     {
                         "question": "What is she going to take?",
                         "answer": "Games",
-                        "options": ["Games"]
+                        "options": ["Games", "Books", "Toys"]
                     },
                     {
                         "question": "What do they decide to write about?",
                         "answer": "Historian",
-                        "options": ["Historian"]
+                        "options": ["Historian", "Scientist", "Artist"]
                     },
                     {
                         "question": "What is next to the new health center?",
                         "answer": "A train station",
-                        "options": ["A train station"]
+                        "options": ["A train station", "A bus stop", "A shopping mall"]
                     },
                     {
                         "question": "What is the boy planning to study?",
                         "answer": "Engineering",
-                        "options": ["Engineering"]
+                        "options": ["Engineering", "Medicine", "Business"]
                     },
                     {
                         "question": "When is dinner?",
                         "answer": "7:30 p.m.",
-                        "options": ["7:30 p.m."]
+                        "options": ["7:30 p.m.", "7:00 p.m.", "8:00 p.m."]
                     },
                     {
                         "question": "Why did the man return to the store?",
                         "answer": "To exchange a jacket",
-                        "options": ["To exchange a jacket"]
+                        "options": ["To exchange a jacket", "To return a shirt", "To buy new shoes"]
                     },
                     {
                         "question": "How much money should the mother leave in the kitchen?",
                         "answer": "10 pounds",
-                        "options": ["10 pounds"]
+                        "options": ["10 pounds", "15 pounds", "20 pounds"]
                     },
                     {
                         "question": "Why is she absent today?",
                         "answer": "She is feeling sick",
-                        "options": ["She is feeling sick"]
+                        "options": ["She is feeling sick", "She missed the bus", "She has an appointment"]
                     },
                     {
                         "question": "On which floor is the French class going to take place?",
                         "answer": "Second floor",
-                        "options": ["Second floor"]
+                        "options": ["Second floor", "First floor", "Third floor"]
                     },
                     {
                         "question": "How much does a bus card cost?",
                         "answer": "$20",
-                        "options": ["$20"]
+                        "options": ["$20", "$15", "$25"]
                     },
                     {
                         "question": "At what time is the meeting arranged?",
                         "answer": "At 5:30 p.m.",
-                        "options": ["At 5:30 p.m."]
+                        "options": ["At 5:30 p.m.", "At 5:00 p.m.", "At 6:00 p.m."]
                     },
                     {
                         "question": "Where is she taking the staff to?",
                         "answer": "To a different country",
-                        "options": ["To a different country"]
+                        "options": ["To a different country", "To another city", "To the countryside"]
                     },
                     {
                         "question": "When is the meeting?",
                         "answer": "Tuesday",
-                        "options": ["Tuesday"]
+                        "options": ["Tuesday", "Wednesday", "Monday"]
                     }
                 ]
             },
@@ -3425,67 +3425,67 @@
                     {
                         "question": "Why does he like his new job?",
                         "answer": "He has a shorter travel time.",
-                        "options": ["He has a shorter travel time."]
+                        "options": ["He has a shorter travel time.", "The salary is higher.", "The work is easier."]
                     },
                     {
                         "question": "Why did he decide to buy this jacket?",
                         "answer": "It will keep him warm.",
-                        "options": ["It will keep him warm."]
+                        "options": ["It will keep him warm.", "It looks stylish.", "It is cheap."]
                     },
                     {
                         "question": "Listen to a message about a book club. Where is the meeting?",
                         "answer": "The Arts Center.",
-                        "options": ["The Arts Center."]
+                        "options": ["The Arts Center.", "The public library.", "The community hall."]
                     },
                     {
                         "question": "Which club is the student going to choose?",
                         "answer": "The Art Club.",
-                        "options": ["The Art Club."]
+                        "options": ["The Art Club.", "The Music Club.", "The Sports Club."]
                     },
                     {
                         "question": "What are they opening next week?",
                         "answer": "The coffee shop.",
-                        "options": ["The coffee shop."]
+                        "options": ["The coffee shop.", "The bookstore.", "The restaurant."]
                     },
                     {
                         "question": "What is the new shop next to?",
                         "answer": "The bank.",
-                        "options": ["The bank."]
+                        "options": ["The bank.", "The supermarket.", "The post office."]
                     },
                     {
                         "question": "What is he going to buy?",
                         "answer": "Tea.",
-                        "options": ["Tea."]
+                        "options": ["Tea.", "Coffee.", "Milk."]
                     },
                     {
                         "question": "What has he had problems with?",
                         "answer": "Using technology.",
-                        "options": ["Using technology."]
+                        "options": ["Using technology.", "Managing time.", "Writing reports."]
                     },
                     {
                         "question": "Why does the woman want to work in another country?",
                         "answer": "To be closer to her family.",
-                        "options": ["To be closer to her family."]
+                        "options": ["To be closer to her family.", "To learn a new language.", "To earn more money."]
                     },
                     {
                         "question": "What should the teachers focus on this week?",
                         "answer": "Building the students' confidence.",
-                        "options": ["Building the students' confidence."]
+                        "options": ["Building the students' confidence.", "Improving test scores.", "Organizing events."]
                     },
                     {
                         "question": "Where is the break room?",
                         "answer": "Third floor.",
-                        "options": ["Third floor."]
+                        "options": ["Third floor.", "Second floor.", "Fourth floor."]
                     },
                     {
                         "question": "When is the shop going to open again?",
                         "answer": "Thursday.",
-                        "options": ["Thursday."]
+                        "options": ["Thursday.", "Friday.", "Wednesday."]
                     },
                     {
                         "question": "The driving trainer is calling a man. When is the new appointment date?",
                         "answer": "Friday.",
-                        "options": ["Friday."]
+                        "options": ["Friday.", "Saturday.", "Thursday."]
                     }
                 ]
             },
@@ -3496,67 +3496,67 @@
                     {
                         "question": "What time does the shop open on Monday?",
                         "answer": "8:30 a.m.",
-                        "options": ["8:30 a.m."]
+                        "options": ["8:30 a.m.", "9:00 a.m.", "8:00 a.m."]
                     },
                     {
                         "question": "When is the best time for her to get up?",
                         "answer": "At 7 o'clock.",
-                        "options": ["At 7 o'clock."]
+                        "options": ["At 7 o'clock.", "At 6:30.", "At 7:30."]
                     },
                     {
                         "question": "How long does it take to get to the station?",
                         "answer": "40 minutes",
-                        "options": ["40 minutes"]
+                        "options": ["40 minutes", "30 minutes", "50 minutes"]
                     },
                     {
                         "question": "How much does the flight in the morning cost?",
                         "answer": "350 pounds",
-                        "options": ["350 pounds"]
+                        "options": ["350 pounds", "300 pounds", "400 pounds"]
                     },
                     {
                         "question": "How much did she sell it for?",
                         "answer": "50 dollars",
-                        "options": ["50 dollars"]
+                        "options": ["50 dollars", "60 dollars", "40 dollars"]
                     },
                     {
                         "question": "What is the main reason she gets late?",
                         "answer": "Missed the train",
-                        "options": ["Missed the train"]
+                        "options": ["Missed the train", "Heavy traffic", "Overslept"]
                     },
                     {
                         "question": "What time will they meet?",
                         "answer": "7 PM",
-                        "options": ["7 PM"]
+                        "options": ["7 PM", "8 PM", "6 PM"]
                     },
                     {
                         "question": "What shouldn't they do?",
                         "answer": "Ask for more money",
-                        "options": ["Ask for more money"]
+                        "options": ["Ask for more money", "Arrive late", "Complain to the boss"]
                     },
                     {
                         "question": "What will it end with?",
                         "answer": "A surprise performance",
-                        "options": ["A surprise performance"]
+                        "options": ["A surprise performance", "A long speech", "A fireworks show"]
                     },
                     {
                         "question": "Which part of the cabinet is original?",
                         "answer": "The drawer",
-                        "options": ["The drawer"]
+                        "options": ["The drawer", "The door", "The handle"]
                     },
                     {
                         "question": "What is she talking about?",
                         "answer": "Her journey to work",
-                        "options": ["Her journey to work"]
+                        "options": ["Her journey to work", "Her recent holiday", "Her new house"]
                     },
                     {
                         "question": "Where is the library located?",
                         "answer": "On the left of the square",
-                        "options": ["On the left of the square"]
+                        "options": ["On the left of the square", "Behind the park", "Next to the station"]
                     },
                     {
                         "question": "What advice does she give to save money?",
                         "answer": "Use the public transport",
-                        "options": ["Use the public transport"]
+                        "options": ["Use the public transport", "Cook at home", "Buy cheaper clothes"]
                     }
                 ]
             },
@@ -3567,47 +3567,47 @@
                     {
                         "question": "What is she going to do this afternoon?",
                         "answer": "Go on a city tour",
-                        "options": ["Go on a city tour"]
+                        "options": ["Go on a city tour", "Visit a museum", "Relax at the hotel"]
                     },
                     {
                         "question": "What time are they going to meet?",
                         "answer": "5.30",
-                        "options": ["5.30"]
+                        "options": ["5.30", "6.00", "5.00"]
                     },
                     {
                         "question": "Where is he working now?",
                         "answer": "In a bank",
-                        "options": ["In a bank"]
+                        "options": ["In a bank", "In a school", "In a hospital"]
                     },
                     {
                         "question": "Where did he find the key?",
                         "answer": "In the front door",
-                        "options": ["In the front door"]
+                        "options": ["In the front door", "In the car", "Under the mat"]
                     },
                     {
                         "question": "How long will he be late?",
                         "answer": "10 minutes",
-                        "options": ["10 minutes"]
+                        "options": ["10 minutes", "15 minutes", "5 minutes"]
                     },
                     {
                         "question": "What time does the movie begin?",
                         "answer": "06h40",
-                        "options": ["06h40"]
+                        "options": ["06h40", "06h30", "07h00"]
                     },
                     {
                         "question": "Where should Dan turn right?",
                         "answer": "At the traffic lights",
-                        "options": ["At the traffic lights"]
+                        "options": ["At the traffic lights", "At the roundabout", "At the corner"]
                     },
                     {
                         "question": "How much is the cheapest computer in the shop?",
                         "answer": "135 pounds",
-                        "options": ["135 pounds"]
+                        "options": ["135 pounds", "125 pounds", "145 pounds"]
                     },
                     {
                         "question": "What is this building currently used for?",
                         "answer": "A department store",
-                        "options": ["A department store"]
+                        "options": ["A department store", "A cinema", "An office building"]
                     }
                 ]
             }
@@ -3925,7 +3925,10 @@
                         "correct_answer": "enjoyed the use of technology"
                     }
                 ],
-                "distractors": []
+                "distractors": [
+                    "disliked the building design",
+                    "found the exhibits boring"
+                ]
             },
             {
                 "id": 20,
@@ -3948,7 +3951,10 @@
                         "correct_answer": "reads while travelling to school"
                     }
                 ],
-                "distractors": []
+                "distractors": [
+                    "enjoys reading on the beach",
+                    "only reads factual books"
+                ]
             },
             {
                 "id": 21,
@@ -3971,7 +3977,10 @@
                         "correct_answer": "does arts alone"
                     }
                 ],
-                "distractors": []
+                "distractors": [
+                    "prefers visiting art galleries",
+                    "has never tried painting"
+                ]
             }
         ],
         "part15": [
@@ -4540,7 +4549,10 @@
                 ],
                 "options": [
                     "Creators do not promote their shows",
-                    "It is a great way to build a community"
+                    "It is a great way to build a community",
+                    "It requires expensive equipment",
+                    "The episodes are too long",
+                    "They don't make enough money"
                 ]
             },
             {
@@ -4552,7 +4564,10 @@
                 ],
                 "options": [
                     "Trusting her musical instincts",
-                    "New performers often struggle to establish themselves"
+                    "New performers often struggle to establish themselves",
+                    "Relying on experienced producers",
+                    "It is easier to become famous now",
+                    "Concerts are not profitable"
                 ]
             },
             {
@@ -4564,7 +4579,10 @@
                 ],
                 "options": [
                     "Create dedicated periods for writing",
-                    "She refused to seek advice from others"
+                    "She refused to seek advice from others",
+                    "Read more books for inspiration",
+                    "Join a writing group",
+                    "Change the writing environment"
                 ]
             },
             {
@@ -4576,7 +4594,10 @@
                 ],
                 "options": [
                     "Panos’ paintings would be similar to paintings of other artists.",
-                    "It provides a window to the past."
+                    "It provides a window to the past.",
+                    "His artwork is completely unique.",
+                    "The colors are too dark.",
+                    "It only focuses on modern subjects."
                 ]
             }
         ],
@@ -4770,7 +4791,10 @@
                 ],
                 "options": [
                     "Effective time management",
-                    "Using them effectively requires effort"
+                    "Using them effectively requires effort",
+                    "It comes naturally to everyone",
+                    "Technology does the work for you",
+                    "Time tracking apps are useless"
                 ]
             },
             {
@@ -4782,7 +4806,10 @@
                 ],
                 "options": [
                     "Its detailed portrayal of a particular period in history",
-                    "It is an unconventional biography"
+                    "It is an unconventional biography",
+                    "It lacks factual evidence",
+                    "The characters are not believable",
+                    "It focuses too much on politics"
                 ]
             },
             {
@@ -4794,7 +4821,10 @@
                 ],
                 "options": [
                     "Organizing their resources more effectively",
-                    "Get advice from people who have experience"
+                    "Get advice from people who have experience",
+                    "Spend less on entertainment",
+                    "Avoid using credit cards",
+                    "Invest only in real estate"
                 ]
             },
             {
@@ -4806,7 +4836,10 @@
                 ],
                 "options": [
                     "They are difficult to relate to.",
-                    "It is an ambitious failure."
+                    "It is an ambitious failure.",
+                    "The plot is very predictable.",
+                    "It is a masterpiece of modern literature.",
+                    "The setting is beautifully described."
                 ]
             }
         ]
