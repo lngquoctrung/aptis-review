@@ -1584,7 +1584,7 @@
                 },
                 {
                     "person": "Person D",
-                    "text": "This was actually my second time watching it, but even though I knew what to expect, I still felt scared whenever a zombie attack happened. The direction really makes it feel like you are right there in the room with the characters. Being familiar with the film didn’t make it easier! I was so relieved when my friend called after I got home so that I could chat about ordinary things and forget about it. Otherwise, I might have had nightmares!"
+                    "text": "This was actually my second time watching it, but even though I knew what to expect, I still felt scared whenever a zombie attack happened. The direction really makes it feel like you are right there in the room with the characters. Being familiar with the film didnt make it easier! I was so relieved when my friend called after I got home so that I could chat about ordinary things and forget about it. Otherwise, I might have had nightmares!"
                 }
             ],
             "questions": [
@@ -2111,12 +2111,12 @@
                     {
                         "question": "How much are the eggs?",
                         "answer": "1.5 pound",
-                        "options": ["1.5 pound", "2.5 pound", "9.5 pound"]
+                        "options": ["1.5 pound", "2.0 pound", "5.5 pound"]
                     },
                     {
                         "question": "What time does the train leave? ( for him to go on a business trip )",
                         "answer": "At 9:15",
-                        "options": ["At 10:15", "At 9:15", "At 9:51"]
+                        "options": ["At 9:15", "At 8:50", "At 8:15"]
                     },
                     {
                         "question": "How does she go to school?",
@@ -2126,7 +2126,7 @@
                     {
                         "question": "Listen to the chief announce to students. What time is lunch ready?",
                         "answer": "2 pm",
-                        "options": ["3 pm", "1 pm", "2 pm"]
+                        "options": ["2 pm", "3:30 pm", "4 pm"]
                     },
                     {
                         "question": "What time does she usually write?",
@@ -2210,7 +2210,7 @@
                     {
                         "question": "How much can Max pay for the computer?",
                         "answer": "250 pounds",
-                        "options": ["200 pounds", "250 pounds", "350 pounds"]
+                        "options": ["250 pounds", "275 pounds", "320 pounds"]
                     },
                     {
                         "question": "What will they bring to the picnic? (Pierre and Emma)",
@@ -2318,7 +2318,7 @@
                     {
                         "question": "How much does the smallest car cost him? (thêm him)",
                         "answer": "3250 pounds",
-                        "options": ["3500 pounds", "3200 pounds", "3250 pounds"]
+                        "options": ["2100 pounds", "3150 pounds", "3250 pounds"]
                     },
                     {
                         "question": "What did she lose?",
@@ -2381,7 +2381,7 @@
                     {
                         "question": "Which number to press in order to buy a computer?",
                         "answer": "Three",
-                        "options": ["Three", "One", "Two"]
+                        "options": ["One", "Two", "Three"]
                     }
                 ]
             },
@@ -2393,8 +2393,8 @@
                         "question": "Ahmed is calling his friend Rose. What time does Ahmed meet Rose?",
                         "answer": "Quarter to eight",
                         "options": [
-                            "Half past seven",
                             "Quarter to eight",
+                            "Eight o'clock",
                             "Quarter past eight"
                         ]
                     },
@@ -2410,7 +2410,7 @@
                     {
                         "question": "Stephanie is looking for a job taking care of children. How old is she?",
                         "answer": "21",
-                        "options": ["21", "20", "22"]
+                        "options": ["18", "19", "21"]
                     },
                     {
                         "question": "The football club is near",
@@ -2439,7 +2439,7 @@
                     {
                         "question": "The train was delayed. What time did the train depart?",
                         "answer": "At 9:30",
-                        "options": ["At 9:30", "At 9:00", "At 10:00"]
+                        "options": ["At 7:30", "At 8:15", "At 9:30"]
                     },
                     {
                         "question": "Where will the weather be best?",
@@ -2523,9 +2523,9 @@
                         "question": "A doctor's office is calling to change the appointment. When is the new appointment?",
                         "answer": "Thursday 13th",
                         "options": [
-                            "Tuesday 11th",
-                            "Friday 14th",
-                            "Thursday 13th"
+                            "Thursday 13th",
+                            "Thursday 20th",
+                            "Thursday 27th"
                         ]
                     },
                     {
@@ -2549,7 +2549,7 @@
                     {
                         "question": "How long does Nate stay in India?",
                         "answer": "2 weeks",
-                        "options": ["1 week", "2 weeks", "1 month"]
+                        "options": ["2 weeks", "3 weeks", "4 weeks"]
                     },
                     {
                         "question": "Where is the office located?",
@@ -2623,9 +2623,9 @@
                         "question": "How many copies of Freeze Frame magazine were sold?",
                         "answer": "Over 300,000 copies",
                         "options": [
-                            "Over 300,000 copies",
-                            "Over 200,000 copies",
-                            "Over 400,000 copies"
+                            "Over 100,000 copies",
+                            "Over 150,000 copies",
+                            "Over 300,000 copies"
                         ]
                     },
                     {
@@ -2706,7 +2706,7 @@
                     {
                         "question": "How old is the city?",
                         "answer": "1500 years",
-                        "options": ["1500 years", "1000 years", "500 years"]
+                        "options": ["1500 years", "2000 years", "2500 years"]
                     },
                     {
                         "question": "What color is Jack’s house?",
@@ -2735,7 +2735,7 @@
                     {
                         "question": "How much time does she spend cycling?",
                         "answer": "35 minutes",
-                        "options": ["25 minutes", "35 minutes", "45 minutes"]
+                        "options": ["35 minutes", "55 minutes", "60 minutes"]
                     },
                     {
                         "question": "What will the father do?",
@@ -2801,7 +2801,7 @@
                     {
                         "question": "How many chairs does she need? (v)",
                         "answer": "20",
-                        "options": ["20", "15", "25"]
+                        "options": ["10", "12", "20"]
                     },
                     {
                         "question": "What did she forget, and where did she leave it? (v)",
@@ -2891,15 +2891,15 @@
                     {
                         "question": "Jorge is calling his friend Jose. What time do they meet?",
                         "answer": "6.30 pm",
-                        "options": ["6.30 pm", "7.00 pm", "6.00 pm"]
+                        "options": ["6.30 pm", "8.00 pm", "8.30 pm"]
                     },
                     {
                         "question": "What time will the mother meet the son?",
                         "answer": "Three o’clock",
                         "options": [
-                            "Four o’clock",
-                            "Three o’clock",
-                            "Half past three"
+                            "One o’clock",
+                            "Two o’clock",
+                            "Three o’clock"
                         ]
                     },
                     {
@@ -2910,7 +2910,7 @@
                     {
                         "question": "How many new houses are going to be built?",
                         "answer": "2000",
-                        "options": ["2000", "3000", "1500"]
+                        "options": ["2000", "4000", "5000"]
                     },
                     {
                         "question": "What does she usually do on Saturdays?",
@@ -3014,7 +3014,7 @@
                     {
                         "question": "Lalia is calling her mom. How much does she think the bus fare will be?",
                         "answer": "2.5",
-                        "options": ["2.5", "1.5", "3.0"]
+                        "options": ["2.5", "4.0", "5.5"]
                     },
                     {
                         "question": "When is the meeting scheduled?",
@@ -3046,7 +3046,7 @@
                     {
                         "question": "What time does he usually eat?",
                         "answer": "7 o’clock",
-                        "options": ["6 o’clock", "7 o’clock", "8 o’clock"]
+                        "options": ["5 o’clock", "6 o’clock", "7 o’clock"]
                     },
                     {
                         "question": "A woman is calling her brother. What does he usually do after work.",
@@ -3098,7 +3098,7 @@
                     {
                         "question": "How long does it take to get to the station?",
                         "answer": "20 minutes",
-                        "options": ["15 minutes", "20 minutes", "30 minutes"]
+                        "options": ["20 minutes", "45 minutes", "60 minutes"]
                     },
                     {
                         "question": "Why does Douglas call Kay?",
@@ -3121,7 +3121,7 @@
                     {
                         "question": "What time is the meeting?",
                         "answer": "2 p.m",
-                        "options": ["3 p.m", "2 p.m", "1 p.m"]
+                        "options": ["2 p.m", "4 p.m", "5 p.m"]
                     },
                     {
                         "question": "Anna is calling her brother. What will Anna do?",
@@ -3137,8 +3137,8 @@
                         "answer": "One pound fifty",
                         "options": [
                             "One pound fifty",
-                            "Two pounds",
-                            "One pound twenty"
+                            "Three pounds",
+                            "Four pounds fifty"
                         ]
                     },
                     {
@@ -3154,7 +3154,7 @@
                     {
                         "question": "How many minutes did he have to speak?",
                         "answer": "15 minutes",
-                        "options": ["10 minutes", "20 minutes", "15 minutes"]
+                        "options": ["5 minutes", "10 minutes", "15 minutes"]
                     },
                     {
                         "question": "What is the relationship between the speaker and Lisa?",
@@ -3313,7 +3313,7 @@
                     {
                         "question": "What is the number of the bus stops near the boy's house?",
                         "answer": "Eight",
-                        "options": ["Eight", "Nine", "Seven"]
+                        "options": ["Two", "Four", "Eight"]
                     },
                     {
                         "question": "Why was the conference cancelled?",
@@ -3323,7 +3323,7 @@
                     {
                         "question": "How many days does the man have to work?",
                         "answer": "3 days",
-                        "options": ["3 days", "2 days", "4 days"]
+                        "options": ["3 days", "5 days", "7 days"]
                     },
                     {
                         "question": "What aspect of the new restaurant does he complain about?",
@@ -3338,7 +3338,7 @@
                     {
                         "question": "When will the party start?",
                         "answer": "Three o’clock",
-                        "options": ["Three o’clock", "Four o’clock", "Two o’clock"]
+                        "options": ["One o’clock", "Two o’clock", "Three o’clock"]
                     },
                     {
                         "question": "Where is the director’s presentation going to happen?",
@@ -3374,7 +3374,7 @@
                     {
                         "question": "When is dinner?",
                         "answer": "7:30 p.m.",
-                        "options": ["7:30 p.m.", "7:00 p.m.", "8:00 p.m."]
+                        "options": ["7:30 p.m.", "8:30 p.m.", "9:00 p.m."]
                     },
                     {
                         "question": "Why did the man return to the store?",
@@ -3384,7 +3384,7 @@
                     {
                         "question": "How much money should the mother leave in the kitchen?",
                         "answer": "10 pounds",
-                        "options": ["10 pounds", "15 pounds", "20 pounds"]
+                        "options": ["10 pounds", "30 pounds", "50 pounds"]
                     },
                     {
                         "question": "Why is she absent today?",
@@ -3399,12 +3399,12 @@
                     {
                         "question": "How much does a bus card cost?",
                         "answer": "$20",
-                        "options": ["$20", "$15", "$25"]
+                        "options": ["$5", "$10", "$20"]
                     },
                     {
                         "question": "At what time is the meeting arranged?",
                         "answer": "At 5:30 p.m.",
-                        "options": ["At 5:30 p.m.", "At 5:00 p.m.", "At 6:00 p.m."]
+                        "options": ["At 5:30 p.m.", "At 7:00 p.m.", "At 8:30 p.m."]
                     },
                     {
                         "question": "Where is she taking the staff to?",
@@ -3496,7 +3496,7 @@
                     {
                         "question": "What time does the shop open on Monday?",
                         "answer": "8:30 a.m.",
-                        "options": ["8:30 a.m.", "9:00 a.m.", "8:00 a.m."]
+                        "options": ["8:30 a.m.", "10:00 a.m.", "11:30 a.m."]
                     },
                     {
                         "question": "When is the best time for her to get up?",
@@ -3506,17 +3506,17 @@
                     {
                         "question": "How long does it take to get to the station?",
                         "answer": "40 minutes",
-                        "options": ["40 minutes", "30 minutes", "50 minutes"]
+                        "options": ["10 minutes", "20 minutes", "40 minutes"]
                     },
                     {
                         "question": "How much does the flight in the morning cost?",
                         "answer": "350 pounds",
-                        "options": ["350 pounds", "300 pounds", "400 pounds"]
+                        "options": ["350 pounds", "500 pounds", "650 pounds"]
                     },
                     {
                         "question": "How much did she sell it for?",
                         "answer": "50 dollars",
-                        "options": ["50 dollars", "60 dollars", "40 dollars"]
+                        "options": ["10 dollars", "25 dollars", "50 dollars"]
                     },
                     {
                         "question": "What is the main reason she gets late?",
@@ -3526,7 +3526,7 @@
                     {
                         "question": "What time will they meet?",
                         "answer": "7 PM",
-                        "options": ["7 PM", "8 PM", "6 PM"]
+                        "options": ["7 PM", "9 PM", "10 PM"]
                     },
                     {
                         "question": "What shouldn't they do?",
@@ -3572,7 +3572,7 @@
                     {
                         "question": "What time are they going to meet?",
                         "answer": "5.30",
-                        "options": ["5.30", "6.00", "5.00"]
+                        "options": ["3.30", "4.00", "5.30"]
                     },
                     {
                         "question": "Where is he working now?",
@@ -3587,12 +3587,12 @@
                     {
                         "question": "How long will he be late?",
                         "answer": "10 minutes",
-                        "options": ["10 minutes", "15 minutes", "5 minutes"]
+                        "options": ["10 minutes", "30 minutes", "45 minutes"]
                     },
                     {
                         "question": "What time does the movie begin?",
                         "answer": "06h40",
-                        "options": ["06h40", "06h30", "07h00"]
+                        "options": ["06h40", "08h15", "09h00"]
                     },
                     {
                         "question": "Where should Dan turn right?",
@@ -3602,7 +3602,7 @@
                     {
                         "question": "How much is the cheapest computer in the shop?",
                         "answer": "135 pounds",
-                        "options": ["135 pounds", "125 pounds", "145 pounds"]
+                        "options": ["135 pounds", "199 pounds", "250 pounds"]
                     },
                     {
                         "question": "What is this building currently used for?",
